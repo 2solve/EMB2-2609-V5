@@ -1,0 +1,2433 @@
+{
+ "_consulta": {
+  "quando": "2026-09-25T06:09 + reconsulta 2026-09-25T06:10 + reconsulta 2026-09-25T06:38 + reconsulta 2026-09-25T07:09",
+  "fonte": "Mouser Search API /search/keyword",
+  "netlist": "EBM2_V5_bom_tandaC.net"
+ },
+ "3413.0002.22": {
+  "mpn_pedido": "3413.0002.22",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "3413.0002.22",
+   "Manufacturer": "Schurter",
+   "MouserPartNumber": "693-3413.0002.22",
+   "Description": "Fusíveis de montagem em superfícies USFF 1206 Fuse FF 50mA",
+   "AvailabilityInStock": "0",
+   "Availability": null,
+   "FactoryStock": "0",
+   "LeadTime": "269 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Schurter/3413.0002.22?qs=chdWEyYkTvZfoOZ7kZ40EQ%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/386/1/typ_USFF_1206.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$2.41",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$2.13",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$1.82",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$1.60",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$1.51",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$1.37",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$1.30",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "824520361": {
+  "mpn_pedido": "824520361",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "824520361",
+   "Manufacturer": "Wurth Elektronik",
+   "MouserPartNumber": "710-824520361",
+   "Description": "Diodos de proteção ESD/Diodos TVS WE-TVSP Unidirect 600W 36VDC DO214AA",
+   "AvailabilityInStock": "82",
+   "Availability": "82 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "154 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Wurth-Elektronik/824520361?qs=16w8nSHsg3sb6WblR%252BoTUA%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.35",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.32",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.286",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.237",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.207",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "ADR4525BRZ": {
+  "mpn_pedido": "ADR4525BRZ",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "ADR4525BRZ",
+   "Manufacturer": "Analog Devices",
+   "MouserPartNumber": "584-ADR4525BRZ",
+   "Description": "Referências de tensão 2.5V Ultra Low Noise Voltage REF",
+   "AvailabilityInStock": null,
+   "Availability": null,
+   "FactoryStock": null,
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": "Restricted Availability",
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Analog-Devices/ADR4525BRZ?qs=WIvQP4zGanikuFLH9xtBaQ%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/1014/1/adr4520-4525-4530-4533-4540-4550.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": []
+  }
+ },
+ "BAV199LT1G": {
+  "mpn_pedido": "BAV199LT1G",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "BAV199LT1G",
+   "Manufacturer": "onsemi",
+   "MouserPartNumber": "863-BAV199LT1G",
+   "Description": "Diodos de Comutação de Sinais Pequenos 70V 215mA",
+   "AvailabilityInStock": "136104",
+   "Availability": "136104 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "364 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/onsemi/BAV199LT1G?qs=vLkC5FC1VN%2Fyd%252BQbk7oQjw%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.16",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.072",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.062",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.045",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.042",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 3000,
+     "Price": "$0.032",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 6000,
+     "Price": "$0.028",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "BLM18PG471SN1D": {
+  "mpn_pedido": "BLM18PG471SN1D",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "BLM18PG471SN1D",
+   "Manufacturer": "Murata Electronics",
+   "MouserPartNumber": "81-BLM18PG471SN1D",
+   "Description": "Esferas de ferrite 470 OHM 25% Alternate Sizing Guide Below",
+   "AvailabilityInStock": "443559",
+   "Availability": "443559 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "182 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Murata-Electronics/BLM18PG471SN1D?qs=EYzdjubb4S%2FN1Ip39GrHyg%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/76/1/ENFA0003.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "81-BLM18PG471SN1B",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.10",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.062",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$0.048",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.044",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.036",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.032",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.029",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.022",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 8000,
+     "Price": "$0.019",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "C0603C105K4RACTU": {
+  "mpn_pedido": "C0603C105K4RACTU",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "C0603C105K4RACTU",
+   "Manufacturer": "KEMET",
+   "MouserPartNumber": "80-C0603C105K4R",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 16V 1uF X7R 0603 10%",
+   "AvailabilityInStock": "185891",
+   "Availability": "185891 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "196 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/KEMET/C0603C105K4RACTU?qs=STjISULpmtZNMAZGR4X39Q%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/72/1/KEM_C1002_X7R_SMD.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.14",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.078",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.053",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.045",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.033",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.027",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.023",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "C1608X5R1E225K080AB": {
+  "mpn_pedido": "C1608X5R1E225K080AB",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "C1608X5R1E225K080AB",
+   "Manufacturer": "TDK",
+   "MouserPartNumber": "810-C1608X5R1E225K",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 0603 25V 2.2uF X5R 10% T: 0.8mm",
+   "AvailabilityInStock": "15300",
+   "Availability": "15300 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "168 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/C1608X5R1E225K080AB?qs=dfay7wIA1uHgKKQ5m0jXgw%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.27",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.161",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.113",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.098",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.074",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.051",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.045",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "C3216X5R1H106K160AB": {
+  "mpn_pedido": "C3216X5R1H106K160AB",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "C3216X5R1H106K160AB",
+   "Manufacturer": "TDK",
+   "MouserPartNumber": "810-C3216X5R1H106K",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 1206 50V 10uF X5R 10% T: 1.6mm",
+   "AvailabilityInStock": "124920",
+   "Availability": "124920 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "168 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/C3216X5R1H106K160AB?qs=NRhsANhppD%252BLHMbxvQzsEQ%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.85",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$1.25",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.991",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.913",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.782",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.425",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.379",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "CC12H250MA-TR": {
+  "mpn_pedido": "CC12H250MA-TR",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "CC12H250mA-TR",
+   "Manufacturer": "Eaton Electronics",
+   "MouserPartNumber": "504-CC12H250MA-TR",
+   "Description": "Fusíveis de montagem em superfícies 250mA 63V High I2t chip fuses",
+   "AvailabilityInStock": "151",
+   "Availability": "151 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "84 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Eaton-Electronics/CC12H250mA-TR?qs=FP9LbDqJ9llN1%2FyFlrPRpg%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.03",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.944",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.784",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.723",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.65",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.60",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.553",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 3000,
+     "Price": "$0.49",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "CC12H750MA-TR": {
+  "mpn_pedido": "CC12H750MA-TR",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "CC12H750MA-TR",
+   "Manufacturer": "Eaton Electronics",
+   "MouserPartNumber": "504-CC12H750MA-TR",
+   "Description": "Fusíveis de montagem em superfícies 1206, 7A CHIP FUSE",
+   "AvailabilityInStock": "5070",
+   "Availability": "5070 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "84 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Eaton-Electronics/CC12H750MA-TR?qs=Sd2AGZv2AHnpcNnsZxa3xA%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.16",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$1.07",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.884",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.816",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.734",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.718",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 3000,
+     "Price": "$0.718",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "ERJ-3EKF1472V": {
+  "mpn_pedido": "ERJ-3EKF1472V",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "ERJ-3EKF1472V",
+   "Manufacturer": "Panasonic Industry",
+   "MouserPartNumber": "667-ERJ-3EKF1472V",
+   "Description": "Resistores de Filme Espesso - SMD 0603 14.7Kohms 1% AEC-Q200",
+   "AvailabilityInStock": "66735",
+   "Availability": "66735 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "105 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Panasonic-Industry/ERJ-3EKF1472V?qs=iBwFsHVUAOfpqFvd%2FEib8g%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.10",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.024",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.02",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.016",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.014",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.012",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.008",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.006",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "GCM188R71H103KA37J": {
+  "mpn_pedido": "GCM188R71H103KA37J",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "GCM188R71H103KA37J",
+   "Manufacturer": "Murata Electronics",
+   "MouserPartNumber": "81-GCM188R71H103KA7J",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 0.01 uF 50 VDC 10% 0603 X7R AEC-Q200",
+   "AvailabilityInStock": "3509127",
+   "Availability": "3509127 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "42 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Murata-Electronics/GCM188R71H103KA37J?qs=N3Kl9KD794T3%2FxlXdF0Axg%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "81-GCM155R71H103KA5J",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.12",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.068",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.048",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.041",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.031",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.027",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.018",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 20000,
+     "Price": "$0.016",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "GRM188R72A104KA35D": {
+  "mpn_pedido": "GRM188R72A104KA35D",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "GRM188R72A104KA35D",
+   "Manufacturer": "Murata Electronics",
+   "MouserPartNumber": "81-GRM188R72A104KA35",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 0.1 uF 100 VDC 10% 0603 X7R",
+   "AvailabilityInStock": "1344731",
+   "Availability": "1344731 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "70 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.16",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.087",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.062",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.054",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.04",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.027",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "GRM32EC72A106ME05L": {
+  "mpn_pedido": "GRM32EC72A106ME05L",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "GRM32EC72A106ME05L",
+   "Manufacturer": "Murata Electronics",
+   "MouserPartNumber": "81-GRM32EC72A106ME5L",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 10 uF 100 VDC 20% 1210 X7S",
+   "AvailabilityInStock": "35196",
+   "Availability": "35196 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "175 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Murata-Electronics/GRM32EC72A106ME05L?qs=d0WKAl%252BL4KZOI4c17DDTDA%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/76/2/GRM32EC72A106ME05_01A.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.18",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.758",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.593",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.542",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.456",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.397",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "ISO7141CCDBQR": {
+  "mpn_pedido": "ISO7141CCDBQR",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "ISO7141CCDBQR",
+   "Manufacturer": "Texas Instruments",
+   "MouserPartNumber": "595-ISO7141CCDBQR",
+   "Description": "Isoladores digitais Small-FP & Low-Pwr 3 /1 Quad Ch Dig Iso A 595-ISO7141CCDBQ",
+   "AvailabilityInStock": "0",
+   "Availability": null,
+   "FactoryStock": "0",
+   "LeadTime": "112 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Texas-Instruments/ISO7141CCDBQR?qs=v3HA%252BRzKb3cNOClH3HngWA%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "595-ISO7141CCDBQ",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$10.94",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$8.56",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$7.96",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$7.30",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$7.07",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$6.99",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$6.90",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2500,
+     "Price": "$6.39",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "KG EELP41.22-PHRH-35-A8J8-20-R18": {
+  "mpn_pedido": "KG EELP41.22-PHRH-35-A8J8-20-R18",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "KG EELP41.22-PHRH-35-A8J8-20-R18",
+   "Manufacturer": "ams OSRAM",
+   "MouserPartNumber": "720-P4122PHRH35A8J82",
+   "Description": "LEDs de cor única",
+   "AvailabilityInStock": "0",
+   "Availability": null,
+   "FactoryStock": "0",
+   "LeadTime": "56 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/ams-OSRAM/KG-EELP41.22-PHRH-35-A8J8-20-R18?qs=ZcfC38r4Posajg8ZvCDQkg%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/5912/1/KG_EELP41.22_EN.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.16",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.109",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.076",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.06",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.055",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.051",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.043",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 8000,
+     "Price": "$0.039",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 24000,
+     "Price": "$0.038",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "M20-7821446": {
+  "mpn_pedido": "M20-7821446",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "M20-7821446",
+   "Manufacturer": "Harwin",
+   "MouserPartNumber": "855-M20-7821446",
+   "Description": "Distribuidores e Alojamento de Fios M20 14 PIN SIL VERTICAL GOLD+TIN SOCKET",
+   "AvailabilityInStock": "562",
+   "Availability": "562 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "102 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Harwin/M20-7821446?qs=Jph8NoUxIfX%2FjYzLF0Toqw%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/71/1/M20_782.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.75",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$1.44",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$1.43",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 112,
+     "Price": "$1.25",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 512,
+     "Price": "$1.12",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1008,
+     "Price": "$1.07",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5008,
+     "Price": "$0.956",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "M20-7822046": {
+  "mpn_pedido": "M20-7822046",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "M20-7822046",
+   "Manufacturer": "Harwin",
+   "MouserPartNumber": "855-M20-7822046",
+   "Description": "Distribuidores e Alojamento de Fios M20 20 PIN SIL VERTICAL SOCKET GOLD+TIN",
+   "AvailabilityInStock": "1287",
+   "Availability": "1287 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "102 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Harwin/M20-7822046?qs=ulE8k0yEMYayyds2fKN7wQ%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/71/1/M20_782.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$2.24",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 11,
+     "Price": "$1.90",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 22,
+     "Price": "$1.86",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 110,
+     "Price": "$1.60",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 506,
+     "Price": "$1.44",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1001,
+     "Price": "$1.36",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2508,
+     "Price": "$1.32",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5005,
+     "Price": "$1.22",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "MBR1H100SFT3G": {
+  "mpn_pedido": "MBR1H100SFT3G",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "MBR1H100SFT3G",
+   "Manufacturer": "onsemi",
+   "MouserPartNumber": "863-MBR1H100SFT3G",
+   "Description": "Diodos e retificadores Schottky 1A 100V",
+   "AvailabilityInStock": "106816",
+   "Availability": "106816 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "217 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/onsemi/MBR1H100SFT3G?qs=0n%252BW%2FEG%252BKm6mjS2tdY4y%2FA%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.66",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.297",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.261",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.198",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2500,
+     "Price": "$0.189",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.163",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.119",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "MCP1824ST-3302E/DB": {
+  "mpn_pedido": "MCP1824ST-3302E/DB",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "MCP1824ST-3302E/DB",
+   "Manufacturer": "Microchip Technology",
+   "MouserPartNumber": "579-MCP1824ST3302EDB",
+   "Description": "Reguladores de tensão de LDO 300 mA CMOS LDO Vout 3.3V Ext Temp Range",
+   "AvailabilityInStock": "11898",
+   "Availability": "11898 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "77 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Microchip-Technology/MCP1824ST-3302E-DB?qs=hH%252BOa0VZEiDnaLPlBfM0hw%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/282/1/MCP1824-Data-Sheet-DS20002070.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.64",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$0.54",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.49",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "MCP1824T-3302E/OT": {
+  "mpn_pedido": "MCP1824T-3302E/OT",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "MCP1824T-3302E/OT",
+   "Manufacturer": "Microchip Technology",
+   "MouserPartNumber": "579-MCP1824T-3302EOT",
+   "Description": "Reguladores de tensão de LDO 300 mA CMOS LDO Vout 3.3V ETR",
+   "AvailabilityInStock": "14500",
+   "Availability": "14500 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "74 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Microchip-Technology/MCP1824T-3302E-OT?qs=gsqZ4L1luKpf30CVQFzEaA%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/282/1/MCP1824-Data-Sheet-DS20002070.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.56",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$0.48",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.475",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.466",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.463",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 3000,
+     "Price": "$0.43",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "MCP3208T-BI/SL": {
+  "mpn_pedido": "MCP3208T-BI/SL",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "MCP3208T-BI/SL",
+   "Manufacturer": "Microchip Technology",
+   "MouserPartNumber": "579-MCP3208T-BI/SL",
+   "Description": "Conversores analógico-digital - ADC 12-bit SPI 8 Chl",
+   "AvailabilityInStock": "3893",
+   "Availability": "3893 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "70 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Microchip-Technology/MCP3208T-BI-SL?qs=cUeqqamUra%252BqZq%252Bo%2FtJMow%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/282/1/21298e.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "579-MCP3208-BI/SL",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$5.76",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$4.79",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$4.64",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2600,
+     "Price": "$4.36",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "NTCS0603E3103JLT": {
+  "mpn_pedido": "NTCS0603E3103JLT",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "NTCS0603E3103JLT",
+   "Manufacturer": "Vishay / BC Components",
+   "MouserPartNumber": "594-NTCS0603E3103JLT",
+   "Description": "Termistores NTC 10Kohms 5% SMD",
+   "AvailabilityInStock": "11185",
+   "Availability": "11185 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "70 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Vishay-BC-Components/NTCS0603E3103JLT?qs=%2FWiulJ9oly4GqSyQcn8gdg%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.23",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.214",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$0.188",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.175",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.152",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.136",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.131",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 8000,
+     "Price": "$0.125",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 24000,
+     "Price": "$0.122",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "RC0603FR-07100KL": {
+  "mpn_pedido": "RC0603FR-07100KL",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "RC0603FR-07100KL",
+   "Manufacturer": "YAGEO",
+   "MouserPartNumber": "603-RC0603FR-07100KL",
+   "Description": "Resistores de Filme Espesso - SMD General Purpose Chip Resistor 0603, 100kOhms, 1%, 1/10W",
+   "AvailabilityInStock": "5080704",
+   "Availability": "5080704 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "98 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/YAGEO/RC0603FR-07100KL?qs=e1ok2LiJcmaihem8Va5%2Fsw%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.10",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.014",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.008",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.007",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.003",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "RC0603FR-0710KL": {
+  "mpn_pedido": "RC0603FR-0710KL",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "RC0603FR-0710KL",
+   "Manufacturer": "YAGEO",
+   "MouserPartNumber": "603-RC0603FR-0710KL",
+   "Description": "Resistores de Filme Espesso - SMD General Purpose Chip Resistor 0603, 10kOhms, 1%, 1/10W",
+   "AvailabilityInStock": "2811281",
+   "Availability": "2811281 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "98 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/YAGEO/RC0603FR-0710KL?qs=grNVn54RoB%252B3GtjbJj3wJQ%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.10",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.014",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.008",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.007",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.003",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "RC0603FR-0713K3L": {
+  "mpn_pedido": "RC0603FR-0713K3L",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "RC0603FR-0713K3L",
+   "Manufacturer": "YAGEO",
+   "MouserPartNumber": "603-RC0603FR-0713K3L",
+   "Description": "Resistores de Filme Espesso - SMD General Purpose Chip Resistor 0603, 13.3kOhms, 1%, 1/10W",
+   "AvailabilityInStock": "420840",
+   "Availability": "420840 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "98 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/YAGEO/RC0603FR-0713K3L?qs=VU8sRB4EgwCA%252Bs%2FdvQjsJw%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.10",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.014",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.008",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.007",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.003",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "RC0603FR-072K2L": {
+  "mpn_pedido": "RC0603FR-072K2L",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "RC0603FR-072K2L",
+   "Manufacturer": "YAGEO",
+   "MouserPartNumber": "603-RC0603FR-072K2L",
+   "Description": "Resistores de Filme Espesso - SMD General Purpose Chip Resistor 0603, 2.2kOhms, 1%, 1/10W",
+   "AvailabilityInStock": "557666",
+   "Availability": "557666 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "98 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/YAGEO/RC0603FR-072K2L?qs=diQw95jMAeOQmNpe2MM%252BPw%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.10",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.014",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.008",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.007",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.003",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "ERA3AEB5621V": {
+  "mpn_pedido": "ERA3AEB5621V",
+  "correspondencia": "exacta (sem hifen)",
+  "peca": {
+   "ManufacturerPartNumber": "ERA-3AEB5621V",
+   "Manufacturer": "Panasonic Industry",
+   "MouserPartNumber": "667-ERA-3AEB5621V",
+   "Description": "Resistores de Filme Fino - SMD 0603 5.62Kohm 0.1% 25ppm",
+   "AvailabilityInStock": "8540",
+   "Availability": "8540 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "343 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Panasonic-Industry/ERA-3AEB5621V?qs=nuXzIS8loXFSZWwGApEQgg%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.10",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.064",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.061",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.053",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.044",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.041",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "ERA8AEB111V": {
+  "mpn_pedido": "ERA8AEB111V",
+  "correspondencia": "exacta (sem hifen)",
+  "peca": {
+   "ManufacturerPartNumber": "ERA-8AEB111V",
+   "Manufacturer": "Panasonic Industry",
+   "MouserPartNumber": "667-ERA-8AEB111V",
+   "Description": "Resistores de Filme Fino - SMD 1206 110ohm 0.1% 25ppm",
+   "AvailabilityInStock": "7280",
+   "Availability": "7280 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "343 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Panasonic-Industry/ERA-8AEB111V?qs=Ojoo2rCVP9TL0caEXb6gSQ%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.27",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.197",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.186",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.164",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.139",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.131",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "RC0603FR-0732K4L": {
+  "mpn_pedido": "RC0603FR-0732K4L",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "RC0603FR-0732K4L",
+   "Manufacturer": "YAGEO",
+   "MouserPartNumber": "603-RC0603FR-0732K4L",
+   "Description": "Resistores de Filme Espesso - SMD General Purpose Chip Resistor 0603, 32.4kOhms, 1%, 1/10W",
+   "AvailabilityInStock": "221",
+   "Availability": "221 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "98 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/YAGEO/RC0603FR-0732K4L?qs=diQw95jMAeOzci0KQtjY%252BA%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.11",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.014",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.009",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.007",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.003",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "RC0603FR-073K3L": {
+  "mpn_pedido": "RC0603FR-073K3L",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "RC0603FR-073K3L",
+   "Manufacturer": "YAGEO",
+   "MouserPartNumber": "603-RC0603FR-073K3L",
+   "Description": "Resistores de Filme Espesso - SMD General Purpose Chip Resistor 0603, 3.3kOhms, 1%, 1/10W",
+   "AvailabilityInStock": "588651",
+   "Availability": "588651 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "98 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/YAGEO/RC0603FR-073K3L?qs=gt6vzsuosg2EoNiKbtAsfQ%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.12",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.014",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.01",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.008",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.005",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.004",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "RC0603FR-074K12L": {
+  "mpn_pedido": "RC0603FR-074K12L",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "RC0603FR-074K12L",
+   "Manufacturer": "YAGEO",
+   "MouserPartNumber": "603-RC0603FR-074K12L",
+   "Description": "Resistores de Filme Espesso - SMD General Purpose Chip Resistor 0603, 4.12kOhms, 1%, 1/10W",
+   "AvailabilityInStock": "16714",
+   "Availability": "16714 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "98 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/YAGEO/RC0603FR-074K12L?qs=gt6vzsuosg0pzljkZ3vXsg%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.10",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.014",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.008",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.007",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.003",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "RC0603FR-074K7L": {
+  "mpn_pedido": "RC0603FR-074K7L",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "RC0603FR-074K7L",
+   "Manufacturer": "YAGEO",
+   "MouserPartNumber": "603-RC0603FR-074K7L",
+   "Description": "Resistores de Filme Espesso - SMD General Purpose Chip Resistor 0603, 4.7kOhms, 1%, 1/10W",
+   "AvailabilityInStock": "2124140",
+   "Availability": "2124140 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "98 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/YAGEO/RC0603FR-074K7L?qs=gt6vzsuosg37y0l7Vt36bQ%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.10",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.014",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.008",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.007",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.003",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "RC0603FR-076K65L": {
+  "mpn_pedido": "RC0603FR-076K65L",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "RC0603FR-076K65L",
+   "Manufacturer": "YAGEO",
+   "MouserPartNumber": "603-RC0603FR-076K65L",
+   "Description": "Resistores de Filme Espesso - SMD General Purpose Chip Resistor 0603, 6.65kOhms, 1%, 1/10W",
+   "AvailabilityInStock": "879514",
+   "Availability": "879514 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "98 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/YAGEO/RC0603FR-076K65L?qs=2cAdsCoAWRE3GrJPdWNlag%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.10",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.014",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.008",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.005",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.002",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "RC0603JR-070RL": {
+  "mpn_pedido": "RC0603JR-070RL",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "RC0603JR-070RL",
+   "Manufacturer": "YAGEO",
+   "MouserPartNumber": "603-RC0603JR-070RL",
+   "Description": "Resistores de Filme Espesso - SMD General Purpose Chip Resistor 0603, 0Ohms, 5%, 1/10W",
+   "AvailabilityInStock": "5980483",
+   "Availability": "5980483 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "98 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/YAGEO/RC0603JR-070RL?qs=2cAdsCoAWRGWyPcuXgGiXQ%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.10",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.008",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.005",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.002",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "RMCF0603FT93K1": {
+  "mpn_pedido": "RMCF0603FT93K1",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "RMCF0603FT93K1",
+   "Manufacturer": "SEI Stackpole",
+   "MouserPartNumber": "708-RMCF0603FT93K1",
+   "Description": "Resistores de Filme Espesso - SMD 93.1KOhms 0603 0.1W 1% Std Power AEC-Q200",
+   "AvailabilityInStock": "87588",
+   "Availability": "87588 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "154 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/SEI-Stackpole/RMCF0603FT93K1?qs=IPgv5n7u5QZqBGnaYBkARQ%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/1099/1/SEI_RMCF_RMCP.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.10",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.012",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.01",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.008",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.007",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.006",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.003",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.002",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "SMA6J33A-Q": {
+  "mpn_pedido": "SMA6J33A-Q",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "SMA6J33A-Q",
+   "Manufacturer": "Bourns",
+   "MouserPartNumber": "652-SMA6J33A-Q",
+   "Description": "Diodos de proteção ESD/Diodos TVS DIO TVS VWM 33V 600W UNIDIR SMA AECQ",
+   "AvailabilityInStock": "11149",
+   "Availability": "11149 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "154 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Bourns/SMA6J33A-Q?qs=BJlw7L4Cy78AEJcOaIUQTA%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/40/1/sma6j_q.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.58",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.276",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.227",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.183",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.147",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2500,
+     "Price": "$0.133",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.114",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.104",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "SMBJ33A-13-F": {
+  "mpn_pedido": "SMBJ33A-13-F",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "SMBJ33A-13-F",
+   "Manufacturer": "Diodes Incorporated",
+   "MouserPartNumber": "621-SMBJ33A-13-F",
+   "Description": "Diodos de proteção ESD/Diodos TVS 600W 33.0V",
+   "AvailabilityInStock": "89868",
+   "Availability": "89868 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "224 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Diodes-Incorporated/SMBJ33A-13-F?qs=gaDBXWSqsDDvPxjzn0n42g%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.57",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.271",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.22",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.19",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.16",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 3000,
+     "Price": "$0.125",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "TL431BQDBZR": {
+  "mpn_pedido": "TL431BQDBZR",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "TL431BQDBZR",
+   "Manufacturer": "Texas Instruments",
+   "MouserPartNumber": "595-TL431BQDBZR",
+   "Description": "Referências de tensão Adjustable Precision Shunt Regulator A 5 A 595-TL431BQDBZT",
+   "AvailabilityInStock": "820",
+   "Availability": "820 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "63 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Texas-Instruments/TL431BQDBZR?qs=odmYgEirbwyIwmD1JEnQDQ%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "595-TL431BQDBZT",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.44",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.306",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$0.273",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.236",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.218",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.207",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.199",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 3000,
+     "Price": "$0.187",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 6000,
+     "Price": "$0.185",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "TPS26613DDFR": {
+  "mpn_pedido": "TPS26613DDFR",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "TPS26613DDFR",
+   "Manufacturer": "Texas Instruments",
+   "MouserPartNumber": "595-TPS26613DDFR",
+   "Description": "Controladores de tensão de troca dinâmica 50-V universal 4-20 -mA +/-20-mA curren",
+   "AvailabilityInStock": "3238",
+   "Availability": "3238 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "63 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Texas-Instruments/TPS26613DDFR?qs=doiCPypUmgGI8%252BmIuzzrBw%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.80",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$1.33",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$1.21",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$1.08",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$1.01",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.972",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.969",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 3000,
+     "Price": "$0.921",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 6000,
+     "Price": "$0.872",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "TPS7A4001DGNR": {
+  "mpn_pedido": "TPS7A4001DGNR",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "TPS7A4001DGNR",
+   "Manufacturer": "Texas Instruments",
+   "MouserPartNumber": "595-TPS7A4001DGNR",
+   "Description": "Reguladores de tensão de LDO 50mA 100Vin Sgl Out put LDO Linear Reg A A 595-TPS7A4001DGNT",
+   "AvailabilityInStock": "11204",
+   "Availability": "11204 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "112 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Texas-Instruments/TPS7A4001DGNR?qs=JoYuLptCJEETYhpJvwsCEg%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "595-TPS7A4001DGNT",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$3.53",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$2.65",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$2.42",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$2.18",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$2.06",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$2.02",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$1.92",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2500,
+     "Price": "$1.86",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$1.82",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "ADR4525WBRZ-R7": {
+  "mpn_pedido": "ADR4525WBRZ-R7",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "ADR4525WBRZ-R7",
+   "Manufacturer": "Analog Devices",
+   "MouserPartNumber": "584-ADR4525WBRZ-R7",
+   "Description": "Referências de tensão 2.5V Ultra Low Noise Voltage REF",
+   "AvailabilityInStock": "2147",
+   "Availability": "2147 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": "Restricted Availability",
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Analog-Devices/ADR4525WBRZ-R7?qs=cslStgdnz9NOBx7B6knBOg%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/1014/1/adr4520-4525-4530-4533-4540-4550.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$14.80",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$11.59",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$10.79",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$9.91",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$9.81",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$9.80",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$8.32",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "SG73P2ATTD1500F": {
+  "mpn_pedido": "SG73P2ATTD1500F",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "SG73P2ATTD1500F",
+   "Manufacturer": "KOA Speer",
+   "MouserPartNumber": "660-SG73P2ATTD1500F",
+   "Description": "Resistores de Filme Espesso - SMD 0.5W 150ohm 1% AEC-Q200",
+   "AvailabilityInStock": "14366",
+   "Availability": "14366 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "49 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/KOA-Speer/SG73P2ATTD1500F?qs=0U9fANxrh6kv32xMDX3Yug%3D%3D",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/KOA_Speer_SG73P_91124.pdf",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.17",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.054",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.04",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.036",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.03",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.028",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.022",
+     "Currency": "USD"
+    }
+   ]
+  }
+ },
+ "C3225X7R2A225K230AB": {
+  "mpn_pedido": "C3225X7R2A225K230AB",
+  "correspondencia": "exacta",
+  "peca": {
+   "ManufacturerPartNumber": "C3225X7R2A225K230AB",
+   "Manufacturer": "TDK",
+   "MouserPartNumber": "810-C3225X7R2A225K",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 1210 100V 2.2uF X7R 10% T: 2.3mm",
+   "AvailabilityInStock": "30005",
+   "Availability": "30005 Em estoque",
+   "FactoryStock": "0",
+   "LeadTime": "168 Dias",
+   "LifecycleStatus": null,
+   "ROHSStatus": "RoHS Compliant",
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/C3225X7R2A225K230AB?qs=NRhsANhppD%252Bfw13CuT2BJg%3D%3D",
+   "DataSheetUrl": "",
+   "Min": "1",
+   "Mult": "1",
+   "SuggestedReplacement": "",
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.78",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.488",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.373",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.338",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.312",
+     "Currency": "USD"
+    }
+   ]
+  }
+ }
+}

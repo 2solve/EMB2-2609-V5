@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "EBM2_V5")(type "KiCad")(uri "${KIPRJMOD}/symbols/EBM2_V5.kicad_sym")(options "")(descr "Simbolos proprios da EBM2 V5 (7): copiados das folhas em 2026-09-25; pinagem conferida contra datasheet na 2.3"))
+)

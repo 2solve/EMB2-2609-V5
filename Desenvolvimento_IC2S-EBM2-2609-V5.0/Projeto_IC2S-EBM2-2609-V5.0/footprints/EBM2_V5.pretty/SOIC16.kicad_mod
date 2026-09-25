@@ -1,0 +1,285 @@
+(footprint "SOIC16"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "2Solve PCB Library 'SOIC16', extraida da PCB V4.1 da EBM2 (fabricada) em 2026-09-23. Pads rodados 90 no referencial da biblioteca: na placa a pegada estava a -90 e o angulo do pad e absoluto.")
+	(property "Reference" "REF**"
+		(at 0 -6.35 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "SOIC16"
+		(at 0 6.35 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 5)
+		(end -1 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1 5)
+		(end -1 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1 5)
+		(end 1 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1 -5)
+		(end -1 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -0.2 -4.2)
+		(end -0.4 -4.2)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -2.35 -5.295)
+		(end -2.475 -5.295)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -2 5)
+		(end -2 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+	)
+	(fp_line
+		(start 2 5)
+		(end -2 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+	)
+	(fp_line
+		(start 2 5)
+		(end 2 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+	)
+	(fp_line
+		(start 2 -5)
+		(end -2 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+	)
+	(fp_circle
+		(center -1.1 -4.1)
+		(end -1.6 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.13")
+	)
+	(fp_line
+		(start -3.4 5.1)
+		(end -3.4 -5.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+	)
+	(fp_line
+		(start 3.4 5.1)
+		(end -3.4 5.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+	)
+	(fp_line
+		(start 3.4 5.1)
+		(end 3.4 -5.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.15")
+	)
+	(fp_line
+		(start 0.5 0)
+		(end -0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.15")
+	)
+	(fp_line
+		(start 3.4 -5.1)
+		(end -3.4 -5.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+	)
+	(fp_rect
+		(start -3.4 -5.1)
+		(end 3.4 5.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(pad "1" smd oval
+		(at -2.35 -4.445 90)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "2" smd oval
+		(at -2.35 -3.175 90)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "3" smd oval
+		(at -2.35 -1.905 90)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "4" smd oval
+		(at -2.35 -0.635 90)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "5" smd oval
+		(at -2.35 0.635 90)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "6" smd oval
+		(at -2.35 1.905 90)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "7" smd oval
+		(at -2.35 3.175 90)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "8" smd oval
+		(at -2.35 4.445 90)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "9" smd oval
+		(at 2.35 4.445 90)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "10" smd oval
+		(at 2.35 3.175 90)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "11" smd oval
+		(at 2.35 1.905 90)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "12" smd oval
+		(at 2.35 0.635 90)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "13" smd oval
+		(at 2.35 -0.635 90)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "14" smd oval
+		(at 2.35 -1.905 90)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "15" smd oval
+		(at 2.35 -3.175 90)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "16" smd oval
+		(at 2.35 -4.445 90)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(model "kicad-embed://User Library-SOIC-16-1.step"
+		(offset
+			(xyz -0.0099 0.00007 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1188" height="840" viewBox="0 0 1188 840">
+<defs><marker id="pt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1a1a1a"/></marker></defs>
+<rect width="1188" height="840" fill="#ffffff"/>
+<rect x="14" y="14" width="1160" height="812" fill="none" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="34" y="52" font-family="Segoe UI,Arial" font-size="23" font-weight="700" fill="#1a1a1a">IC2S Extension Board EBM2 V5 &#8212; diagrama de blocos</text>
+<text x="34" y="74" font-family="Segoe UI,Arial" font-size="13" fill="#6a6a6a">Seis entradas 4-20 mA. Fluxo de sinal da esquerda para a direita: campo, conversor, barreira, barramento.</text>
+<line x1="807" y1="96" x2="807" y2="106" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="112" x2="807" y2="122" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="128" x2="807" y2="138" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="144" x2="807" y2="154" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="160" x2="807" y2="170" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="176" x2="807" y2="186" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="192" x2="807" y2="202" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="208" x2="807" y2="218" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="224" x2="807" y2="234" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="240" x2="807" y2="250" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="256" x2="807" y2="266" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="272" x2="807" y2="282" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="288" x2="807" y2="298" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="304" x2="807" y2="314" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="320" x2="807" y2="330" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="336" x2="807" y2="346" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="352" x2="807" y2="362" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="368" x2="807" y2="378" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="384" x2="807" y2="394" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="400" x2="807" y2="410" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="416" x2="807" y2="426" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="432" x2="807" y2="442" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="448" x2="807" y2="458" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="464" x2="807" y2="474" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="480" x2="807" y2="490" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="496" x2="807" y2="506" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="512" x2="807" y2="522" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="528" x2="807" y2="538" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="544" x2="807" y2="554" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="560" x2="807" y2="570" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="576" x2="807" y2="586" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="592" x2="807" y2="602" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="608" x2="807" y2="618" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="624" x2="807" y2="634" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="640" x2="807" y2="650" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="656" x2="807" y2="666" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="672" x2="807" y2="682" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="688" x2="807" y2="698" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="704" x2="807" y2="714" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="720" x2="807" y2="730" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="736" x2="807" y2="746" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="752" x2="807" y2="762" stroke="#b03030" stroke-width="2.4"/>
+<line x1="807" y1="768" x2="807" y2="778" stroke="#b03030" stroke-width="2.4"/>
+<text x="807" y="802" font-family="Segoe UI,Arial" font-size="12.5" font-weight="700" fill="#b03030" text-anchor="middle">BARREIRA FUNCIONAL</text>
+<text x="300" y="802" font-family="Segoe UI,Arial" font-size="11.5" font-weight="700" fill="#6a6a6a" text-anchor="middle">DOMINIO DE CAMPO &#8212; GND_ADC, unido a GND_24V por R200</text>
+<text x="1010" y="802" font-family="Segoe UI,Arial" font-size="11.5" font-weight="700" fill="#6a6a6a" text-anchor="middle">DOMINIO DIGITAL &#8212; DGND</text>
+<path d="M 1047 150 L 1047 115 L 407 115 L 407 150" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<polygon points="407.0,150.0 402.5,140.0 411.5,140.0" fill="#1a1a1a"/>
+<rect x="429" y="97" width="262" height="17" rx="3" fill="#ffffff" opacity="0.95"/>
+<text x="560" y="110" font-family="Segoe UI,Arial" font-size="11.5" fill="#1a1a1a" text-anchor="middle">+24 V atravessa a barreira sem isolamento</text>
+<path d="M 1047 350 L 1047 420" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<polygon points="1047.0,420.0 1042.5,410.0 1051.5,410.0" fill="#1a1a1a"/>
+<rect x="1029" y="366" width="36" height="17" rx="3" fill="#ffffff" opacity="0.95"/>
+<text x="1047" y="378" font-family="Segoe UI,Arial" font-size="11.5" fill="#1a1a1a" text-anchor="middle">+5 V</text>
+<path d="M 1000 540 L 1000 600 L 860 600 L 860 580" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<polygon points="860.0,580.0 864.5,590.0 855.5,590.0" fill="#1a1a1a"/>
+<rect x="897" y="581" width="67" height="17" rx="3" fill="#ffffff" opacity="0.95"/>
+<text x="930" y="594" font-family="Segoe UI,Arial" font-size="11.5" fill="#1a1a1a" text-anchor="middle">+3.3V_DIG</text>
+<path d="M 950 300 L 932 300 L 932 500 L 915 500" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<polygon points="915.0,500.0 925.0,495.5 925.0,504.5" fill="#1a1a1a"/>
+<rect x="899" y="381" width="67" height="17" rx="3" fill="#ffffff" opacity="0.95"/>
+<text x="932" y="394" font-family="Segoe UI,Arial" font-size="11.5" fill="#1a1a1a" text-anchor="middle">SPI 3,3 V</text>
+<path d="M 700 440 L 660 440" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<polygon points="660.0,440.0 670.0,435.5 670.0,444.5" fill="#1a1a1a"/>
+<rect x="640" y="402" width="79" height="17" rx="3" fill="#ffffff" opacity="0.95"/>
+<text x="680" y="414" font-family="Segoe UI,Arial" font-size="11.5" fill="#1a1a1a" text-anchor="middle">SPI isolado</text>
+<path d="M 490 240 L 570 240" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<polygon points="570.0,240.0 560.0,244.5 560.0,235.5" fill="#1a1a1a"/>
+<rect x="500" y="221" width="61" height="17" rx="3" fill="#ffffff" opacity="0.95"/>
+<text x="530" y="234" font-family="Segoe UI,Arial" font-size="11.5" fill="#1a1a1a" text-anchor="middle">+24V_REG</text>
+<path d="M 620 335 L 620 420" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<polygon points="620.0,420.0 615.5,410.0 624.5,410.0" fill="#1a1a1a"/>
+<rect x="590" y="358" width="61" height="17" rx="3" fill="#ffffff" opacity="0.95"/>
+<text x="620" y="371" font-family="Segoe UI,Arial" font-size="11.5" fill="#1a1a1a" text-anchor="middle">+2V5_REF</text>
+<path d="M 425 700 L 492 700 L 492 630" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<polygon points="492.0,630.0 496.5,640.0 487.5,640.0" fill="#1a1a1a"/>
+<rect x="443" y="681" width="30" height="17" rx="3" fill="#ffffff" opacity="0.95"/>
+<text x="458" y="694" font-family="Segoe UI,Arial" font-size="11.5" fill="#1a1a1a" text-anchor="middle">CH4</text>
+<path d="M 425 440 L 460 440" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<polygon points="460.0,440.0 450.0,444.5 450.0,435.5" fill="#1a1a1a"/>
+<rect x="399" y="402" width="85" height="17" rx="3" fill="#ffffff" opacity="0.95"/>
+<text x="442" y="414" font-family="Segoe UI,Arial" font-size="11.5" fill="#1a1a1a" text-anchor="middle">CH0-3, CH6-7</text>
+<path d="M 190 440 L 225 440" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<polygon points="225.0,440.0 215.0,444.5 215.0,435.5" fill="#1a1a1a"/>
+<rect x="167" y="402" width="79" height="17" rx="3" fill="#ffffff" opacity="0.95"/>
+<text x="207" y="414" font-family="Segoe UI,Arial" font-size="11.5" fill="#1a1a1a" text-anchor="middle">6 x 4-20 mA</text>
+<path d="M 340 335 L 340 420" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<polygon points="340.0,420.0 335.5,410.0 344.5,410.0" fill="#1a1a1a"/>
+<rect x="310" y="358" width="61" height="17" rx="3" fill="#ffffff" opacity="0.95"/>
+<text x="340" y="371" font-family="Segoe UI,Arial" font-size="11.5" fill="#1a1a1a" text-anchor="middle">+24V_ADC</text>
+<rect x="280" y="150" width="210" height="185" rx="6" fill="#fdf0e3" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="292" y="175" font-family="Segoe UI,Arial" font-size="15" font-weight="700" fill="#1a1a1a">Entrada 24 V</text>
+<text x="292" y="195" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">TVS SMA6J33A-Q, 33 V</text>
+<text x="292" y="211" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">F202 CC12H750mA + D202</text>
+<text x="292" y="227" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">F201 CC12H250mA + D201</text>
+<text x="292" y="243" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">R206 22 ohm limita arranque</text>
+<text x="292" y="259" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">R200 0 ohm une as massas</text>
+<text x="292" y="275" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">Todo o bulk fica deste lado</text>
+<rect x="436" y="159" width="44" height="18" rx="4" fill="#ffffff" stroke="#6a6a6a" stroke-width="1"/>
+<text x="458" y="172" font-family="Segoe UI,Arial" font-size="10.5" font-weight="700" fill="#6a6a6a" text-anchor="middle">02</text>
+<rect x="570" y="150" width="210" height="185" rx="6" fill="#fdf0e3" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="582" y="175" font-family="Segoe UI,Arial" font-size="15" font-weight="700" fill="#1a1a1a">Alimentacao</text>
+<text x="582" y="195" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">TPS7A4001  24 V -&gt; 5 V</text>
+<text x="582" y="211" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">SPX3819    5 V -&gt; 3V3_REF</text>
+<text x="582" y="227" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">ADR4525    -&gt; +2V5_REF</text>
+<text x="582" y="243" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">TL431      grampo 3,60 V</text>
+<text x="582" y="259" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a"></text>
+<text x="582" y="275" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">A referencia deixa de ser</text>
+<text x="582" y="291" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">o proprio trilho</text>
+<rect x="726" y="159" width="44" height="18" rx="4" fill="#ffffff" stroke="#6a6a6a" stroke-width="1"/>
+<text x="748" y="172" font-family="Segoe UI,Arial" font-size="10.5" font-weight="700" fill="#6a6a6a" text-anchor="middle">03</text>
+<rect x="950" y="150" width="195" height="200" rx="6" fill="#efe9f5" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="962" y="175" font-family="Segoe UI,Arial" font-size="15" font-weight="700" fill="#1a1a1a">P1 Baseboard</text>
+<text x="962" y="195" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">Harwin M20-7822046</text>
+<text x="962" y="211" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">20 pinos THT, congelado</text>
+<text x="962" y="227" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a"></text>
+<text x="962" y="243" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">p.20  +24 V</text>
+<text x="962" y="259" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">p.17  +5 V</text>
+<text x="962" y="275" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">SPI: MOSI MISO CLK CS</text>
+<text x="962" y="291" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">DGND</text>
+<rect x="1091" y="159" width="44" height="18" rx="4" fill="#ffffff" stroke="#6a6a6a" stroke-width="1"/>
+<text x="1113" y="172" font-family="Segoe UI,Arial" font-size="10.5" font-weight="700" fill="#6a6a6a" text-anchor="middle">conn</text>
+<rect x="950" y="420" width="195" height="120" rx="6" fill="#fdf0e3" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="962" y="445" font-family="Segoe UI,Arial" font-size="15" font-weight="700" fill="#1a1a1a">LDO isolador</text>
+<text x="962" y="465" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">MCP1824ST-3302E</text>
+<text x="962" y="481" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">+5 V -&gt; +3.3V_DIG</text>
+<text x="962" y="497" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">alimenta VCC1 e EN1</text>
+<text x="962" y="513" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">fecha o gap G2</text>
+<rect x="1091" y="429" width="44" height="18" rx="4" fill="#ffffff" stroke="#6a6a6a" stroke-width="1"/>
+<text x="1113" y="442" font-family="Segoe UI,Arial" font-size="10.5" font-weight="700" fill="#6a6a6a" text-anchor="middle">03</text>
+<rect x="40" y="420" width="150" height="185" rx="6" fill="#efe9f5" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="52" y="445" font-family="Segoe UI,Arial" font-size="15" font-weight="700" fill="#1a1a1a">P2 Campo</text>
+<text x="52" y="465" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">Harwin M20-7821446</text>
+<text x="52" y="481" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">14 pinos THT</text>
+<text x="52" y="497" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">congelado</text>
+<text x="52" y="513" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a"></text>
+<text x="52" y="529" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">6 lacos 4-20 mA</text>
+<text x="52" y="545" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">alimentados a</text>
+<text x="52" y="561" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">+24V_ADC</text>
+<rect x="136" y="429" width="44" height="18" rx="4" fill="#ffffff" stroke="#6a6a6a" stroke-width="1"/>
+<text x="158" y="442" font-family="Segoe UI,Arial" font-size="10.5" font-weight="700" fill="#6a6a6a" text-anchor="middle">conn</text>
+<rect x="225" y="420" width="200" height="185" rx="6" fill="#eaf3ee" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="237" y="445" font-family="Segoe UI,Arial" font-size="15" font-weight="700" fill="#1a1a1a">Seis lacos</text>
+<text x="237" y="465" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">Por canal, do campo</text>
+<text x="237" y="481" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">ao conversor:</text>
+<text x="237" y="497" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">TVS 30 V -&gt; 249 ohm</text>
+<text x="237" y="513" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">-&gt; burden 110 ohm</text>
+<text x="237" y="529" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">-&gt; 3,3 kohm</text>
+<text x="237" y="545" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">-&gt; 100 nF no pino</text>
+<text x="237" y="561" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">-&gt; clamp BAV199</text>
+<rect x="371" y="429" width="44" height="18" rx="4" fill="#ffffff" stroke="#6a6a6a" stroke-width="1"/>
+<text x="393" y="442" font-family="Segoe UI,Arial" font-size="10.5" font-weight="700" fill="#6a6a6a" text-anchor="middle">06</text>
+<rect x="460" y="420" width="200" height="210" rx="6" fill="#eaf3ee" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="472" y="445" font-family="Segoe UI,Arial" font-size="15" font-weight="700" fill="#1a1a1a">Conversor A/D</text>
+<text x="472" y="465" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">MCP3208T-BI/SL</text>
+<text x="472" y="481" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">12 bits, INL +-1 LSB</text>
+<text x="472" y="497" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">VREF = +2V5_REF</text>
+<text x="472" y="513" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a"></text>
+<text x="472" y="529" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">CH0 CH1 CH2 CH3 campo</text>
+<text x="472" y="545" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">CH4 termistor</text>
+<text x="472" y="561" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">CH5 trilho, le 4095</text>
+<text x="472" y="577" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">CH6 CH7 campo</text>
+<rect x="606" y="429" width="44" height="18" rx="4" fill="#ffffff" stroke="#6a6a6a" stroke-width="1"/>
+<text x="628" y="442" font-family="Segoe UI,Arial" font-size="10.5" font-weight="700" fill="#6a6a6a" text-anchor="middle">05</text>
+<rect x="700" y="420" width="215" height="160" rx="6" fill="#e9eef7" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="712" y="445" font-family="Segoe UI,Arial" font-size="15" font-weight="700" fill="#1a1a1a">Barreira</text>
+<rect x="861" y="429" width="44" height="18" rx="4" fill="#ffffff" stroke="#6a6a6a" stroke-width="1"/>
+<text x="883" y="442" font-family="Segoe UI,Arial" font-size="10.5" font-weight="700" fill="#6a6a6a" text-anchor="middle">04</text>
+<rect x="225" y="660" width="200" height="110" rx="6" fill="#eaf3ee" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="237" y="685" font-family="Segoe UI,Arial" font-size="15" font-weight="700" fill="#1a1a1a">Termistor</text>
+<text x="237" y="705" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">NTCS0603E3103 10 kohm</text>
+<text x="237" y="721" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">de +2V5_REF ao CH4</text>
+<text x="237" y="737" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">ERA3AEB 5,62 kohm</text>
+<text x="237" y="753" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">Ratiometrico com o VREF</text>
+<rect x="371" y="669" width="44" height="18" rx="4" fill="#ffffff" stroke="#6a6a6a" stroke-width="1"/>
+<text x="393" y="682" font-family="Segoe UI,Arial" font-size="10.5" font-weight="700" fill="#6a6a6a" text-anchor="middle">07</text>
+<text x="712" y="465" font-family="Segoe UI,Arial" font-size="12" fill="#6a6a6a">ISO7141CCDBQR, TTL</text>
+<text x="710" y="502" font-family="Segoe UI,Arial" font-size="11" fill="#6a6a6a">lado 2: campo</text>
+<text x="710" y="518" font-family="Segoe UI,Arial" font-size="11" fill="#6a6a6a">GND_ADC</text>
+<text x="710" y="534" font-family="Segoe UI,Arial" font-size="11" fill="#6a6a6a">VCC2 3V3_REF</text>
+<text x="813" y="502" font-family="Segoe UI,Arial" font-size="11" fill="#6a6a6a">lado 1: bus</text>
+<text x="813" y="518" font-family="Segoe UI,Arial" font-size="11" fill="#6a6a6a">DGND</text>
+<text x="813" y="534" font-family="Segoe UI,Arial" font-size="11" fill="#6a6a6a">VCC1 +3.3V_DIG</text>
+<line x1="807" y1="478" x2="807" y2="484" stroke="#b03030" stroke-width="1.8"/>
+<line x1="807" y1="488" x2="807" y2="494" stroke="#b03030" stroke-width="1.8"/>
+<line x1="807" y1="498" x2="807" y2="504" stroke="#b03030" stroke-width="1.8"/>
+<line x1="807" y1="508" x2="807" y2="514" stroke="#b03030" stroke-width="1.8"/>
+<line x1="807" y1="518" x2="807" y2="524" stroke="#b03030" stroke-width="1.8"/>
+<line x1="807" y1="528" x2="807" y2="534" stroke="#b03030" stroke-width="1.8"/>
+<line x1="807" y1="538" x2="807" y2="544" stroke="#b03030" stroke-width="1.8"/>
+<line x1="807" y1="548" x2="807" y2="554" stroke="#b03030" stroke-width="1.8"/>
+<line x1="807" y1="558" x2="807" y2="564" stroke="#b03030" stroke-width="1.8"/>
+<line x1="807" y1="568" x2="807" y2="574" stroke="#b03030" stroke-width="1.8"/>
+<rect x="520" y="690" width="270" height="96" rx="6" fill="#fffdf5" stroke="#6a6a6a" stroke-width="1.2"/>
+<text x="532" y="711" font-family="Segoe UI,Arial" font-size="12.5" font-weight="700" fill="#1a1a1a">O que muda face a V4.1</text>
+<text x="532" y="730" font-family="Segoe UI,Arial" font-size="11.5" fill="#6a6a6a">1. A referencia do ADC deixa de ser o trilho.</text>
+<text x="532" y="745" font-family="Segoe UI,Arial" font-size="11.5" fill="#6a6a6a">2. O caminho de clamp acaba num sumidouro.</text>
+<text x="532" y="760" font-family="Segoe UI,Arial" font-size="11.5" fill="#6a6a6a">3. O bulk fica atras do fusivel de alto I2t.</text>
+<text x="532" y="775" font-family="Segoe UI,Arial" font-size="11.5" fill="#6a6a6a">4. O mapa de canais NAO e sequencial.</text>
+<rect x="40" y="630" width="175" height="150" rx="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="52" y="658" font-family="Segoe UI,Arial" font-size="14" font-weight="700" fill="#1a1a1a">EBM2 V5 (6AI)</text>
+<text x="52" y="684" font-family="Segoe UI,Arial" font-size="11" font-weight="400" fill="#6a6a6a">Folha 1/8  |  F2 / 2.1</text>
+<text x="52" y="710" font-family="Segoe UI,Arial" font-size="11" font-weight="400" fill="#6a6a6a">Revisao A  |  2026-09-23</text>
+<text x="52" y="736" font-family="Segoe UI,Arial" font-size="12" font-weight="700" fill="#1a1a1a">2Solve</text>
+<text x="52" y="762" font-family="Segoe UI,Arial" font-size="10" font-weight="400" fill="#6a6a6a">Verdade: os .kicad_sch</text>
+</svg>

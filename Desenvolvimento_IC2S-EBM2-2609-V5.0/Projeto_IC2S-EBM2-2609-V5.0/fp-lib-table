@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "EBM2_V5")(type "KiCad")(uri "${KIPRJMOD}/footprints/EBM2_V5.pretty")(options "")(descr "Footprints do projecto EBM2 V5, herdados da biblioteca EBM7_V23 validada."))
+)

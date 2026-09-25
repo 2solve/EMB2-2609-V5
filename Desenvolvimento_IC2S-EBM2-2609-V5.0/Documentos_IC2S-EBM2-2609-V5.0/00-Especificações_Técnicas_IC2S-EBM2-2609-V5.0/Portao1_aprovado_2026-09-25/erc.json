@@ -1,0 +1,70 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-25T09:57:19",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/873bf552-94cb-4fe4-9213-f79e9821baca",
+            "violations": []
+        },
+        {
+            "path": "/1 Conectores/",
+            "uuid_path": "/873bf552-94cb-4fe4-9213-f79e9821baca/954355e8-dd7d-45e2-ac29-f7991216bbbd",
+            "violations": []
+        },
+        {
+            "path": "/2 Entrada/",
+            "uuid_path": "/873bf552-94cb-4fe4-9213-f79e9821baca/c2f29862-7f8d-4bfc-b53d-4b6e8f2da933",
+            "violations": []
+        },
+        {
+            "path": "/3 Alimentacao/",
+            "uuid_path": "/873bf552-94cb-4fe4-9213-f79e9821baca/499e7f8e-bd46-4332-a4da-4ccc2afc4430",
+            "violations": []
+        },
+        {
+            "path": "/4 Barreira digital/",
+            "uuid_path": "/873bf552-94cb-4fe4-9213-f79e9821baca/833ea678-a46e-43c7-a2d9-3cb876c3643f",
+            "violations": []
+        },
+        {
+            "path": "/5 ADC/",
+            "uuid_path": "/873bf552-94cb-4fe4-9213-f79e9821baca/ea82ea26-3859-44df-990e-172417c66408",
+            "violations": []
+        },
+        {
+            "path": "/6 Lacos/",
+            "uuid_path": "/873bf552-94cb-4fe4-9213-f79e9821baca/92de0a46-fdcc-4d6a-8efe-79265455fb08",
+            "violations": []
+        },
+        {
+            "path": "/7 NTC/",
+            "uuid_path": "/873bf552-94cb-4fe4-9213-f79e9821baca/d5ebff84-abd6-4f7d-8ee2-84b59953a0c9",
+            "violations": []
+        }
+    ],
+    "source": "IC2S_Extension_Board-EBM2_V5.kicad_sch"
+}

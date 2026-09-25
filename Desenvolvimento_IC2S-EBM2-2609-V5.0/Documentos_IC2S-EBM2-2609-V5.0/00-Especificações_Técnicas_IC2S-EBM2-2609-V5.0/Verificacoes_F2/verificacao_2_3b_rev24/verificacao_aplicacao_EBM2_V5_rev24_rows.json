@@ -1,0 +1,2207 @@
+[
+ {
+  "ic": "TPS7A4001 U640 (+12V_TPS)",
+  "source": "SBVS162B eq. (1) p.10 / fig. 13",
+  "formula": "VOUT = VREF x (1 + R1/R2) ; 1,161 <= VOUT <= 90 V (§6.3)",
+  "values": {
+   "VREF": 1.173,
+   "R1": 93100.0,
+   "R2": 10000.0
+  },
+  "expr": "1.161 <= VREF*(1+R1/R2) <= 90",
+  "show": "VREF*(1+R1/R2)"
+ },
+ {
+  "ic": "TPS7A4001 U640 (+12V_TPS)",
+  "source": "SBVS162B eq. (1) p.10 + §6.5 nota (1) p.5",
+  "formula": "VOUT/(R1+R2) >= 10 uA (estabilidade sem carga)",
+  "values": {
+   "VOUT": 12.093630000000001,
+   "R1": 93100.0,
+   "R2": 10000.0
+  },
+  "expr": "VOUT/(R1+R2) >= 10e-6",
+  "show": "VOUT/(R1+R2)"
+ },
+ {
+  "ic": "TPS7A4001 U640 (+12V_TPS)",
+  "source": "SBVS162B §8.2.2 p.11",
+  "formula": "R1 + R2 <= 500 kOhm (máximo da malha de realimentação)",
+  "values": {
+   "R1": 93100.0,
+   "R2": 10000.0
+  },
+  "expr": "R1+R2 <= 500e3",
+  "show": "R1+R2"
+ },
+ {
+  "ic": "TPS7A4001 U640 (+12V_TPS)",
+  "source": "SBVS162B §6.5 p.5 (accuracy ±2,5 %) + tolerância 1 % de R641/R642",
+  "formula": "+12V_TPS min/max = VREF x (1 + R1(1-t)/R2(1+t)) x (1-acc) … x (1+acc) — intervalo usado nas linhas do TPS26613",
+  "values": {
+   "VREF": 1.173,
+   "R1": 93100.0,
+   "R2": 10000.0,
+   "t": 0.01,
+   "acc": 0.025
+  },
+  "expr": "VREF*(1+R1*(1-t)/(R2*(1+t)))*(1-acc) > 8.6 and VREF*(1+R1*(1+t)/(R2*(1-t)))*(1+acc) < 30",
+  "show": "VREF*(1+R1*(1-t)/(R2*(1+t)))*(1-acc) ; VREF*(1+R1*(1+t)/(R2*(1-t)))*(1+acc)",
+  "tag": "[DERIVADO] 11,58–12,62 V; a exactidão ±2,5 % está especificada para VIN <= 24 V (nota 2, térmica) — ver linha própria"
+ },
+ {
+  "ic": "TPS7A4001 U640 (+12V_TPS)",
+  "source": "SBVS162B §6.3 ROC p.4",
+  "formula": "7 V <= VIN <= 100 V (VIN = +24V_ADC nos extremos)",
+  "values": {
+   "V24_min": 17.313218780510915,
+   "V24_max": 31.593218780510913
+  },
+  "expr": "7 <= V24_min and V24_max <= 100",
+  "show": "V24_min ; V24_max",
+  "tag": "[DERIVADO] +24V_ADC = VIN − R_F202·I − V_F(D202); piso com V_F máx 0,58 V (fig. 2), tecto com V_F 0,30 V"
+ },
+ {
+  "ic": "TPS7A4001 U640 (+12V_TPS)",
+  "source": "SBVS162B §6.5 p.5 (condição VIN >= VOUT(NOM) + 2 V) e VDO 290 mV",
+  "formula": "VIN_min >= VOUT + 2 V",
+  "values": {
+   "V24_min": 17.313218780510915,
+   "VOUT": 12.093630000000001
+  },
+  "expr": "V24_min >= VOUT + 2",
+  "show": "V24_min - VOUT"
+ },
+ {
+  "ic": "TPS7A4001 U640 (+12V_TPS)",
+  "source": "SBVS162B §6.5 nota (2) p.5",
+  "formula": "P = (VIN − VOUT) x IOUT + VIN x IGND ; TJ = TA + P x RthJA <= 125 °C (a 32 V, seis TPS em falha)",
+  "values": {
+   "V24_max": 31.593218780510913,
+   "VOUT": 12.093630000000001,
+   "IOUT": 0.011376524361357943,
+   "IGND": 6.5e-05,
+   "TA": 70.0,
+   "Rth": 66.7
+  },
+  "expr": "TA + ((V24_max-VOUT)*IOUT + V24_max*IGND)*Rth <= 125",
+  "show": "(V24_max-VOUT)*IOUT + V24_max*IGND ; TA + ((V24_max-VOUT)*IOUT + V24_max*IGND)*Rth",
+  "tag": "a nota (2) limita a 24 V por dissipação a 50 mA; aqui IOUT = 11,4 mA"
+ },
+ {
+  "ic": "TPS7A4001 U640 (+12V_TPS)",
+  "source": "SBVS162B §6.3 IOUT <= 50 mA / §6.5 ILIM 51 mA min",
+  "formula": "IOUT = 6 x I(+Vs)_falha + I(R643/R644/R645) + I(R641/R642) <= 50 mA",
+  "values": {
+   "I_Vs_flt": 0.00175,
+   "R1s": 13300.0,
+   "R2s": 3325.0,
+   "R1": 93100.0,
+   "R2": 10000.0,
+   "Vs": 12.622105007575756
+  },
+  "expr": "6*I_Vs_flt + Vs/(R1s+R2s) + Vs/(R1+R2) <= 0.050",
+  "show": "6*I_Vs_flt + Vs/(R1s+R2s) + Vs/(R1+R2)"
+ },
+ {
+  "ic": "TPS7A4001 U640 (+12V_TPS)",
+  "source": "SBVS162B p.1 / §8.2.2.2 p.11 / pin OUT p.3",
+  "formula": "COUT > 4,7 uF 'over temperature and tolerance' — C642 10 uF/50 V X5R 1206 a 12,1 V e 70 °C",
+  "values": {
+   "C_eff_12V_70C": null,
+   "C_min": 4.7e-06
+  },
+  "expr": "C_eff_12V_70C > C_min",
+  "show": "C_eff_12V_70C",
+  "tag": "[INHERITED] Legacy C38 = C3216X5R1H106K160AB; sem datasheet TDK no disco (LISTA.md): a curva de polarização é obrigatória, X5R a 24 % da tensão nominal pode ficar perto de 4,7 uF"
+ },
+ {
+  "ic": "TPS7A4001 U640 (+12V_TPS)",
+  "source": "SBVS162B p.1 / §8.2.2.2 p.11",
+  "formula": "CIN >= 1 uF 'over temperature and tolerance' — C640 10 uF/100 V a 31,6 V",
+  "values": {
+   "C_eff_32V": null,
+   "C_min": 1e-06
+  },
+  "expr": "C_eff_32V >= C_min",
+  "show": "C_eff_32V",
+  "tag": "[INHERITED] Legacy C35 = GRM32EC72A106ME05L; sem datasheet Murata no disco. Para falhar teria de perder 90 %: formalidade, mas não se assina sem a curva"
+ },
+ {
+  "ic": "TPS7A4001 U640 (+12V_TPS)",
+  "source": "SBVS162B §8.2.2.3 p.11",
+  "formula": "CBYP = 10 nF entre FB e OUT — 'TI highly recommends' (não é condição de estabilidade)",
+  "values": {
+   "C_BYP": 0.0
+  },
+  "expr": "C_BYP >= 10e-9",
+  "show": "C_BYP",
+  "tag": "[RECOMENDAÇÃO] rede FB_U640 só tem R641/R642 na netlist; copiado da Legacy sem CBYP"
+ },
+ {
+  "ic": "TPS7A4001 U640 (+12V_TPS)",
+  "source": "SBVS162B §9 p.12",
+  "formula": "Entrada e saída desacopladas com 10 uF junto aos pinos, sem outros componentes entre o condensador e o pino",
+  "values": {
+   "C_IN": 1e-05,
+   "C_OUT": 1e-05
+  },
+  "expr": "C_IN >= 10e-6 and C_OUT >= 10e-6",
+  "show": "C_IN ; C_OUT",
+  "tag": "valores OK (C640/C642); colocação confere-se na F3"
+ },
+ {
+  "ic": "TPS7A4001 U640 (+12V_TPS)",
+  "source": "SBVS162B pin EN p.3 / §6.1 abs max EN-IN <= 0,3 V",
+  "formula": "EN ligado a IN: VEN <= VIN sempre ; VEN >= VEN_HI 1,5 V",
+  "values": {
+   "V_EN_minus_V_IN": 0.0,
+   "V24_min": 17.313218780510915
+  },
+  "expr": "V_EN_minus_V_IN <= 0.3 and V24_min >= 1.5",
+  "show": "V24_min",
+  "tag": "netlist: pinos 5 (EN) e 8 (IN) na mesma rede +24V_ADC"
+ },
+ {
+  "ic": "TPS7A4001 U640 (+12V_TPS)",
+  "source": "SBVS162B pin table p.3",
+  "formula": "PowerPAD ligado ao plano de GND ; NC (3, 6, 7) abertos ou a GND",
+  "values": {
+   "pad_gnd": 1,
+   "nc_open": 1
+  },
+  "expr": "pad_gnd == 1 and nc_open == 1",
+  "tag": "netlist: pino 9 GND_ADC; pinos 3/6/7 unconnected"
+ },
+ {
+  "ic": "TPS7A4001 U640 (+12V_TPS)",
+  "source": "SBVS162B §6.5 ILIM p.5 + arranque",
+  "formula": "t_arranque = C(+12V_TPS) x VOUT / ILIM_min (informativo; sem soft-start no PDF — 'soft' só aparece em 'Tools & Software', p.1)",
+  "values": {
+   "C": 1.0700000000000001e-05,
+   "VOUT": 12.093630000000001,
+   "ILIM_min": 0.051
+  },
+  "expr": "C*VOUT/ILIM_min < 0.1",
+  "show": "C*VOUT/ILIM_min",
+  "tag": "o planeamento §5 afirma 'arranque suave próprio': não está no SBVS162B"
+ },
+ {
+  "ic": "TPS7A4001 U640 (+12V_TPS)",
+  "source": "SBVS162B §10.1 p.13 + fig. 17",
+  "formula": "Planos de GND de entrada e saída unidos só no pino GND; CIN/COUT/CBYP do mesmo lado da placa, sem vias",
+  "values": {
+   "cumprido_F3": null
+  },
+  "expr": "cumprido_F3 == 1",
+  "tag": "layout: F3"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §7.3 ROC p.4 / Table 10-1 p.35",
+  "formula": "3 V <= +Vs <= 30 V (alimentação única, −Vs = GND)",
+  "values": {
+   "Vs_min": 11.580445403465347,
+   "Vs_max": 12.622105007575756
+  },
+  "expr": "3 <= Vs_min and Vs_max <= 30",
+  "show": "Vs_min ; Vs_max"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §7.1 abs max p.4",
+  "formula": "+Vs <= 32 V ; −Vs entre −22 e 0,3 V (−Vs = GND_ADC)",
+  "values": {
+   "Vs_max": 12.622105007575756,
+   "V_negVs": 0.0
+  },
+  "expr": "Vs_max <= 32 and -22 <= V_negVs <= 0.3",
+  "show": "Vs_max"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §7.5 Vs_DIFF p.6",
+  "formula": "(+Vs) − (−Vs) >= 3 V",
+  "values": {
+   "Vs_min": 11.580445403465347,
+   "V_negVs": 0.0
+  },
+  "expr": "Vs_min - V_negVs >= 3",
+  "show": "Vs_min - V_negVs"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §7.5 VOUT_OVLO p.5 / §9.2.2.1 p.27",
+  "formula": "V(OUT)_max = I(OL)_max x R_burden < (+Vs)_min + 0,05 V (senão o FET corta)",
+  "values": {
+   "IOL_max": 0.04,
+   "R_b": 110.0,
+   "R_ser": 0.0,
+   "Vs_min": 11.580445403465347
+  },
+  "expr": "IOL_max*(R_b+R_ser) < Vs_min + 0.05",
+  "show": "IOL_max*(R_b+R_ser) ; Vs_min + 0.05"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C Table 8-2 nota (1) p.20",
+  "formula": "(R1 + R2) <= (+Vs) / 45 uA — R1 = R643, R2 = R644||R645",
+  "values": {
+   "R1": 13300.0,
+   "R2": 3325.0,
+   "Vs_min": 11.580445403465347
+  },
+  "expr": "R1+R2 <= Vs_min/45e-6",
+  "show": "R1+R2 ; Vs_min/45e-6"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C Table 8-2 nota (1) p.20 — interacção: um divisor para seis pinos VSNS",
+  "formula": "(R1 + R2) <= (+Vs) / (6 x 45 uA) (a nota é por dispositivo; a rede VSNS é partilhada por U601-U606)",
+  "values": {
+   "R1": 13300.0,
+   "R2": 3325.0,
+   "Vs_min": 11.580445403465347,
+   "n": 6
+  },
+  "expr": "R1+R2 <= Vs_min/(n*45e-6)",
+  "show": "R1+R2 ; Vs_min/(n*45e-6)",
+  "tag": "[INTERPRETAÇÃO do verificador] o datasheet não especifica a corrente do pino VSNS"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C Table 8-2 nota (2) p.20",
+  "formula": "V(SNSF) x (R1 + R2)/R2 > I_LOOP x R_burden, com I_LOOP = I(OL)_max",
+  "values": {
+   "V_SNSF": 1.0,
+   "R1": 13300.0,
+   "R2": 3325.0,
+   "IOL_max": 0.04,
+   "R_b": 110.0
+  },
+  "expr": "V_SNSF*(R1+R2)/R2 > IOL_max*R_b",
+  "show": "V_SNSF*(R1+R2)/R2 ; IOL_max*R_b",
+  "tag": "desvio da Legacy (R22 11k5 → R643 13k3) confirmado; V(SNSF) só tem valor típico (p.6): margem 14 %"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C Table 8-2 linha '±Vs supplies' p.20",
+  "formula": "+Vs >= V(SNSR) x (R1 + R2)/R2 — para ficar em modo ±Vs e não em loop power",
+  "values": {
+   "V_SNSR": 1.72,
+   "R1": 13300.0,
+   "R2": 3325.0,
+   "Vs_min": 11.580445403465347
+  },
+  "expr": "Vs_min >= V_SNSR*(R1+R2)/R2",
+  "show": "V_SNSR*(R1+R2)/R2 ; Vs_min"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §8.3.5.1 p.20 (texto)",
+  "formula": "Usar R1/R2 quando I_LOOP x R_burden > 1,8 V (a 20 mA: 2,2 V) → divisor tem de existir",
+  "values": {
+   "I_LOOP": 0.02,
+   "R_b": 110.0,
+   "divisor_montado": 1
+  },
+  "expr": "(I_LOOP*R_b <= 1.8) or (divisor_montado == 1)",
+  "show": "I_LOOP*R_b"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §7.3 ROC VSNS 0-5 V / §7.1 abs max 5,5 V p.4",
+  "formula": "V(VSNS) = (+Vs)_max x R2/(R1+R2) <= 5 V",
+  "values": {
+   "Vs_max": 12.622105007575756,
+   "R1": 13300.0,
+   "R2": 3325.0
+  },
+  "expr": "Vs_max*R2/(R1+R2) <= 5",
+  "show": "Vs_max*R2/(R1+R2)"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C Table 6-1 p.3 / §8.3.4 p.19 / §8.3.2",
+  "formula": "−Vs = GND e GND = GND da fonte de +Vs (alimentação unipolar, bloqueio de corrente inversa) ; MODE = GND (0 V, ROC 0-3 V)",
+  "values": {
+   "pin1_gnd": 1,
+   "pin3_gnd": 1,
+   "V_MODE": 0.0
+  },
+  "expr": "pin1_gnd == 1 and pin3_gnd == 1 and 0 <= V_MODE <= 3",
+  "show": "V_MODE",
+  "tag": "netlist: pinos 1, 2, 3 em GND_ADC; pino 6 +12V_TPS; pino 7 VSNS; pino 8 NC"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §7.3 ROC IN/OUT −50..50 V p.4",
+  "formula": "V(IN) em curto do transmissor a 32 V = +24V_ADC_max <= 50 V",
+  "values": {
+   "V24_max": 31.593218780510913
+  },
+  "expr": "V24_max <= 50",
+  "show": "V24_max"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §7.1 abs max IN ±55 V p.4 — interacção com D601 (SMBJ33A-13-F)",
+  "formula": "V_C(D601) a I_PP < 55 V",
+  "values": {
+   "V_C_D601": null,
+   "abs_max": 55
+  },
+  "expr": "V_C_D601 < abs_max",
+  "show": "V_C_D601",
+  "tag": "sem datasheet Diodes no disco (LISTA.md). Para a classe 33 V os PDF Bourns/Würth dão 53,3 V @ 11,3 A: 1,7 V de margem, e acima dos 50 V de ROC"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "Interacção D601 ↔ +24V_ADC",
+  "formula": "V_RWM(D601) >= +24V_ADC_max (retorno em curto a 32 V)",
+  "values": {
+   "V_RWM_D601": null,
+   "V24_max": 31.593218780510913
+  },
+  "expr": "V_RWM_D601 >= V24_max",
+  "show": "V24_max",
+  "tag": "sem datasheet; a designação SMBJ33A implica 33 V — não se assina por designação"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §8.3.1 p.15 + §7.5 I(OL) p.5 — dissipação em curto a 32 V",
+  "formula": "P = (+24V_ADC_max − I(OL)_max x R_F60x − I(OL)_max x R_burden) x I(OL)_max ; média com tOL_Expiry/(tOL_Expiry+tRETRY1) ; TJ <= 125 °C",
+  "values": {
+   "V24_max": 31.593218780510913,
+   "IOL_max": 0.04,
+   "R_F": 9.2,
+   "R_b": 110.0,
+   "duty": 0.11111111111111112,
+   "I_Vs": 0.00175,
+   "Vs": 12.622105007575756,
+   "TA": 70.0,
+   "Rth": 117.8
+  },
+  "expr": "TA + ((V24_max - IOL_max*R_F - IOL_max*R_b)*IOL_max*duty + I_Vs*Vs)*Rth <= 125",
+  "show": "(V24_max - IOL_max*R_F - IOL_max*R_b)*IOL_max ; (V24_max - IOL_max*R_F - IOL_max*R_b)*IOL_max*duty ; TA + ((V24_max - IOL_max*R_F - IOL_max*R_b)*IOL_max*duty + I_Vs*Vs)*Rth",
+  "tag": "Table 8-3 p.23: MODE = GND → 100 ms a I(OL), retry 800 ms; RthJA 117,8 °C/W (p.4, placa JEDEC)"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C fig. 7-19 p.12 (curva TA = 85 °C, lida na figura ampliada)",
+  "formula": "t_TSD(P_curto) >= tOL_Expiry 100 ms — o temporizador corta antes do corte térmico",
+  "values": {
+   "t_TSD_ms": 140.0,
+   "tOL_Expiry_ms": 100.0
+  },
+  "expr": "t_TSD_ms >= tOL_Expiry_ms",
+  "show": "t_TSD_ms/tOL_Expiry_ms",
+  "tag": "figura típica (IOUT = 60 mA, MODE = 180 kΩ, placa TI); a 1,07 W e 85 °C lê-se ≈140 ms, não ≈200 ms como na intenção §9; usa-se 85 °C porque a média do ciclo põe a junção ≈ +16 °C acima dos 70 °C. Se o TSD disparar primeiro, o dispositivo também faz auto-retry (p.15)"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §7.5 I(FASTRIP) p.5 / §8.3.1 p.15 — interacção com R621/C601 e o pino do MCP3208",
+  "formula": "Corrente prospectiva de curto = +24V_ADC_max/(R_F60x + RON_min + R_burden) ; se > I(FASTRIP) o FET corta em <= 5 us ; degrau no pino do ADC ≈ I x R_b x 5 us/(R621 x C601) <= VDD + 0,6 − 2,5",
+  "values": {
+   "V24_max": 31.593218780510913,
+   "R_F": 9.2,
+   "RON_min": 4.8,
+   "R_b": 110.0,
+   "R_aa": 3300.0,
+   "C_aa": 1e-07,
+   "t_ft": 5e-06,
+   "headroom": 1.4
+  },
+  "expr": "(V24_max/(R_F+RON_min+R_b))*R_b*t_ft/(R_aa*C_aa) <= headroom",
+  "show": "V24_max/(R_F+RON_min+R_b) ; (V24_max/(R_F+RON_min+R_b))*R_b*t_ft/(R_aa*C_aa)"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §7.5 I(OL) min p.5 — interacção com a escala do ADC e NE43",
+  "formula": "I(OL)_min 25 mA >= 22,7 mA (saturação do MCP3208 com VREF 2,5 V e 110 Ω) >= 21 mA (NE43)",
+  "values": {
+   "IOL_min": 0.025,
+   "I_sat": 0.022727272727272728,
+   "I_NE43": 0.021
+  },
+  "expr": "IOL_min >= I_sat >= I_NE43",
+  "show": "I_sat"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §7.5 IQ p.5",
+  "formula": "Erro de medida por fuga IN/OUT: IQ_max x R_burden <= 1/2 LSB (condição V(IN),V(OUT) < +Vs − 0,35 V)",
+  "values": {
+   "IQ": 1e-07,
+   "R_b": 110.0,
+   "LSB": 0.0006103515625,
+   "V_node_max": 2.784090909090909,
+   "Vs_min": 11.580445403465347
+  },
+  "expr": "IQ*R_b <= LSB/2 and V_node_max < Vs_min - 0.35",
+  "show": "IQ*R_b ; LSB/2 ; V_node_max"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §7.5 RON p.6",
+  "formula": "Queda no protector a 22,7 mA = RON_max x I (só afecta a tensão ao transmissor, não a medida)",
+  "values": {
+   "RON_max": 12.5,
+   "I": 0.022727272727272728
+  },
+  "expr": "RON_max*I < 0.5",
+  "show": "RON_max*I"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §7.5 VO_UVLO p.6 / §8.3.3.3 p.19 / Table 8-1 p.17 — inversão",
+  "formula": "OUT < (−Vs) − 0,2..−0,4 V corta o FET; o pino do ADC fica >= −0,4 V >= −0,6 V (abs max MCP3208 p.2). O 26613 NÃO tem UVLO de IN (Table 8-1)",
+  "values": {
+   "V_OUT_min": -0.4,
+   "abs_min_ADC": -0.6
+  },
+  "expr": "V_OUT_min >= abs_min_ADC",
+  "show": "V_OUT_min",
+  "tag": "com IN negativo conduz primeiro o D601 em directo: caminho limitado só pela fonte de campo — ver «o que nenhuma ferramenta viu»"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §11.1 p.36",
+  "formula": "Pelo menos 100 nF junto a +Vs de cada dispositivo — C611..C616 100 nF/100 V",
+  "values": {
+   "C_Vs": 1e-07
+  },
+  "expr": "C_Vs >= 100e-9",
+  "show": "C_Vs"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §11.1 p.36",
+  "formula": "TVS junto ao pino IN (D601 em AINk−) ; percurso de corrente do laço curto",
+  "values": {
+   "d_TVS_IN_mm": null
+  },
+  "expr": "d_TVS_IN_mm <= 5",
+  "tag": "layout: F3"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §11.1 p.36 + planeamento §5",
+  "formula": "Ambos os terminais do burden encaminhados diferencialmente ao ADC — aqui o MCP3208 é single-ended: exige R(GND burden → AGND) < 5 mΩ (queda < 1 LSB a 120 mA)",
+  "values": {
+   "R_gnd_mohm": null
+  },
+  "expr": "R_gnd_mohm < 5",
+  "tag": "layout: F3 (restrição do planeamento §5)"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C Table 8-3 p.23 / §9.1 p.26 — arranque de transmissor a 2 fios com MODE = GND",
+  "formula": "Carga que o transmissor pode absorver no arranque sem disparar o corte: I(OL)_min x tOL_Expiry >= C_tx x V_loop (TI reserva o 26612/MODE≠GND para 'power hungry transmitters')",
+  "values": {
+   "IOL_min": 0.025,
+   "tOL": 0.1,
+   "C_tx": null,
+   "V_loop": 14.7
+  },
+  "expr": "IOL_min*tOL >= C_tx*V_loop",
+  "show": "IOL_min*tOL",
+  "tag": "capacidade de entrada dos transmissores de campo desconhecida: pergunta ao projectista/campo. Q disponível = 2,5 mC ≈ 170 uF a 14,7 V"
+ },
+ {
+  "ic": "TPS26613 U601-U606",
+  "source": "SLVSFE3C §8.3.5 p.20 (loop power mode sem +Vs)",
+  "formula": "Sem +12V_TPS o dispositivo conduz com queda 5–8,5 V e limita a 22–45,5 mA: a medida continua (informativo) e o nó do burden sobe a 45,5 mA x 110 Ω",
+  "values": {
+   "IOL_noVs_max": 0.0455,
+   "R_b": 110.0,
+   "Vs_min_plus": 11.630445403465348
+  },
+  "expr": "IOL_noVs_max*R_b < Vs_min_plus",
+  "show": "IOL_noVs_max*R_b"
+ },
+ {
+  "ic": "R611-R616 ERA8AEB111V (burden)",
+  "source": "SLVSFE3C Table 9-2 p.27 (MODE = GND, 40 mA) + Panasonic AOA0000C307 p.2 (ERA8A 1206: 0,25 W a 85 °C)",
+  "formula": "P_pico = I(OL)_max^2 x R_burden <= 0,25 W (a 70 °C não há derating: começa a 85 °C)",
+  "values": {
+   "IOL_max": 0.04,
+   "R_b": 110.0,
+   "P_rated": 0.25
+  },
+  "expr": "IOL_max**2*R_b <= P_rated",
+  "show": "IOL_max**2*R_b"
+ },
+ {
+  "ic": "R611-R616 ERA8AEB111V (burden)",
+  "source": "idem — média no ciclo 100 ms/900 ms",
+  "formula": "P_média = P_pico x duty <= 0,25 W",
+  "values": {
+   "IOL_max": 0.04,
+   "R_b": 110.0,
+   "duty": 0.11111111111111112,
+   "P_rated": 0.25
+  },
+  "expr": "IOL_max**2*R_b*duty <= P_rated",
+  "show": "IOL_max**2*R_b*duty"
+ },
+ {
+  "ic": "R611-R616 ERA8AEB111V (burden)",
+  "source": "Panasonic AOA0000C307 p.2 nota *2 (RCWV = sqrt(P x R))",
+  "formula": "V_burden em curto = I(OL)_max x R_b <= RCWV",
+  "values": {
+   "IOL_max": 0.04,
+   "R_b": 110.0,
+   "P_rated": 0.25
+  },
+  "expr": "IOL_max*R_b <= sqrt(P_rated*R_b)",
+  "show": "IOL_max*R_b ; sqrt(P_rated*R_b)"
+ },
+ {
+  "ic": "R611-R616 ERA8AEB111V (burden)",
+  "source": "Teste de uma multiplicação (escopo RM2/planeamento §2.5)",
+  "formula": "20 mA x 110 Ω = 2,200 V <= VREF 2,5 V ; 22,7 mA = fundo de escala",
+  "values": {
+   "I": 0.02,
+   "R_b": 110.0,
+   "VREF": 2.5
+  },
+  "expr": "I*R_b <= VREF",
+  "show": "I*R_b ; I*R_b/VREF"
+ },
+ {
+  "ic": "R601-R606 RC0603JR-070RL (0 Ω)",
+  "source": "Yageo RC0603 jumper — corrente nominal",
+  "formula": "I(OL)_max 40 mA (e pico 255 mA <= 5 us) <= I_nominal do jumper",
+  "values": {
+   "IOL_max": 0.04,
+   "I_rated": null
+  },
+  "expr": "IOL_max <= I_rated",
+  "show": "IOL_max",
+  "tag": "sem datasheet Yageo no disco; posição do R10 da Legacy"
+ },
+ {
+  "ic": "R621/C601 + D621 BAV199 + MCP3208 (cadeia do ADC)",
+  "source": "BAV199LT1/D p.2 (VF <= 0,9 V @ 1 mA, majorante) + DS21298E p.2 (abs max VDD + 0,6 V) — V10",
+  "formula": "Transmissor em curto: V_pino = 3V3_REF + VF(BAV199) com I_clamp = (I(OL)_max x R_b − 3V3_REF − VF)/R621 ; V_pino <= VDD + 0,6",
+  "values": {
+   "IOL_max": 0.04,
+   "R_b": 110.0,
+   "V33": 3.3,
+   "VF_max": 0.9,
+   "R_aa": 3300.0,
+   "VDD": 3.3
+  },
+  "expr": "V33 + VF_max <= VDD + 0.6",
+  "show": "V33 + VF_max ; VDD + 0.6 ; (IOL_max*R_b - V33 - VF_max)/R_aa",
+  "tag": "majorante: VF a 0,06 mA é < 0,9 V (o PDF só tabela 1/10/50/150 mA); com VF típico ≈0,6 V fica ≈3,9 V — no limite. O díodo interno do MCP3208 grampeia a VDD+0,6 com dezenas de uA: sem dano, mas fora do abs max formal"
+ },
+ {
+  "ic": "R621/C601 + D621 BAV199 + MCP3208 (cadeia do ADC)",
+  "source": "escopo RA4 (3V3_REF <= 3,7 V com 30 V numa entrada) — sumidouro do clamp",
+  "formula": "6 canais em curto: I_clamp_total = 6 x (I(OL)_max x R_b − 3,3 − 0,6)/R621 << carga do trilho (TL431 grampeia a 3,60 V só se o trilho subir)",
+  "values": {
+   "IOL_max": 0.04,
+   "R_b": 110.0,
+   "R_aa": 3300.0,
+   "I_load_3V3_min": 0.002
+  },
+  "expr": "6*(IOL_max*R_b - 3.3 - 0.6)/R_aa < I_load_3V3_min",
+  "show": "6*(IOL_max*R_b - 3.3 - 0.6)/R_aa",
+  "tag": "carga mínima do 3V3_REF (MCP3208 + ADR4525 + ISO7141 lado 2) tomada por baixo em 2 mA; o TL431 (R204/R205 → 3,60 V) é a rede de segurança"
+ },
+ {
+  "ic": "R621/C601 + D621 BAV199 + MCP3208 (cadeia do ADC)",
+  "source": "BAV199LT1/D p.2 (IR 5 nA @ 70 V/25 °C, 80 nA @ 150 °C)",
+  "formula": "Erro por fuga do clamp: IR x R621 <= 1/2 LSB",
+  "values": {
+   "IR": 8e-08,
+   "R_aa": 3300.0,
+   "LSB": 0.0006103515625
+  },
+  "expr": "IR*R_aa <= LSB/2",
+  "show": "IR*R_aa ; LSB/2"
+ },
+ {
+  "ic": "D611-D616 824520361 (SMBJ36A, LOOPk_V+)",
+  "source": "Würth 824520361 p.1",
+  "formula": "V_DC (standoff) 36 V >= +24V_ADC_max",
+  "values": {
+   "V_RWM": 36.0,
+   "V24_max": 31.593218780510913
+  },
+  "expr": "V_RWM >= V24_max",
+  "show": "V24_max"
+ },
+ {
+  "ic": "D611-D616 824520361 (SMBJ36A, LOOPk_V+)",
+  "source": "Würth 824520361 p.1",
+  "formula": "V_BR min = 42,1 V x 0,95 >= +24V_ADC_max",
+  "values": {
+   "V_BR": 42.1,
+   "tol": 0.05,
+   "V24_max": 31.593218780510913
+  },
+  "expr": "V_BR*(1-tol) >= V24_max",
+  "show": "V_BR*(1-tol)"
+ },
+ {
+  "ic": "D611-D616 824520361 (SMBJ36A, LOOPk_V+)",
+  "source": "Würth p.1 V_clamp 58,1 V @ 10,4 A — escopo RA3 aplicado ao trilho de laço",
+  "formula": "V_C <= menor abs max a jusante de LOOPk_V+: F60x 63 VDC (Schurter p.1), C201/C640 100 V, D202 100 V (MBR1H100SF p.2), U640 105 V (SBVS162B p.4)",
+  "values": {
+   "V_C": 58.1,
+   "abs_min": 63.0
+  },
+  "expr": "V_C <= abs_min",
+  "show": "V_C ; abs_min"
+ },
+ {
+  "ic": "D611-D616 824520361 (SMBJ36A, LOOPk_V+)",
+  "source": "Würth p.1 (I_Leak 1 uA @ 36 V) — interacção com a medida",
+  "formula": "Fuga do D61x flui de LOOPk_V+ para GND antes do transmissor: não passa no burden → erro de medida = 0 x R_b",
+  "values": {
+   "I_leak": 1e-06,
+   "no_burden": 0
+  },
+  "expr": "I_leak*no_burden*110 <= 0.000305",
+  "show": "I_leak*no_burden*110"
+ },
+ {
+  "ic": "F601-F606 3413.0002.22 (50 mA)",
+  "source": "Schurter USFF1206 p.3 curva de derating (lida na figura: ≈80 % a 70 °C)",
+  "formula": "I_normal <= In x derating(70 °C) ; 22,7 mA vs 50 mA x 0,8",
+  "values": {
+   "I_max_normal": 0.022727272727272728,
+   "In": 0.05,
+   "derate": 0.8
+  },
+  "expr": "I_max_normal <= In*derate",
+  "show": "I_max_normal/(In*derate)"
+ },
+ {
+  "ic": "F601-F606 3413.0002.22 (50 mA)",
+  "source": "Schurter p.3 pre-arcing 1,0 x In >= 4 h — falha com TPS26613",
+  "formula": "I(OL)_max 40 mA <= In x derating (o curto do transmissor não abre o fusível de canal: é o protector que actua) ; I_RMS do ciclo = 40 mA x sqrt(duty)",
+  "values": {
+   "IOL_max": 0.04,
+   "In": 0.05,
+   "derate": 0.8,
+   "duty": 0.11111111111111112
+  },
+  "expr": "IOL_max <= In*derate",
+  "show": "IOL_max/(In*derate) ; IOL_max*sqrt(duty)"
+ },
+ {
+  "ic": "F601-F606 3413.0002.22 (50 mA)",
+  "source": "Schurter p.3 I2t 0,0002 A2s (8 In) + breaking 100 A @ 63 VDC",
+  "formula": "Curto de LOOPk_V+ a GND: I = +24V_ADC_max/R_fus ; t_fusão = I2t/I^2 ; I <= 100 A",
+  "values": {
+   "V24_max": 31.593218780510913,
+   "R_F": 9.2,
+   "I2t": 0.0002,
+   "I_break": 100.0
+  },
+  "expr": "V24_max/R_F <= I_break and I2t/(V24_max/R_F)**2 < 1e-3",
+  "show": "V24_max/R_F ; I2t/(V24_max/R_F)**2"
+ },
+ {
+  "ic": "F601-F606 3413.0002.22 (50 mA)",
+  "source": "Schurter p.1 tensão nominal 63 VDC",
+  "formula": "V_C(D61x) 58,1 V <= 63 V",
+  "values": {
+   "V_C": 58.1,
+   "V_rated": 63.0
+  },
+  "expr": "V_C <= V_rated",
+  "show": "V_C"
+ },
+ {
+  "ic": "F601-F606 3413.0002.22 (50 mA)",
+  "source": "Schurter I2t 0,0002 A2s — surto 8/20 us descarregado no D61x (intenção §9, rev. 2.3)",
+  "formula": "I_retorno = (V_C − +24V_ADC_max)/R_fus ; I^2 x 20 us <= I2t (informativo: não há requisito de imunidade, RA3)",
+  "values": {
+   "V_C": 58.1,
+   "V24_max": 31.593218780510913,
+   "R_F": 9.2,
+   "I2t": 0.0002,
+   "t": 2e-05
+  },
+  "expr": "((V_C-V24_max)/R_F)**2*t <= I2t",
+  "show": "(V_C-V24_max)/R_F ; ((V_C-V24_max)/R_F)**2*t ; I2t",
+  "tag": "margem 1,2x com o valor típico do I2t; em 10/1000 us abre (a intenção já o diz)"
+ },
+ {
+  "ic": "F202 CC12H750mA + D202 (RA2)",
+  "source": "Eaton 4309 p.2 + planeamento §2.6 ; escopo RA2 (>= 10x) — a 32 V com C201 + C640 + C641",
+  "formula": "I2t = V^2 C/(2 R_fus) ; margem = I2t_fusão/I2t >= 10",
+  "values": {
+   "V": 32.0,
+   "C": 2.01e-05,
+   "R": 0.8,
+   "I2t_f": 0.15
+  },
+  "expr": "I2t_f/(V**2*C/(2*R)) >= 10",
+  "show": "V**2*C/(2*R) ; I2t_f/(V**2*C/(2*R))",
+  "tag": "a rev. 2.4 duplicou o bulk (C640): a margem cai de 41,7x (24 V, 10 uF, planeamento) para 11,7x; só a resistência do fusível a limitar (conservador)"
+ },
+ {
+  "ic": "F202 CC12H750mA + D202 (RA2)",
+  "source": "idem + SBVS162B ILIM 200 mA max — carga de C642/C61x/C643 pelo U640",
+  "formula": "I2t_total = I2t(C24V) + ILIM_max^2 x (C12V x VOUT/ILIM_max) ; margem >= 10",
+  "values": {
+   "V": 32.0,
+   "C": 2.01e-05,
+   "R": 0.8,
+   "I2t_f": 0.15,
+   "ILIM": 0.2,
+   "C12": 1.0700000000000001e-05,
+   "VOUT": 12.093630000000001
+  },
+  "expr": "I2t_f/(V**2*C/(2*R) + ILIM**2*(C12*VOUT/ILIM)) >= 10",
+  "show": "ILIM**2*(C12*VOUT/ILIM) ; I2t_f/(V**2*C/(2*R) + ILIM**2*(C12*VOUT/ILIM))"
+ },
+ {
+  "ic": "F202 CC12H750mA + D202 (RA2)",
+  "source": "Eaton 4309 p.2 nota 3 (I2t medido a 10 In) — pico de arranque",
+  "formula": "I_pico = V/R_fus (limite superior) ; I_pico <= I_FSM(D202) 50 A (MBR1H100SF p.2, 8,3 ms) ; o I2t a 53 In pode ser menor que o típico a 10 In",
+  "values": {
+   "V": 32.0,
+   "R": 0.8,
+   "IFSM": 50.0
+  },
+  "expr": "V/R <= IFSM",
+  "show": "V/R",
+  "tag": "tau = R x C = 16 us; o pico real é menor (V_F do D202, ESR, cablagem)"
+ },
+ {
+  "ic": "F202 CC12H750mA + D202 (RA2)",
+  "source": "Eaton 4309 p.2 (100 % 4 h min)",
+  "formula": "I_regime = 6 x 20 mA + U640 + LED <= 750 mA ; falha 6 x 40 mA",
+  "values": {
+   "I_reg": 0.13347652436135793,
+   "I_flt": 0.2534765243613579,
+   "In": 0.75
+  },
+  "expr": "I_flt <= In",
+  "show": "I_reg ; I_flt"
+ },
+ {
+  "ic": "F202 CC12H750mA + D202 (RA2)",
+  "source": "Eaton 4309 p.2 (63 VDC) + Bourns SMA6J33A p.2 (V_C 53,3 V) — RA3",
+  "formula": "V_C(D200) <= 63 V",
+  "values": {
+   "V_C": 53.3,
+   "V_rated": 63.0
+  },
+  "expr": "V_C <= V_rated",
+  "show": "V_C"
+ },
+ {
+  "ic": "F201 CC12H250mA + R206 + U200 (RA2)",
+  "source": "Eaton 4309 p.2 + planeamento §2.6 — a 32 V, só C200 (a conta do planeamento, a 24 V, dava 15,3x com 22 Ω)",
+  "formula": "I2t = V^2 C200/(2 (R_fus + R206)) ; margem >= 10",
+  "values": {
+   "V": 32.0,
+   "C": 2.2e-06,
+   "R_f": 3.5,
+   "R206": 33.0,
+   "I2t_f": 0.00038
+  },
+  "expr": "I2t_f/(V**2*C/(2*(R_f+R206))) >= 10",
+  "show": "V**2*C/(2*(R_f+R206)) ; I2t_f/(V**2*C/(2*(R_f+R206)))"
+ },
+ {
+  "ic": "F201 CC12H250mA + R206 + U200 (RA2)",
+  "source": "idem + SBVS162B §6.5 ILIM p.5 (51–200 mA; sem soft-start no PDF) — carga de C202/C203 pelo U200",
+  "formula": "I2t_total = I2t(C200) + ILIM^2 x (C5V x VOUT/ILIM), ILIM = 200 mA máx ; margem >= 10",
+  "values": {
+   "V": 32.0,
+   "C": 2.2e-06,
+   "R_f": 3.5,
+   "R206": 33.0,
+   "I2t_f": 0.00038,
+   "ILIM": 0.2,
+   "C5": 1.0100000000000002e-05,
+   "VOUT": 4.973520000000001
+  },
+  "expr": "I2t_f/(V**2*C/(2*(R_f+R206)) + ILIM**2*(C5*VOUT/ILIM)) >= 10",
+  "show": "ILIM**2*(C5*VOUT/ILIM) ; V**2*C/(2*(R_f+R206)) + ILIM**2*(C5*VOUT/ILIM) ; I2t_f/(V**2*C/(2*(R_f+R206)) + ILIM**2*(C5*VOUT/ILIM))",
+  "tag": "o planeamento §2.6 diz 'C200 e mais nada': ignora os 10 uF de C202 atrás do LDO; o LDO limita a corrente mas não a energia que o fusível vê"
+ },
+ {
+  "ic": "F201 CC12H250mA + R206 + U200 (RA2)",
+  "source": "idem com ILIM típico 117 mA",
+  "formula": "mesma conta com ILIM típico",
+  "values": {
+   "V": 32.0,
+   "C": 2.2e-06,
+   "R_f": 3.5,
+   "R206": 33.0,
+   "I2t_f": 0.00038,
+   "ILIM": 0.117,
+   "C5": 1.0100000000000002e-05,
+   "VOUT": 4.973520000000001
+  },
+  "expr": "I2t_f/(V**2*C/(2*(R_f+R206)) + ILIM**2*(C5*VOUT/ILIM)) >= 10",
+  "show": "I2t_f/(V**2*C/(2*(R_f+R206)) + ILIM**2*(C5*VOUT/ILIM))"
+ },
+ {
+  "ic": "F201 CC12H250mA + R206 + U200 (RA2)",
+  "source": "idem, com toda a capacidade a jusante do U200 (C204..C208, C207, C501/502, C403, C500, C601-606, C700 ≈ 5,7 uF a 3,3 V) e ILIM máx",
+  "formula": "I2t_total = I2t(C200) + ILIM^2 x [(C5V x 4,97 + C3V3 x 3,3)/ILIM] ; margem >= 10",
+  "values": {
+   "V": 32.0,
+   "C": 2.2e-06,
+   "R_f": 3.5,
+   "R206": 33.0,
+   "I2t_f": 0.00038,
+   "ILIM": 0.2,
+   "C5": 1.0100000000000002e-05,
+   "VOUT": 4.973520000000001,
+   "C33": 5.399999999999999e-06
+  },
+  "expr": "I2t_f/(V**2*C/(2*(R_f+R206)) + ILIM*(C5*VOUT + C33*3.3)) >= 10",
+  "show": "I2t_f/(V**2*C/(2*(R_f+R206)) + ILIM*(C5*VOUT + C33*3.3))"
+ },
+ {
+  "ic": "F201 CC12H250mA + R206 + U200 (RA2)",
+  "source": "MBR1H100SF p.2 I_FSM 50 A",
+  "formula": "I_pico(F201) = V/(R_fus + R206) <= I_FSM(D201)",
+  "values": {
+   "V": 32.0,
+   "R_f": 3.5,
+   "R206": 33.0,
+   "IFSM": 50.0
+  },
+  "expr": "V/(R_f+R206) <= IFSM",
+  "show": "V/(R_f+R206)"
+ },
+ {
+  "ic": "F201 CC12H250mA + R206 + U200 (RA2)",
+  "source": "intenção V5 — energia de impulso em R206",
+  "formula": "E = 1/2 C200 V^2 em tau = (R_fus+R206) C200 <= energia de impulso admissível do MPN",
+  "values": {
+   "C": 2.2e-06,
+   "V": 32.0,
+   "E_pulse_rated": null
+  },
+  "expr": "0.5*C*V**2 <= E_pulse_rated",
+  "show": "0.5*C*V**2",
+  "tag": "R206 sem MPN na netlist (V5 aberta)"
+ },
+ {
+  "ic": "D630 KG EELP41.22 + R630 14k7",
+  "source": "KG EELP41.22 p.4 (IF 0,5–30 mA) e p.5 (VF 1,6–2,4 V)",
+  "formula": "0,5 mA <= (V24 − VF)/R630 <= 30 mA nos dois extremos",
+  "values": {
+   "V24_max": 31.593218780510913,
+   "V24_min": 17.313218780510915,
+   "VF_min": 1.6,
+   "VF_max": 2.4,
+   "R": 14700.0
+  },
+  "expr": "(V24_max-VF_min)/R <= 0.030 and (V24_min-VF_max)/R >= 0.0005",
+  "show": "(V24_max-VF_min)/R ; (V24_min-VF_max)/R"
+ },
+ {
+  "ic": "U200 TPS7A4001",
+  "source": "SBVS162B §6.3 Rec. Op., p.4",
+  "formula": "VIN >= 7 V (mín. recomendado)",
+  "values": {
+   "VIN_MIN": 18.0,
+   "R_F201": 3.5,
+   "VF_D201": 0.45,
+   "R206": 33.0,
+   "I_REG": 0.0087341295025729
+  },
+  "expr": "VIN_MIN - R_F201*I_REG - VF_D201 - R206*I_REG >= 7",
+  "show": "VIN_MIN - R_F201*I_REG - VF_D201 - R206*I_REG",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] entrada a 18 V (RA1)"
+ },
+ {
+  "ic": "U200 TPS7A4001",
+  "source": "SBVS162B §6.1 Abs. max, p.4",
+  "formula": "IN, EN <= 105 V (abs.) ; §6.3 VIN <= 100 V",
+  "values": {
+   "VC_D200": 53.3
+  },
+  "expr": "VC_D200 <= 100",
+  "show": "VC_D200",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] no grampo do D200 (Bourns p.2, I_PP 11,3 A)"
+ },
+ {
+  "ic": "U200 TPS7A4001",
+  "source": "SBVS162B §8.1.1 Eq.1 / Fig.13, p.10",
+  "formula": "VOUT = VREF x (1 + R1/R2)  [R1=R201 OUT→FB, R2=R202 FB→GND]",
+  "values": {
+   "VREF": 1.173,
+   "R1": 32400.0,
+   "R2": 10000.0
+  },
+  "expr": "1.161 <= VREF*(1+R1/R2) <= 90",
+  "show": "VREF*(1+R1/R2)",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U200 TPS7A4001",
+  "source": "SBVS162B §6.5 nota(1) p.5 + §8.1.1 p.10",
+  "formula": "VOUT/(R1+R2) >= 10 µA (estabilidade sem carga)",
+  "values": {
+   "VOUT": 4.974,
+   "R1": 32400.0,
+   "R2": 10000.0
+  },
+  "expr": "VOUT/(R1+R2) >= 10e-6",
+  "show": "VOUT/(R1+R2)",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U200 TPS7A4001",
+  "source": "SBVS162B §8.2.2, p.11",
+  "formula": "R1 + R2 <= 500 kΩ (máx. de realimentação)",
+  "values": {
+   "R1": 32400.0,
+   "R2": 10000.0
+  },
+  "expr": "R1+R2 <= 500e3",
+  "show": "R1+R2",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U200 TPS7A4001",
+  "source": "SBVS162B §6.5 p.5 (VREF 1,161–1,185) + R ±1 %",
+  "formula": "banda de +5V_ADC = VREF_min/max x (1 + R1/R2) com R1/R2 ±2 %",
+  "values": {
+   "VREF_MIN": 1.161,
+   "VREF_MAX": 1.185,
+   "ratio": 3.24
+  },
+  "expr": "VREF_MIN*(1+ratio*0.98) >= 3.3+0.25 and VREF_MAX*(1+ratio*1.02) <= 16",
+  "show": "VREF_MIN*(1+ratio*0.98) ; VREF_MAX*(1+ratio*1.02)",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] limites: VIN mín do SPX3819 = 3,3+0,25 V ; VIN máx SPX3819 16 V"
+ },
+ {
+  "ic": "U200 TPS7A4001",
+  "source": "SBVS162B §6.1 Abs. max, p.4",
+  "formula": "FB pin <= 2 V",
+  "values": {
+   "V_FB": 1.185
+  },
+  "expr": "V_FB <= 2",
+  "show": "V_FB",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U200 TPS7A4001",
+  "source": "SBVS162B §8.2.2.2, p.11",
+  "formula": "COUT >= 4,7 µF (mín. p/ estabilidade; 10 µF recomendado) — capacidade EFECTIVA a 5 V",
+  "values": {
+   "C202_nominal": 1e-05,
+   "C202_efectiva_5V": null
+  },
+  "expr": "C202_efectiva_5V >= 4.7e-6",
+  "show": "C202_nominal",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] C202 = 10 µF/25 V em 0603 (X5R): perda por polarização DC a 5 V tipicamente 40–60 %; sem MPN não se prova ≥ 4,7 µF"
+ },
+ {
+  "ic": "U200 TPS7A4001",
+  "source": "SBVS162B §8.2.2.2, p.11 (+ §9 p.12: 10 µF junto ao pino)",
+  "formula": "CIN >= 1 µF — capacidade EFECTIVA a 32 V",
+  "values": {
+   "C200_nominal": 2.2e-06,
+   "C200_efectiva_32V": null
+  },
+  "expr": "C200_efectiva_32V >= 1e-6",
+  "show": "C200_nominal",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] V6 aberta: sem MPN de C200 não há curva de polarização; §9 recomenda 10 µF"
+ },
+ {
+  "ic": "U200 TPS7A4001",
+  "source": "SBVS162B §8.2.2.3, p.11",
+  "formula": "CBYP = 10 nF entre FB e OUT («highly recommended», não exigido p/ estabilidade)",
+  "values": {
+   "CBYP_nF": 0.0
+  },
+  "expr": "CBYP_nF >= 10",
+  "show": "CBYP_nF",
+  "tag": "[1.ª corrida, ACTUALIZADA para a rev. 2.4] [RECOMENDAÇÃO, não requisito de estabilidade] tratamento igual ao do U640 nesta corrida (a 1.ª dava 'cumpre' com nota)"
+ },
+ {
+  "ic": "U200 TPS7A4001",
+  "source": "SBVS162B §10.4 Eq.2 + §6.4 RθJA 66,7 °C/W, p.4/14",
+  "formula": "PD = (VIN−VOUT)·IOUT + VIN·IGND ; TJ = 70 + PD·RθJA <= 125 °C",
+  "values": {
+   "V_REG": 31.231204273156088,
+   "VOUT": 4.974,
+   "I_REG": 0.0087341295025729,
+   "I_GND": 6.5e-05,
+   "RthJA": 66.7,
+   "TA": 70.0
+  },
+  "expr": "TA + ((V_REG-VOUT)*I_REG + V_REG*I_GND)*RthJA <= 125",
+  "show": "(V_REG-VOUT)*I_REG + V_REG*I_GND ; TA + ((V_REG-VOUT)*I_REG + V_REG*I_GND)*RthJA",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] a 32 V; I_REG soma ICC2 ISO7141 4,9 + MCP3208 0,4 + ADR4525 1,42 + SPX 0,25 + LED 1,58 + divisor 0,12 mA"
+ },
+ {
+  "ic": "U200 TPS7A4001",
+  "source": "SBVS162B §6.5 nota(2), p.5",
+  "formula": "«VIN limitado a 24 V pela dissipação a plena carga (50 mA)» → PD(32 V, carga real) <= (24−VREF)·50 mA = 1,14 W",
+  "values": {
+   "V_REG": 31.231204273156088,
+   "VOUT": 4.974,
+   "I_REG": 0.0087341295025729
+  },
+  "expr": "(V_REG-VOUT)*I_REG <= 1.14",
+  "show": "(V_REG-VOUT)*I_REG",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] a nota permite >24 V se a dissipação couber"
+ },
+ {
+  "ic": "U200 TPS7A4001",
+  "source": "SBVS162B §10.3, p.14",
+  "formula": "protecção térmica (170 °C) deve disparar >= 45 °C acima da ambiente máxima",
+  "values": {
+   "TSD": 170.0,
+   "PD": 0.2293338224972558,
+   "RthJA": 66.7,
+   "TA": 70.0
+  },
+  "expr": "TSD - PD*RthJA >= TA + 45",
+  "show": "TSD - PD*RthJA",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U200 TPS7A4001",
+  "source": "SBVS162B §6.3, p.4",
+  "formula": "IOUT <= 50 mA",
+  "values": {
+   "I_REG": 0.0087341295025729
+  },
+  "expr": "I_REG <= 50e-3",
+  "show": "I_REG",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U200 TPS7A4001",
+  "source": "SBVS162B §6.5 p.5",
+  "formula": "VEN_HI >= 1,5 V (EN ligado a IN)",
+  "values": {
+   "V_REG_18": 17.231204273156088
+  },
+  "expr": "V_REG_18 >= 1.5",
+  "show": "V_REG_18",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U200 TPS7A4001",
+  "source": "SBVS162B — pesquisa «soft»: 0 ocorrências",
+  "formula": "arranque suave («arranque suave próprio», planejamento §5) — existe no datasheet?",
+  "values": {
+   "ocorrencias_soft": 0.0
+  },
+  "expr": "ocorrencias_soft > 0",
+  "show": "ocorrencias_soft",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] não consta: o arranque só é limitado por ILIM 51–200 mA (p.5)"
+ },
+ {
+  "ic": "U201 SPX3819",
+  "source": "SPX3819 Operating Ratings, p.2",
+  "formula": "2,5 V <= VIN <= 16 V (V2 da intenção)",
+  "values": {
+   "V5_MIN": 4.8474072,
+   "V5_MAX": 5.1011880000000005
+  },
+  "expr": "V5_MIN >= 2.5 and V5_MAX <= 16",
+  "show": "V5_MIN ; V5_MAX",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U201 SPX3819",
+  "source": "SPX3819 Abs. Max, p.2",
+  "formula": "VIN, EN dentro de −20..+20 V",
+  "values": {
+   "V5_MAX": 5.1011880000000005
+  },
+  "expr": "V5_MAX <= 20",
+  "show": "V5_MAX",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U201 SPX3819",
+  "source": "SPX3819 p.3 VIH >= 2,0 V ; I_EN máx 20 µA",
+  "formula": "V_EN = VIN − I_EN·R203 >= 2,0 V",
+  "values": {
+   "V5_MIN": 4.8474072,
+   "I_EN": 2e-05,
+   "R203": 100000.0
+  },
+  "expr": "V5_MIN - I_EN*R203 >= 2.0",
+  "show": "V5_MIN - I_EN*R203",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U201 SPX3819",
+  "source": "SPX3819 p.2 Dropout (• sobre temp.) 250 mV @ 50 mA",
+  "formula": "VIN − VOUT >= 0,25 V",
+  "values": {
+   "V5_MIN": 4.8474072,
+   "V33_MAX": 3.3659999999999997
+  },
+  "expr": "V5_MIN - V33_MAX >= 0.25",
+  "show": "V5_MIN - V33_MAX",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U201 SPX3819",
+  "source": "SPX3819 p.7 «requires an output capacitor»; especificações com CL = 1 µF",
+  "formula": "COUT >= 1 µF (valor)",
+  "values": {
+   "C204": 2.2e-06
+  },
+  "expr": "C204 >= 1e-6",
+  "show": "C204",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] sem MPN de C204"
+ },
+ {
+  "ic": "U201 SPX3819",
+  "source": "SPX3819 p.7 «2,2 µF aluminium… 1 µF tantalum… bench testing is the best method»",
+  "formula": "estabilidade com condensador CERÂMICO de baixa ESR — especificada?",
+  "values": {
+   "ESR_min_especificada": null
+  },
+  "expr": "ESR_min_especificada >= 0",
+  "show": "",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] não está neste PDF (rev 2.0.5). [INHERITED] a V4.1 usa o mesmo LDO (U11) com cerâmicos — evidência de campo, não especificação"
+ },
+ {
+  "ic": "U201 SPX3819",
+  "source": "SPX3819 p.3 / p.7",
+  "formula": "BYP = 10 nF",
+  "values": {
+   "C208": 1e-08
+  },
+  "expr": "C208 == 10e-9",
+  "show": "C208",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U201 SPX3819",
+  "source": "SPX3819 nota 1 p.2: PD(max) = (TJ(max)−TA)/θJA, θJA(SOT23-5) 191 °C/W",
+  "formula": "PD = (VIN−VOUT)·IL + VIN·IGND <= (125−70)/191",
+  "values": {
+   "V5_MAX": 5.1011880000000005,
+   "VOUT": 3.3,
+   "IL": 0.00672,
+   "IGND": 0.00025,
+   "thJA": 191.0,
+   "TA": 70.0
+  },
+  "expr": "(V5_MAX-VOUT)*IL + V5_MAX*IGND <= (125-TA)/thJA",
+  "show": "(V5_MAX-VOUT)*IL + V5_MAX*IGND ; (125-TA)/thJA",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U201 SPX3819",
+  "source": "SPX3819 p.2 tolerância ±2 % (•)",
+  "formula": "banda 3V3_REF = 3,3 V ±2 % → 3,234..3,366 V (usada nas linhas seguintes)",
+  "values": {
+   "V33_MIN": 3.234,
+   "V33_MAX": 3.3659999999999997
+  },
+  "expr": "V33_MIN > 0",
+  "show": "V33_MIN ; V33_MAX",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] + regulação de linha 0,2 %/V·(5,08−4,3)=0,16 % e de carga 0,4 % não somadas"
+ },
+ {
+  "ic": "U202 ADR4525",
+  "source": "ADR45xx Rev.G Tabela 2, p.4: «VIN = 3 V to 15 V»; VDO <= 500 mV",
+  "formula": "3V3_REF_min >= VOUT + VDO = 2,5 + 0,5 = 3,0 V",
+  "values": {
+   "V33_MIN": 3.234,
+   "VOUT": 2.5,
+   "VDO": 0.5
+  },
+  "expr": "V33_MIN >= VOUT + VDO",
+  "show": "V33_MIN - (VOUT+VDO)",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] margem 0,234 V; ligação directa (sem ferrite)"
+ },
+ {
+  "ic": "U202 ADR4525",
+  "source": "ADR45xx Rev.G Tabela 11 p.35: COUT mín 1,0 µF ; Tabela 2 p.5: load capacitance 1..100 µF",
+  "formula": "C207 + C500 com tolerância −10 % >= 1,0 µF",
+  "values": {
+   "C207": 1e-06,
+   "C500": 1e-07,
+   "tol": 0.1
+  },
+  "expr": "(C207+C500)*(1-tol) >= 1.0e-6",
+  "show": "(C207+C500)*(1-tol)",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] 1,0 µF nominal É o mínimo: qualquer tolerância fica abaixo, antes de polarização DC e temperatura; sem MPN de C207"
+ },
+ {
+  "ic": "U202 ADR4525",
+  "source": "ADR45xx Rev.G p.35 Input Capacitors",
+  "formula": "CIN 1..10 µF + 0,1 µF cerâmico em paralelo",
+  "values": {
+   "C_in_bulk": 2.2e-06,
+   "C_in_hf": 1e-07
+  },
+  "expr": "1e-6 <= C_in_bulk <= 10e-6 and C_in_hf == 100e-9",
+  "show": "C_in_bulk",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] C204 + C205/C206 na rede 3V3_REF; a colocação junto ao pino 2 é da F3"
+ },
+ {
+  "ic": "U202 ADR4525",
+  "source": "ADR45xx Rev.G Tabela 2 p.4: IL sourcing <= 10 mA",
+  "formula": "I_VREF(MCP3208 máx 150 µA) + I_NTC(70 °C) <= 10 mA",
+  "values": {
+   "I_VREF": 0.00015,
+   "R_NTC_70": 2210.0,
+   "R701": 5620.0,
+   "VREF": 2.5
+  },
+  "expr": "I_VREF + VREF/(R_NTC_70+R701) <= 10e-3",
+  "show": "I_VREF + VREF/(R_NTC_70+R701)",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U202 ADR4525",
+  "source": "ADR45xx Rev.G Tabela 2 p.4: load regulation 80 ppm/mA (máx) — interacção com o divisor NTC",
+  "formula": "ΔI_NTC(0→70 °C)·80 ppm/mA <= 1 LSB (244 ppm)",
+  "values": {
+   "VREF": 2.5,
+   "R_NTC_0": 28700.0,
+   "R_NTC_70": 2210.0,
+   "R701": 5620.0,
+   "LR": 80.0
+  },
+  "expr": "(VREF/(R_NTC_70+R701) - VREF/(R_NTC_0+R701))*1e3*LR <= 244",
+  "show": "(VREF/(R_NTC_70+R701) - VREF/(R_NTC_0+R701))*1e3*LR",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] ppm; erro comum a todos os canais"
+ },
+ {
+  "ic": "U202 ADR4525",
+  "source": "ADR45xx Rev.G p.35 Power Dissipation: PD = (TJ−TA)/θJA ; Tabela 8 p.10 θJA 120 °C/W (2 camadas)",
+  "formula": "PD = (VIN−VOUT)·IL + VIN·IQ <= (125−70)/120",
+  "values": {
+   "V33_MAX": 3.3659999999999997,
+   "VOUT": 2.5,
+   "IL": 0.00047,
+   "IQ": 0.00095,
+   "thJA": 120.0,
+   "TA": 70.0
+  },
+  "expr": "(V33_MAX-VOUT)*IL + V33_MAX*IQ <= (125-TA)/thJA",
+  "show": "(V33_MAX-VOUT)*IL + V33_MAX*IQ",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U202 ADR4525",
+  "source": "ADR45xx Rev.G Tabela 7 p.10 Abs. max supply 16 V",
+  "formula": "3V3_REF grampeado <= 16 V",
+  "values": {
+   "V_CLAMP_MAX": 3.716
+  },
+  "expr": "V_CLAMP_MAX <= 16",
+  "show": "V_CLAMP_MAX",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U202 ADR4525",
+  "source": "ADR45xx Rev.G Tabela 2 p.4: TCVOUT B grade 4 ppm/°C (bowtie)",
+  "formula": "deriva 25→70 °C = 4·45 ppm <= orçamento RE2 (2000 ppm)",
+  "values": {
+   "TC": 4.0,
+   "dT": 45.0
+  },
+  "expr": "TC*dT <= 2000",
+  "show": "TC*dT",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] ppm"
+ },
+ {
+  "ic": "U202 ADR4525",
+  "source": "ADR45xx Rev.G Tabela 2 p.4: histerese térmica 25→70→0→25 °C: −8 ppm (típ.)",
+  "formula": "∣hist∣ <= 1 LSB (244 ppm)",
+  "values": {
+   "hist": 8.0
+  },
+  "expr": "hist <= 244",
+  "show": "hist",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] ppm, típico — não é limite"
+ },
+ {
+  "ic": "U203 TL431B",
+  "source": "SLVS543S §9.2.2.2.1 p.26: Vo = (1+R1/R2)·Vref ± Iref·R1  [R1=R204, R2=R205]",
+  "formula": "Vo nominal <= 3,7 V (RA4)",
+  "values": {
+   "VREF": 2.495,
+   "R204": 4420.0,
+   "R205": 10000.0,
+   "IREF": 4e-06
+  },
+  "expr": "(1+R204/R205)*VREF + IREF*R204 <= 3.7",
+  "show": "(1+R204/R205)*VREF + IREF*R204",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U203 TL431B",
+  "source": "SLVS543S §6.13 p.14 (TL431BQ): Vref 2,483–2,507; VI(dev) 34 mV; Iref 4 µA; ∣Z_KA∣ 0,5 Ω  + R ±1 %",
+  "formula": "Vo máx = (1+R1·1,01/(R2·0,99))·(Vref_max+VI(dev)) + Iref·R1 + ZKA·I_K <= 3,7 V (RA4)",
+  "values": {
+   "VREF_MAX": 2.507,
+   "VIDEV": 0.034,
+   "R204": 4420.0,
+   "R205": 10000.0,
+   "IREF": 4e-06,
+   "ZKA": 0.5,
+   "I_K": 0.04599
+  },
+  "expr": "(1+R204*1.01/(R205*0.99))*(VREF_MAX+VIDEV) + IREF*R204*1.01 + ZKA*I_K <= 3.7",
+  "show": "(1+R204*1.01/(R205*0.99))*(VREF_MAX+VIDEV) + IREF*R204*1.01 + ZKA*I_K",
+  "tag": "[1.ª corrida, ACTUALIZADA para a rev. 2.4] I_K da falha dupla com R601 = 0 Ω (30 V directos no burden): 6 x 7.66 mA; tolerância 1 % ASSUMIDA (R204/R205 sem MPN); com 0,1 % e este I_K dá 3,72 V — continua a falhar"
+ },
+ {
+  "ic": "U203 TL431B",
+  "source": "SLVS543S §6.13 p.14 — mínimo do grampo vs máximo de 3V3_REF",
+  "formula": "Vo mín = (1+R1·0,99/(R2·1,01))·(Vref_min−VI(dev)) > 3V3_REF_max (TL431 desligado em operação normal)",
+  "values": {
+   "VREF_MIN": 2.483,
+   "VIDEV": 0.034,
+   "R204": 4420.0,
+   "R205": 10000.0,
+   "V33_MAX": 3.3659999999999997
+  },
+  "expr": "(1+R204*0.99/(R205*1.01))*(VREF_MIN-VIDEV) > V33_MAX",
+  "show": "(1+R204*0.99/(R205*1.01))*(VREF_MIN-VIDEV) ; V33_MAX",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U203 TL431B",
+  "source": "SLVS543S §6.4 p.5: IKA 1..100 mA ; §6.13 Imin 0,7 mA",
+  "formula": "corrente de grampo por canal (protector em curto = falha dupla, 30 V no burden com R601 = 0 Ω) e total de 6 canais dentro de 1..100 mA",
+  "values": {
+   "I_CH": 0.00766,
+   "I_TOT": 0.04599
+  },
+  "expr": "I_CH >= 1e-3 and I_TOT <= 100e-3",
+  "show": "I_CH ; I_TOT",
+  "tag": "[1.ª corrida, ACTUALIZADA para a rev. 2.4] na falha SIMPLES (protector a regular a 40 mA) o clamp total é 0,4–0,9 mA, abaixo do I_min de 0,7 mA: o TL431 nem entra; só a falha dupla o solicita"
+ },
+ {
+  "ic": "U203 TL431B",
+  "source": "SLVS543S §6.13 p.14: Ioff <= 0,5 µA (VKA = 36 V)",
+  "formula": "consumo do grampo desligado em operação normal desprezável (<1 % de IQ do ADR4525)",
+  "values": {
+   "IOFF": 5e-07,
+   "IQ_ADR": 0.0007
+  },
+  "expr": "IOFF <= 0.01*IQ_ADR",
+  "show": "IOFF",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U203 TL431B",
+  "source": "SLVS543S §9.4 p.31 «be sure that the capacitance is within the stability criteria shown in Figure 6-16 and 6-18»; Fig.6-18 p.18",
+  "formula": "C_L no cátodo fora da zona de oscilação: C_L <= 0,01 µF ou C_L >= 6 µF (curva A, VKA=Vref; a 3,6 µF a curva A está em ≈25 mA)",
+  "values": {
+   "C_L": 3.5999999999999994e-06
+  },
+  "expr": "C_L <= 0.01e-6 or C_L >= 6e-6",
+  "show": "C_L",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] C204+C205+C206+C403+C501+C502 (ferrites transparentes a <1 MHz). VKA = 3,6 V fica entre a curva A (Vref) e a B (5 V, estável acima de ~1,5 µF): não demonstrável estável a 3–21 mA; só a bancada ou C_L ≥ 10 µF fecham"
+ },
+ {
+  "ic": "U203 TL431B",
+  "source": "SLVS543S §6.3 p.5 RθJA(DBZ) 206 °C/W ; §6.4 nota(1) PD = (TJ−TA)/θJA",
+  "formula": "PD = Vo·I_K(6 canais) <= (125−70)/206",
+  "values": {
+   "Vo": 3.716,
+   "I_K": 0.04599,
+   "thJA": 206.0,
+   "TA": 70.0
+  },
+  "expr": "Vo*I_K <= (125-TA)/thJA",
+  "show": "Vo*I_K ; (125-TA)/thJA",
+  "tag": "[1.ª corrida, ACTUALIZADA para a rev. 2.4]"
+ },
+ {
+  "ic": "U400 ISO7141",
+  "source": "SLLSE83F §6.3 p.5: VCC1,VCC2 2,7..5,5 V ; §9.1 p.21 «3 V to 5.5 V»",
+  "formula": "VCC1 (MCP1824 ±2,5 %) dentro de 3,0..5,5 V",
+  "values": {
+   "VCC1_MIN": 3.2175,
+   "VCC1_MAX": 3.3824999999999994
+  },
+  "expr": "VCC1_MIN >= 3.0 and VCC1_MAX <= 5.5",
+  "show": "VCC1_MIN ; VCC1_MAX",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U400 ISO7141",
+  "source": "SLLSE83F §6.3 p.5 / §9.1 p.21",
+  "formula": "VCC2 = 3V3_REF − R_DC(FB400)·ICC2 dentro de 3,0..5,5 V",
+  "values": {
+   "V33_MIN": 3.234,
+   "R_FB": 0.3,
+   "ICC2": 0.0049
+  },
+  "expr": "V33_MIN - R_FB*ICC2 >= 3.0",
+  "show": "V33_MIN - R_FB*ICC2",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] R_DC do BLM18PG471SN1D ≈ 0,3 Ω (não está na pasta; estimativa)"
+ },
+ {
+  "ic": "U400 ISO7141",
+  "source": "SLLSE83F §6.1 p.5 Abs. max VCC 6 V",
+  "formula": "VCC2 durante o grampo do TL431 <= 6 V",
+  "values": {
+   "V_CLAMP_MAX": 3.716
+  },
+  "expr": "V_CLAMP_MAX <= 6",
+  "show": "V_CLAMP_MAX",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U400 ISO7141",
+  "source": "SLLSE83F §6.7 p.6: VOH >= VCC−0,5 V (IOH=−4 mA) ; DS21298E p.3: VIH(MCP3208) = 0,7·VDD",
+  "formula": "OUTA/B/C → DIN/CLK/CS: VCC2_min − 0,5 >= 0,7·VDD_ADC_max",
+  "values": {
+   "V33_MIN": 3.234,
+   "V33_MAX": 3.3659999999999997
+  },
+  "expr": "V33_MIN - 0.5 >= 0.7*V33_MAX",
+  "show": "V33_MIN - 0.5 ; 0.7*V33_MAX",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U400 ISO7141",
+  "source": "SLLSE83F §6.3 p.5: VIH >= 2,0 V (IND) ; DS21298E p.3: VOH só especificado a VDD=4,5 V (4,1 V)",
+  "formula": "DOUT(MCP3208 a 3,3 V) >= 2,0 V",
+  "values": {
+   "VOH_MCP3208_3V3": null
+  },
+  "expr": "VOH_MCP3208_3V3 >= 2.0",
+  "show": "",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] DS21298E não especifica VOH a 3,3 V; saída CMOS, esperado ≈ VDD−0,1 V; não garantido por datasheet"
+ },
+ {
+  "ic": "U400 ISO7141",
+  "source": "SLLSE83F §6.3 p.5: VIH >= 2,0 V, VIL <= 0,8 V (INA/B/C do Raspberry Pi a 3,3 V)",
+  "formula": "VOH(Pi) >= 2,0 V",
+  "values": {
+   "VOH_PI": null
+  },
+  "expr": "VOH_PI >= 2.0",
+  "show": "",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] datasheet da base board / BCM não está na pasta"
+ },
+ {
+  "ic": "U400 ISO7141",
+  "source": "SLLSE83F §6.7 p.6: VOH(OUTD) <= VCC1 (G2)",
+  "formula": "OUTD → MISO do Pi: VCC1_max <= 3,3 + 0,3 (abs. max típico de GPIO 3,3 V)",
+  "values": {
+   "VCC1_MAX": 3.3824999999999994
+  },
+  "expr": "VCC1_MAX <= 3.6",
+  "show": "VCC1_MAX",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] limite do Pi não está na pasta; 3,6 V é o valor habitual — a conferir"
+ },
+ {
+  "ic": "U400 ISO7141",
+  "source": "SLLSE83F §10 p.25 + Fig.20 p.22: 0,1 µF em VCC1 e VCC2, «2 mm max from VCC»",
+  "formula": "C401 = C403 = 100 nF",
+  "values": {
+   "C401": 1e-07,
+   "C403": 1e-07
+  },
+  "expr": "C401 == 100e-9 and C403 == 100e-9",
+  "show": "C401",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U400 ISO7141",
+  "source": "SLLSE83F Fig.20 p.22: «2 mm max from VCC1/VCC2»",
+  "formula": "distância pino→condensador <= 2 mm",
+  "values": {
+   "d_C401_mm": null,
+   "d_C403_mm": null
+  },
+  "expr": "d_C401_mm <= 2 and d_C403_mm <= 2",
+  "show": "",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] F3 — placement"
+ },
+ {
+  "ic": "U400 ISO7141",
+  "source": "SLLSE83F §6.13 p.10: ICC1 máx 3,1 mA (3,3 V, DC-1 Mbps)",
+  "formula": "ICC1 <= 300 mA do MCP1824",
+  "values": {
+   "ICC1": 0.0031
+  },
+  "expr": "ICC1 <= 300e-3",
+  "show": "ICC1",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U400 ISO7141",
+  "source": "SLLSE83F §6.1 p.5: IO <= ±15 mA",
+  "formula": "saídas atacam entradas CMOS (fugas ±10 µA)",
+  "values": {
+   "I_IN_MCP": 1e-05
+  },
+  "expr": "I_IN_MCP <= 15e-3",
+  "show": "I_IN_MCP",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U400 ISO7141",
+  "source": "SLLSE83F p.1 «suffix F… default output low; otherwise default output HIGH»; §6.10 tfs 8 µs",
+  "formula": "com VCC1 ausente, OUTC (CS_ADC_ISO) vai a ALTO → MCP3208 desseleccionado (CS/SHDN alto = standby, DS21298E §3.7 p.15)",
+  "values": {
+   "default_high": 1.0
+  },
+  "expr": "default_high == 1",
+  "show": "default_high",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] estado seguro com o barramento desligado"
+ },
+ {
+  "ic": "U400 ISO7141",
+  "source": "SLLSE83F §11.1 p.25 «A minimum of four layers is required»",
+  "formula": "camadas >= 4",
+  "values": {
+   "camadas": 4.0
+  },
+  "expr": "camadas >= 4",
+  "show": "camadas",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] escopo §4 item 4: 4 camadas"
+ },
+ {
+  "ic": "U400 ISO7141",
+  "source": "SLLSE83F §6.3 p.5: signaling rate <= 40 Mbps (VCC<4,5 V)",
+  "formula": "SPI 20 kHz",
+  "values": {
+   "f_spi": 20000.0
+  },
+  "expr": "f_spi <= 40e6",
+  "show": "f_spi",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U401 MCP1824S",
+  "source": "DS22070A p.7: VIN 2,1..6,0 V ; nota 1: VIN >= VOUT(max)+VDROPOUT(max)",
+  "formula": "+5V do barramento dentro de [3,3·1,025+0,32 ; 6,0]",
+  "values": {
+   "V5BUS_MIN": 4.75,
+   "V5BUS_MAX": 5.25,
+   "VCC1_MAX": 3.3824999999999994,
+   "VDO": 0.32
+  },
+  "expr": "V5BUS_MIN >= VCC1_MAX + VDO and V5BUS_MAX <= 6.0",
+  "show": "V5BUS_MIN ; VCC1_MAX+VDO",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] tolerância do +5V do barramento NÃO documentada; assumido ±5 %"
+ },
+ {
+  "ic": "U401 MCP1824S",
+  "source": "DS22070A p.7 Abs. Max: VIN 6,5 V",
+  "formula": "tecto garantido do +5V do barramento (grampo do TVS D53 da base board, V13) <= 6,5 V",
+  "values": {
+   "V_CLAMP_D53": 9.2,
+   "VBR_D53": 6.7
+  },
+  "expr": "V_CLAMP_D53 <= 6.5",
+  "show": "V_CLAMP_D53 ; VBR_D53",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] [INHERITED] valores da leitura da netlist da base board V2.3 (intenção V13). FALHA só se o transitório existir; não há medição do barramento"
+ },
+ {
+  "ic": "U401 MCP1824S",
+  "source": "DS22070A §4.3 p.19: COUT >= 1 µF (cerâmico ok, ESR <= 1 Ω)",
+  "formula": "C402 com tolerância −10 % >= 1,0 µF",
+  "values": {
+   "C402": 1e-06,
+   "tol": 0.1
+  },
+  "expr": "C402*(1-tol) >= 1.0e-6",
+  "show": "C402*(1-tol)",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] 1 µF nominal É o mínimo; aplicação típica p.3/p.21 usa 4,7 µF; sem MPN de C402"
+ },
+ {
+  "ic": "U401 MCP1824S",
+  "source": "DS22070A §4.4 p.19: CIN 1,0..4,7 µF, «equivalent (or higher) value than the output capacitor»",
+  "formula": "C400 >= C402",
+  "values": {
+   "C400": 1e-06,
+   "C402": 1e-06
+  },
+  "expr": "C400 >= C402 and C400 >= 1e-6",
+  "show": "C400",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U401 MCP1824S",
+  "source": "DS22070A §5.2 p.21 Eq.5-1..5-3: PLDO = (VIN−VOUT)·IOUT ; θJA(SOT-223) 62 °C/W",
+  "formula": "TJ = 70 + PD·62 <= 125",
+  "values": {
+   "V5BUS_MAX": 5.25,
+   "VCC1_MIN": 3.2175,
+   "ICC1": 0.0031,
+   "IQ": 0.00022,
+   "thJA": 62.0,
+   "TA": 70.0
+  },
+  "expr": "TA + ((V5BUS_MAX-VCC1_MIN)*ICC1 + V5BUS_MAX*IQ)*thJA <= 125",
+  "show": "TA + ((V5BUS_MAX-VCC1_MIN)*ICC1 + V5BUS_MAX*IQ)*thJA",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U401 MCP1824S",
+  "source": "DS22070A p.8: regulação fixa VR ±2,5 %",
+  "formula": "banda de +3.3V_DIG = 3,2175..3,3825 V (usada nas linhas do ISO7141)",
+  "values": {
+   "VCC1_MIN": 3.2175,
+   "VCC1_MAX": 3.3824999999999994
+  },
+  "expr": "VCC1_MIN > 0",
+  "show": "VCC1_MIN ; VCC1_MAX",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "DS21298E p.3: VDD 2,7..5,5 V",
+  "formula": "VDD_ADC = 3V3_REF − R_DC(FB500)·IDD dentro de 2,7..5,5 V (também no grampo 3,716 V)",
+  "values": {
+   "V33_MIN": 3.234,
+   "R_FB": 0.3,
+   "IDD": 0.0004,
+   "V_CLAMP_MAX": 3.716
+  },
+  "expr": "V33_MIN - R_FB*IDD >= 2.7 and V_CLAMP_MAX <= 5.5",
+  "show": "V33_MIN - R_FB*IDD",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "DS21298E p.2: VREF 0,25 V .. VDD",
+  "formula": "2,5 V <= VDD_min",
+  "values": {
+   "VREF": 2.5,
+   "V33_MIN": 3.234
+  },
+  "expr": "0.25 <= VREF <= V33_MIN",
+  "show": "VREF",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "DS21298E p.3: fCLK <= 1,0 MHz @ VDD 2,7 V (sem valor a 3,3 V)",
+  "formula": "SPI 20 kHz (Rodrigo, 2026-09-24) <= 1,0 MHz",
+  "values": {
+   "f_spi": 20000.0
+  },
+  "expr": "f_spi <= 1.0e6",
+  "show": "f_spi",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "DS21298E §6.2 p.22: do fim da amostragem ao 12.º bit <= 1,2 ms (85 °C)",
+  "formula": "13 relógios / f_spi <= 1,2 ms",
+  "values": {
+   "f_spi": 20000.0,
+   "n_clk": 13.0
+  },
+  "expr": "n_clk/f_spi <= 1.2e-3",
+  "show": "n_clk/f_spi",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] margem ≈1,85x; a transacção de 3 bytes tem de ser contínua (firmware)"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "DS21298E Fig.4-2 p.18 (curva VDD 2,7 V): fCLK máx vs RS ; RS = R621 + R611‖(R601+…) ≈ 3,41 kΩ → ≈0,9 MHz",
+  "formula": "f_spi <= fCLK_max(RS)",
+  "values": {
+   "f_spi": 20000.0,
+   "fCLK_max_RS_3k41": 900000.0
+  },
+  "expr": "f_spi <= fCLK_max_RS_3k41",
+  "show": "fCLK_max_RS_3k41",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] leitura da figura (típica); e C601 100 nF no pino fornece a carga dos 20 pF"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "DS21298E Fig.4-1 p.18: CSAMPLE 20 pF — carga tirada de C601 por amostra",
+  "formula": "ΔV = 20 pF·2,5 V / C601 <= 1 LSB",
+  "values": {
+   "CS": 2e-11,
+   "VFS": 2.5,
+   "C601": 1e-07,
+   "LSB": 0.0006103515625
+  },
+  "expr": "CS*VFS/C601 <= LSB",
+  "show": "CS*VFS/C601",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "planejamento §2.7d (reposição de carga): ΔV = f_canal·44 pC·RS <= 1 LSB",
+  "formula": "f_canal <= 4,07 kHz ; cadência real: 10 amostras/500 ms",
+  "values": {
+   "f_canal": 20.0,
+   "Q": 4.4e-11,
+   "RS": 3410.0,
+   "LSB": 0.0006103515625
+  },
+  "expr": "f_canal*Q*RS <= LSB",
+  "show": "f_canal*Q*RS",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "DS21298E p.2 Abs. Max: entradas −0,6 .. VDD+0,6 V — operação normal e limitador em regulação",
+  "formula": "V_nó(burden) máx = I(OL)_max·R611 <= VDD_min + 0,6 — com o protector a regular (falha simples: transmissor em curto)",
+  "values": {
+   "IOL_max": 0.04,
+   "R611": 110.0,
+   "V33_MIN": 3.234
+  },
+  "expr": "IOL_max*R611 <= V33_MIN + 0.6",
+  "show": "IOL_max*R611 ; V33_MIN+0.6",
+  "tag": "[1.ª corrida, ACTUALIZADA para a rev. 2.4] rev. 2.4: com o TPS26613 (I(OL) 25–40 mA, SLVSFE3C p.5) o nó chega a 4,4 V e o BAV199 CONDUZ na falha simples (0,06–0,15 mA, 100 ms em cada 900 ms); com o AL5809 (26,9 mA → 2,96 V) não conduzia. Consequência na linha V10 seguinte"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "DS21298E p.2 Abs. Max: VDD+0,6 V — grampo BAV199 a conduzir (limitador em curto ou transitório) — V10",
+  "formula": "V_pino = 3V3_REF_grampo + VF(BAV199 @ 7,7 mA) <= VDD+0,6 — falha DUPLA (protector em curto, 30 V injectados)",
+  "values": {
+   "V_CLAMP": 3.716,
+   "VF_BAV199_7mA7": 0.99
+  },
+  "expr": "V_CLAMP + VF_BAV199_7mA7 <= V_CLAMP + 0.6",
+  "show": "V_CLAMP + VF_BAV199_7mA7 ; V_CLAMP+0.6",
+  "tag": "[1.ª corrida, ACTUALIZADA para a rev. 2.4] BAV199LT1/D p.2: VF máx 0,90 V @1 mA, 1,00 V @10 mA (interp. log a 7,7 mA). Por construção VF > 0,6 V: o grampo à MESMA rede que VDD não pode cumprir o abs. max. A falha simples está na linha da cadeia do ADC (VF majorado a 0,9 V → 4,2 V vs 3,9 V)"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "DS21298E p.2 Abs. Max — CH5 preso a 3V3_REF",
+  "formula": "3V3_REF_max <= VDD_min + 0,6",
+  "values": {
+   "V33_MAX": 3.3659999999999997,
+   "V33_MIN": 3.234
+  },
+  "expr": "V33_MAX <= V33_MIN + 0.6",
+  "show": "V33_MAX",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] lê 4095 (entrada > VREF)"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "DS21298E p.3: fuga analógica ±1 µA MÁX × RS",
+  "formula": "offset = 1 µA·3410 Ω <= 1 LSB (0,61 mV)",
+  "values": {
+   "I_LEAK_MAX": 1e-06,
+   "RS": 3410.0,
+   "LSB": 0.0006103515625
+  },
+  "expr": "I_LEAK_MAX*RS <= LSB",
+  "show": "I_LEAK_MAX*RS ; LSB",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] offset DC por unidade → removido pela calibração de 6 pontos; a deriva é a da linha seguinte"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "DS21298E Fig.2-39 p.13: fuga típica ≈1–2 nA até 100 °C (VDD 5 V)",
+  "formula": "deriva de offset 25→70 °C ≈ 1 nA·3410 Ω <= 1 LSB",
+  "values": {
+   "dI_LEAK": 1e-09,
+   "RS": 3410.0,
+   "LSB": 0.0006103515625
+  },
+  "expr": "dI_LEAK*RS <= LSB",
+  "show": "dI_LEAK*RS",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "DS21298E §6.4 p.23: bypass 1 µF junto ao pino",
+  "formula": "C501 + C502 >= 1 µF",
+  "values": {
+   "C501": 1e-06,
+   "C502": 1e-07
+  },
+  "expr": "C501+C502 >= 1e-6",
+  "show": "C501+C502",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "DS21298E Fig.6-3 p.23: 1 µF na referência",
+  "formula": "C207 + C500 >= 1 µF (nominal)",
+  "values": {
+   "C207": 1e-06,
+   "C500": 1e-07
+  },
+  "expr": "C207+C500 >= 1e-6",
+  "show": "C207+C500",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] o mínimo do ADR4525 (Tabela 11) é avaliado na linha do U202"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "DS21298E p.2: INL ±1 LSB (grau -B) — RE1 residual",
+  "formula": "2 LSB / 20 mA <= 0,2 %",
+  "values": {
+   "LSB_A": 5.548650568181818e-06
+  },
+  "expr": "2*LSB_A/20e-3*100 <= 0.2",
+  "show": "2*LSB_A/20e-3*100",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] % do fundo de escala 20 mA"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "DS21298E Eq.4-1 p.17: código = 4096·VIN/VREF — RM2 (FE >= 20,5 mA) e NE43 (21 mA legível)",
+  "formula": "FE = VREF/R611 >= 20,5 mA e 21 mA·R611 < VREF",
+  "values": {
+   "VREF": 2.5,
+   "R611": 110.0
+  },
+  "expr": "VREF/R611 >= 20.5e-3 and 21e-3*R611 < VREF",
+  "show": "VREF/R611 ; 21e-3*R611",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "U500 MCP3208",
+  "source": "DS21298E p.3: tCSH >= 500 ns ; §3.7 p.15 CS alto entre conversões",
+  "formula": "firmware — não verificável na netlist",
+  "values": {
+   "tCSH_firmware": null
+  },
+  "expr": "tCSH_firmware >= 500e-9",
+  "show": "",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] restrição a passar ao backend (expander.js)"
+ },
+ {
+  "ic": "D62x BAV199",
+  "source": "BAV199LT1/D p.1: IFSM 500 mA (1 ms), IF 215 mA",
+  "formula": "corrente pelo grampo num surto = (V_Clamp(D60x) − 3V3_REF − VF)/R621 <= 500 mA",
+  "values": {
+   "VC": 58.1,
+   "V33": 3.7,
+   "VF": 1.0,
+   "R621": 3300.0
+  },
+  "expr": "(VC-V33-VF)/R621 <= 0.5",
+  "show": "(VC-V33-VF)/R621",
+  "tag": "[1.ª corrida, ACTUALIZADA para a rev. 2.4] VC 58,1 V é o do D61x (Würth); o D601 é agora SMBJ33A-13-F (classe 53,3 V, sem PDF): 58,1 V é majorante"
+ },
+ {
+  "ic": "D62x BAV199",
+  "source": "BAV199LT1/D p.2: IR 5 nA máx (70 V, 25 °C) ; fig.4 p.3 ≈1 nA @70 °C típ.",
+  "formula": "IR·RS <= 1 LSB",
+  "values": {
+   "IR_max_25": 5e-09,
+   "RS": 3410.0,
+   "LSB": 0.0006103515625
+  },
+  "expr": "IR_max_25*RS <= LSB",
+  "show": "IR_max_25*RS",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "D62x BAV199",
+  "source": "BAV199LT1/D p.1: PD 225 mW (FR-5)",
+  "formula": "VF·I_clamp (falha dupla, 7,7 mA) <= 225 mW",
+  "values": {
+   "VF": 0.99,
+   "I": 0.00766
+  },
+  "expr": "VF*I <= 0.225",
+  "show": "VF*I",
+  "tag": "[1.ª corrida, ACTUALIZADA para a rev. 2.4]"
+ },
+ {
+  "ic": "D62x BAV199",
+  "source": "RA4 com o AL5809 em curto (falha dupla): I_burden = 30·110/210/110",
+  "formula": "RA4 com o protector em curto (falha dupla): I_burden = 30 V/(R601 + R611) ; P(R611) <= 0,25 W (ERA8A 1206, AOA0000C307 p.2)",
+  "values": {
+   "V_INJ": 30.0,
+   "R601": 0.0,
+   "R611": 110.0,
+   "P_rated": 0.25
+  },
+  "expr": "(V_INJ/(R601+R611))**2*R611 <= P_rated",
+  "show": "V_INJ/(R601+R611) ; (V_INJ/(R601+R611))**2*R611",
+  "tag": "[1.ª corrida, ACTUALIZADA para a rev. 2.4] AGRAVADA na rev. 2.4: com R601 = 0 Ω o burden fica com os 30 V inteiros (8,2 W em vez de 2,2 W); o caminho AINk− → IN → OUT → burden NÃO passa pelo F60x. Cenário de falha dupla: o TPS26613 é a única protecção do burden (topologia da fig. 9-1 do SLVSFE3C e da Legacy)"
+ },
+ {
+  "ic": "D200 SMA6J33A",
+  "source": "Bourns SMA6J p.2: VRWM 33 V, IR 1 µA",
+  "formula": "VRWM >= VIN_max",
+  "values": {
+   "VRWM": 33.0,
+   "VIN_MAX": 32.0
+  },
+  "expr": "VRWM >= VIN_MAX",
+  "show": "VRWM - VIN_MAX",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] margem 1 V (3 %) — qualquer sobre-elevação de um controlador solar acima de 33 V põe o TVS a conduzir"
+ },
+ {
+  "ic": "D200 SMA6J33A",
+  "source": "Bourns SMA6J p.2: VBR mín 36,7 V",
+  "formula": "VBR_min > VIN_max",
+  "values": {
+   "VBR_MIN": 36.7,
+   "VIN_MAX": 32.0
+  },
+  "expr": "VBR_MIN > VIN_MAX",
+  "show": "VBR_MIN",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "D200 SMA6J33A",
+  "source": "Bourns SMA6J p.2: VRSM (clamp) 53,3 V @ 11,3 A — RA3: grampo < menor abs. max a jusante",
+  "formula": "53,3 V <= min(F201/F202 63 V, MBR1H100SF 100 V, C200/C201 100 V, TPS7A4001 105 V)",
+  "values": {
+   "VC": 53.3,
+   "V_fuse": 63.0,
+   "V_MBR": 100.0,
+   "V_C": 100.0,
+   "V_TPS": 105.0
+  },
+  "expr": "VC <= min(V_fuse,V_MBR,V_C,V_TPS)",
+  "show": "min(V_fuse,V_MBR,V_C,V_TPS) - VC",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "D200 SMA6J33A",
+  "source": "V7 — quem conduz primeiro: Bourns p.2 VBR(D200) mín 36,7 V ; Würth p.1 VBR(D61x) 42,1 V ±5 % + VF(D202)",
+  "formula": "VBR_min(D200) < VBR_min(D61x) + VF(D202)",
+  "values": {
+   "VBR_D200": 36.7,
+   "VBR_D61x_min": 39.995,
+   "VF_D202": 0.5
+  },
+  "expr": "VBR_D200 < VBR_D61x_min + VF_D202",
+  "show": "VBR_D61x_min + VF_D202",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] D200 conduz primeiro; os D61x só entram acima de ≈40,5 V de entrada"
+ },
+ {
+  "ic": "D200 SMA6J33A",
+  "source": "V7 — partilha: no grampo do D200 (53,3 V) a corrente por cada D61x é limitada pelo fusível de canal (9,2 Ω)",
+  "formula": "I_D61x = (VC_D200 − VF_D202 − VBR_D61x)/R_F60x <= IPeak(D61x) 10,4 A",
+  "values": {
+   "VC": 53.3,
+   "VF_D202": 0.5,
+   "VBR_D61x_min": 39.995,
+   "R_F60X": 9.2
+  },
+  "expr": "(VC-VF_D202-VBR_D61x_min)/R_F60X <= 10.4",
+  "show": "(VC-VF_D202-VBR_D61x_min)/R_F60X",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "D200 SMA6J33A",
+  "source": "V7 — I²t no fusível de canal durante o surto 8/20 µs (Schurter p.3: I²t fusão 0,0002 A²s)",
+  "formula": "I²·20 µs·0,7 <= 0,0002",
+  "values": {
+   "I": 1.3918478260869567,
+   "t": 2e-05,
+   "k": 0.7,
+   "I2t_fus": 0.0002
+  },
+  "expr": "I**2*t*k <= I2t_fus",
+  "show": "I**2*t*k",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "D200 SMA6J33A",
+  "source": "V7 — idem para 10/1000 µs",
+  "formula": "I²·1 ms·0,7 <= 0,0002",
+  "values": {
+   "I": 1.3918478260869567,
+   "t": 0.001,
+   "k": 0.7,
+   "I2t_fus": 0.0002
+  },
+  "expr": "I**2*t*k <= I2t_fus",
+  "show": "I**2*t*k",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] sem requisito de surto (RA3 reescrito); consequência: um surto 10/1000 de fonte abre os 6 fusíveis de canal"
+ },
+ {
+  "ic": "D201/D202 MBR1H100SF",
+  "source": "MBR1H100SF p.2: VRRM 100 V",
+  "formula": "inversa máx: entrada a −1 V (D200 directo) com C201 a 32 V → 33 V <= 100 V",
+  "values": {
+   "V_rev": 33.0
+  },
+  "expr": "V_rev <= 100",
+  "show": "V_rev",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "D201/D202 MBR1H100SF",
+  "source": "MBR1H100SF p.2: IO 1,0 A ; IFSM 50 A",
+  "formula": "I_médio(6 canais a I(OL)_max + U640 + LED) <= 1 A ; pico de arranque a 32 V = VIN/R_F202 <= 50 A",
+  "values": {
+   "I_avg": 0.2535,
+   "VIN_MAX": 32.0,
+   "R_F202": 0.8
+  },
+  "expr": "I_avg <= 1.0 and VIN_MAX/R_F202 <= 50",
+  "show": "I_avg ; VIN_MAX/R_F202",
+  "tag": "[1.ª corrida, ACTUALIZADA para a rev. 2.4] 6 x 40 mA + 11,4 mA (U640) + 2 mA (LED); pico teórico só com a resistência fria do fusível; a impedância real da base board baixa-o"
+ },
+ {
+  "ic": "D201/D202 MBR1H100SF",
+  "source": "MBR1H100SF fig.2 p.3: VF máx ≈0,50 V @0,13 A (25 °C) ; θJA 330 °C/W (ilha 20 mm²)",
+  "formula": "TJ = 70 + VF·I·θJA <= 175",
+  "values": {
+   "VF": 0.5,
+   "I": 0.13,
+   "thJA": 330.0,
+   "TA": 70.0
+  },
+  "expr": "TA + VF*I*thJA <= 175",
+  "show": "TA + VF*I*thJA",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "F201 CC12H250mA",
+  "source": "Eaton 4309 p.2: 63 Vdc ; derating ≈90 % a 70 °C",
+  "formula": "63 >= 53,3 ; 0,25·0,9 >= I_REG",
+  "values": {
+   "V_fuse": 63.0,
+   "VC": 53.3,
+   "I_der": 0.225,
+   "I_REG": 0.0087341295025729
+  },
+  "expr": "V_fuse >= VC and I_der >= I_REG",
+  "show": "I_der ; I_REG",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "F60x 3413.0002.22",
+  "source": "Schurter USFF1206 p.1: temperatura admissível −55..90 °C ; Eaton p.6: −55..125 °C",
+  "formula": "70 °C dentro",
+  "values": {
+   "TA": 70.0
+  },
+  "expr": "TA <= 90",
+  "show": "TA",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "R206 33R 0805",
+  "source": "dissipação contínua",
+  "formula": "I_REG²·R206 <= 0,125 W (0805)",
+  "values": {
+   "I_REG": 0.0087341295025729,
+   "R206": 33.0
+  },
+  "expr": "I_REG**2*R206 <= 0.125",
+  "show": "I_REG**2*R206",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "R621/C601 antialias",
+  "source": "RM3: fc = 1/(2π·RS·C) entre 400 e 550 Hz, com R ±1 % e C ±10 %",
+  "formula": "400 <= fc_min e fc_max <= 550",
+  "values": {
+   "RS": 3410.0,
+   "C": 1e-07,
+   "tolR": 0.01,
+   "tolC": 0.1
+  },
+  "expr": "1/(2*pi*RS*(1+tolR)*C*(1+tolC)) >= 400 and 1/(2*pi*RS*(1-tolR)*C*(1-tolC)) <= 550",
+  "show": "1/(2*pi*RS*C) ; 1/(2*pi*RS*(1+tolR)*C*(1+tolC)) ; 1/(2*pi*RS*(1-tolR)*C*(1-tolC))",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] RS inclui o burden (3,3k + 110)"
+ },
+ {
+  "ic": "R700 NTC / R701",
+  "source": "Vishay 29056 p.1: NTCS0603E3103*LT → B25/85 = 3435 K ; R_T = 10k·exp(B·(1/T − 1/298,15))",
+  "formula": "código = 4096·R701/(R_T+R701) < 4095 a 0, 25 e 70 °C",
+  "values": {
+   "B": 3435.0,
+   "R25": 10000.0,
+   "R701": 5620.0
+  },
+  "expr": "4096*R701/(R25*2.718281828**(B*(1/343.15-1/298.15))+R701) < 4095",
+  "show": "4096*R701/(R25*2.718281828**(B*(1/273.15-1/298.15))+R701) ; 4096*R701/(R25+R701) ; 4096*R701/(R25*2.718281828**(B*(1/343.15-1/298.15))+R701)",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] códigos a 0 / 25 / 70 °C; o software actual não lê o CH4"
+ },
+ {
+  "ic": "R700 NTC / R701",
+  "source": "DS21298E Fig.4-2 p.18 (2,7 V): RS = R_T‖R701 máx a 0 °C",
+  "formula": "fCLK_max(RS≈4,7 kΩ) ≈ 0,8 MHz >= 20 kHz",
+  "values": {
+   "RS_0C": 4699.7086247086245,
+   "fmax_fig42": 800000.0,
+   "f_spi": 20000.0
+  },
+  "expr": "f_spi <= fmax_fig42",
+  "show": "RS_0C",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] leitura da figura; C700 100 nF no pino"
+ },
+ {
+  "ic": "R700 NTC / R701",
+  "source": "Vishay 29056 p.1: factor de dissipação 3,0 mW/K",
+  "formula": "auto-aquecimento = V_NTC²/R_T / 3 mW/K <= 0,5 K (a 25 °C, pior caso)",
+  "values": {
+   "VREF": 2.5,
+   "R25": 10000.0,
+   "R701": 5620.0,
+   "D": 0.003
+  },
+  "expr": "(VREF*R25/(R25+R701))**2/R25/D <= 0.5",
+  "show": "(VREF*R25/(R25+R701))**2/R25/D",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "LED D203/D630/D204",
+  "source": "KG EELP41.22 v1.4: VF @20 mA (grupo mín. 1,60 V) — corrente a 32 V pelo 14,7 kΩ ; P no 0603",
+  "formula": "I <= 20 mA ; P = (32−VF)²/R <= 0,1 W",
+  "values": {
+   "VIN_MAX": 32.0,
+   "VF": 1.6,
+   "R": 14700.0
+  },
+  "expr": "(VIN_MAX-VF)/R <= 20e-3 and (VIN_MAX-VF)**2/R <= 0.1",
+  "show": "(VIN_MAX-VF)/R ; (VIN_MAX-VF)**2/R",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4] ERJ-3EKF 0,1 W (datasheet não está na pasta)"
+ },
+ {
+  "ic": "LED D203/D630/D204",
+  "source": "idem a 18 V — LED ainda visível?",
+  "formula": "I(18 V) >= 1 mA",
+  "values": {
+   "VIN_MIN": 18.0,
+   "VF": 1.6,
+   "R": 14700.0
+  },
+  "expr": "(VIN_MIN-VF)/R >= 1e-3",
+  "show": "(VIN_MIN-VF)/R",
+  "tag": "[1.ª corrida, re-avaliada — BOM inalterada na rev. 2.4]"
+ },
+ {
+  "ic": "Consumo RA5",
+  "source": "RA5 (escopo): <= 200 mA na entrada de 24 V com 6 canais a 20 mA",
+  "formula": "6·20 mA + 2 LED + ramo do regulador + U640 (+12V_TPS) <= 200 mA",
+  "values": {
+   "I_LOOPS": 0.12,
+   "I_LED": 0.003,
+   "I_REG": 0.0087341295025729,
+   "I_U640": 0.0114
+  },
+  "expr": "I_LOOPS + I_LED + I_REG + I_U640 <= 0.2",
+  "show": "I_LOOPS + I_LED + I_REG + I_U640",
+  "tag": "[1.ª corrida, ACTUALIZADA para a rev. 2.4]"
+ },
+ {
+  "ic": "Consumo RA5",
+  "source": "RA5 — pior caso: 6 transmissores em curto (limitador)",
+  "formula": "RA5 — pior caso: 6 transmissores em curto: pico durante tOL_Expiry (100 ms) = 6·I(OL)_max + LED + regulador + U640 (RA5 não o cobre) ; média do ciclo 100/900 ms <= 200 mA",
+  "values": {
+   "IOL_max": 0.04,
+   "I_LED": 0.003,
+   "I_REG": 0.008734,
+   "I_U640": 0.0114,
+   "duty": 0.1111
+  },
+  "expr": "6*IOL_max*duty + I_LED + I_REG + I_U640 <= 0.2",
+  "show": "6*IOL_max + I_LED + I_REG + I_U640 ; 6*IOL_max*duty + I_LED + I_REG + I_U640",
+  "tag": "[1.ª corrida, ACTUALIZADA para a rev. 2.4] o pico de 263 mA durante 100 ms é pedido à base board; RA5 só define os 20 mA por canal"
+ }
+]

@@ -1,0 +1,2951 @@
+{
+ "ADR4525": [
+  {
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/1014/1/ADR4520_4525_4530_4533_4540_4550.pdf",
+   "Description": "Referências de tensão 2.5V Ultra Low Noise Voltage REF",
+   "FactoryStock": null,
+   "ImagePath": null,
+   "Category": "Referências de tensão",
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "Analog Devices",
+   "ManufacturerPartNumber": "ADR4525",
+   "Min": "0",
+   "Mult": "0",
+   "MouserPartNumber": "N/A",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Tube"
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "98"
+    }
+   ],
+   "PriceBreaks": [],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Analog-Devices/ADR4525?qs=%252BEew9%252B0nqrBYu9KCExJUYQ%3D%3D",
+   "Reeling": false,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "AvailabilityInStock": null,
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "RestrictionMessage": "Atualmente, a Mouser não vende este produto em sua região.",
+   "ProductCompliance": [
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8542390090"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": []
+  },
+  {
+   "Availability": "2147 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/1014/1/adr4520-4525-4530-4533-4540-4550.pdf",
+   "Description": "Referências de tensão 2.5V Ultra Low Noise Voltage REF",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/adi/images/ITP_ADI_SOIC-8_R-8_t.jpg",
+   "Category": "Referências de tensão",
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": "Restricted Availability",
+   "Manufacturer": "Analog Devices",
+   "ManufacturerPartNumber": "ADR4525WBRZ-R7",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "584-ADR4525WBRZ-R7",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "1000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$14.80",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$11.59",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$10.79",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$9.91",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$9.81",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$9.80",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$8.32",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Analog-Devices/ADR4525WBRZ-R7?qs=cslStgdnz9NOBx7B6knBOg%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "AvailabilityInStock": "2147",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SalesMaximumOrderQty": "1742",
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8542399000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8542390000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8542390090"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8542399999"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Filipinas"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Filipinas"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Irlanda"
+    }
+   ]
+  },
+  {
+   "Availability": "269 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/1014/1/adr4520-4525-4530-4533-4540-4550.pdf",
+   "Description": "Referências de tensão 2.5V Ultra Low Noise Voltage REF",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/adi/images/ITP_ADI_SOIC-8_R-8_t.jpg",
+   "Category": "Referências de tensão",
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": "Restricted Availability",
+   "Manufacturer": "Analog Devices",
+   "ManufacturerPartNumber": "ADR4525ARZ",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "584-ADR4525ARZ",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Tube"
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "98"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$8.74",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$6.77",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$6.28",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 98,
+     "Price": "$5.73",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": [
+    {
+     "APMfrPN": "ADR4525ARZ-R7"
+    }
+   ],
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Analog-Devices/ADR4525ARZ?qs=WIvQP4zGangC7PeS%252B5s%2F2Q%3D%3D",
+   "Reeling": false,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "584-ADR4525ARZ-R7",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 0.00054
+   },
+   "AvailabilityInStock": "269",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SalesMaximumOrderQty": "231",
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8542399000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8542390000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8542390090"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "854239099"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8542399000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8542399999"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Filipinas"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Filipinas"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Irlanda"
+    }
+   ]
+  },
+  {
+   "Availability": "1449 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/1014/1/adr4520-4525-4530-4533-4540-4550.pdf",
+   "Description": "Referências de tensão 2.5V Ultra Low Noise Voltage REF",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/adi/images/ITP_ADI_SOIC-8_R-8_t.jpg",
+   "Category": "Referências de tensão",
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": "Restricted Availability",
+   "Manufacturer": "Analog Devices",
+   "ManufacturerPartNumber": "ADR4525ARZ-R7",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "584-ADR4525ARZ-R7",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "1000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$8.70",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$6.75",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$6.27",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$5.73",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$5.48",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$5.32",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$5.32",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": [
+    {
+     "APMfrPN": "ADR4525ARZ"
+    }
+   ],
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Analog-Devices/ADR4525ARZ-R7?qs=WIvQP4zGanhcG5ZX%2FIaJAA%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "584-ADR4525ARZ",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 0.00054
+   },
+   "AvailabilityInStock": "1449",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 3000,
+     "Date": "2026-10-26T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SalesMaximumOrderQty": "655",
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8542399000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8542390000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8542390090"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "854239099"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8542399000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8542399999"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Filipinas"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Filipinas"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Irlanda"
+    }
+   ]
+  },
+  {
+   "Availability": "2 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/1014/1/adr4520-4525-4530-4533-4540-4550.pdf",
+   "Description": "Referências de tensão 2.5V Ultra Low Noise Voltage REF",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/adi/images/ITP_ADI_SOIC-8_R-8_t.jpg",
+   "Category": "Referências de tensão",
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": "Restricted Availability",
+   "Manufacturer": "Analog Devices",
+   "ManufacturerPartNumber": "ADR4525CRZ",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "584-ADR4525CRZ",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Tube"
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "98"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$25.78",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$20.61",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$19.32",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 98,
+     "Price": "$17.89",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 294,
+     "Price": "$17.21",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 588,
+     "Price": "$16.80",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": [
+    {
+     "APMfrPN": "ADR4525CRZ-R7"
+    }
+   ],
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Analog-Devices/ADR4525CRZ?qs=P1JMDcb91o5GaEXUW71yJw%3D%3D",
+   "Reeling": false,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "584-ADR4525CRZ-R7",
+   "MultiSimBlue": 0,
+   "AvailabilityInStock": "2",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8542399000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8542390000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8542390090"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8542399999"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Filipinas"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Filipinas"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Irlanda"
+    }
+   ]
+  },
+  {
+   "Availability": "7 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/1014/1/adr4520-4525-4530-4533-4540-4550.pdf",
+   "Description": "Referências de tensão 2.5V Ultra Low Noise Voltage REF",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/adi/images/ITP_ADI_SOIC-8_R-8_t.jpg",
+   "Category": "Referências de tensão",
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": "Restricted Availability",
+   "Manufacturer": "Analog Devices",
+   "ManufacturerPartNumber": "ADR4525CRZ-R7",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "584-ADR4525CRZ-R7",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "1000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$27.29",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$21.93",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$19.24",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$18.02",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$17.66",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$17.44",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$16.63",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": [
+    {
+     "APMfrPN": "ADR4525CRZ"
+    }
+   ],
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Analog-Devices/ADR4525CRZ-R7?qs=PqoDHHvF64%2FOjRXMga5Fow%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "584-ADR4525CRZ",
+   "MultiSimBlue": 0,
+   "AvailabilityInStock": "7",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8542399000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8542390000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8542390090"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8542399999"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Filipinas"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Filipinas"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Irlanda"
+    }
+   ]
+  }
+ ],
+ "ISO7141CC": [
+  {
+   "DataSheetUrl": "",
+   "Description": "Isoladores digitais Small-FP & Low-Pwr 3 /1 Quad Ch Dig Iso A 595-ISO7141CCDBQ",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_SSOP-16_DBQ_t.jpg",
+   "Category": "Isoladores digitais",
+   "LeadTime": "112 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "Texas Instruments",
+   "ManufacturerPartNumber": "ISO7141CCDBQR",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "595-ISO7141CCDBQR",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "2500"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$10.94",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$8.56",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$7.96",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$7.30",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$7.07",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$6.99",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$6.90",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2500,
+     "Price": "$6.39",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": [
+    {
+     "APMfrPN": "ISO7141CCDBQ"
+    }
+   ],
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Texas-Instruments/ISO7141CCDBQR?qs=v3HA%252BRzKb3cNOClH3HngWA%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "595-ISO7141CCDBQ",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 0.00013
+   },
+   "AvailabilityInStock": "0",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 1806,
+     "Date": "2026-10-13T00:00:00"
+    },
+    {
+     "Quantity": 7500,
+     "Date": "2027-01-28T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8542399000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8542390000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8542390090"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "854239099"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8542399000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8542399999"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Malásia"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "DataSheetUrl": "",
+   "Description": "Isoladores digitais Small-FP & Low-Pwr 3 /1 Quad Ch Dig Iso A 595-ISO7141CCDBQR",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_SSOP-16_DBQ_t.jpg",
+   "Category": "Isoladores digitais",
+   "LeadTime": "63 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "Texas Instruments",
+   "ManufacturerPartNumber": "ISO7141CCDBQ",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "595-ISO7141CCDBQ",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Tube"
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "75"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$12.30",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$9.66",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25,
+     "Price": "$8.96",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 75,
+     "Price": "$7.92",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 300,
+     "Price": "$7.73",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 525,
+     "Price": "$7.33",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1050,
+     "Price": "$7.22",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": [
+    {
+     "APMfrPN": "ISO7141CCDBQR"
+    }
+   ],
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Texas-Instruments/ISO7141CCDBQ?qs=v3HA%252BRzKb3cwoDTOuj2DkA%3D%3D",
+   "Reeling": false,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "595-ISO7141CCDBQR",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 0.00013
+   },
+   "AvailabilityInStock": "0",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 754,
+     "Date": "2026-12-14T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8542399000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8542390000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8542390090"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "854239099"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8542399000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8542399901"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Malásia"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "Nenhuma",
+   "DataSheetUrl": "",
+   "Description": "Isoladores digitais Quad-channel 3/1 5 0 -Mbps digital isola",
+   "FactoryStock": "0",
+   "ImagePath": null,
+   "Category": "Isoladores digitais",
+   "LeadTime": "112 Dias",
+   "LifecycleStatus": "New Product",
+   "Manufacturer": "Texas Instruments",
+   "ManufacturerPartNumber": "ISO7141CCDBQRG4",
+   "Min": "2500",
+   "Mult": "2500",
+   "MouserPartNumber": "595-ISO7141CCDBQRG4",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "2500"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 2500,
+     "Price": "$9.49",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Texas-Instruments/ISO7141CCDBQRG4?qs=2FehpBK1j95KJQzYkIBuoQ%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "AvailabilityInStock": "0",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8542390090"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Malásia"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  }
+ ],
+ "3413.0002": [
+  {
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/386/1/typ_USFF_1206.pdf",
+   "Description": "Fusíveis de montagem em superfícies USFF 1206 Fuse FF 50mA",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/schurter/images/3413.0002.22_SPL.jpg",
+   "Category": "Fusíveis de montagem em superfícies",
+   "LeadTime": "269 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "Schurter",
+   "ManufacturerPartNumber": "3413.0002.22",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "693-3413.0002.22",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "1000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$2.41",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$2.13",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$1.82",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$1.60",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$1.51",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$1.37",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$1.30",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": [
+    {
+     "APMfrPN": "3413.0002.11"
+    }
+   ],
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Schurter/3413.0002.22?qs=chdWEyYkTvZfoOZ7kZ40EQ%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 6e-06
+   },
+   "AvailabilityInStock": "0",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 4000,
+     "Date": "2026-10-23T00:00:00"
+    },
+    {
+     "Quantity": 16000,
+     "Date": "2026-12-24T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85361000"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8536100000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8536100000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8536100040"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853610000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8536101090"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Suíça"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "8838 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/386/1/typ_USFF_1206.pdf",
+   "Description": "Fusíveis de montagem em superfícies USFF 1206, 50mA 125VAC,63VDC",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/schurter/images/inhouse_3413000211_t.jpg",
+   "Category": "Fusíveis de montagem em superfícies",
+   "LeadTime": "364 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "Schurter",
+   "ManufacturerPartNumber": "3413.0002.11",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "693-3413.002.11",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Bulk"
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "100"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$3.11",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$2.87",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$2.34",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$1.92",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 200,
+     "Price": "$1.74",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$1.68",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$1.57",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2500,
+     "Price": "$1.50",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": [
+    {
+     "APMfrPN": "3413.0002.22"
+    }
+   ],
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Schurter/3413.0002.11?qs=qIO27dEFeIVOzfDTHcVZog%3D%3D",
+   "Reeling": false,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 6e-06
+   },
+   "AvailabilityInStock": "8838",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 4800,
+     "Date": "2026-10-23T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85361000"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8536100000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8536100000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8536100040"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853610000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8536101090"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Suíça"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "Nenhuma",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/386/1/typ_USFF_1206.pdf",
+   "Description": "Fusíveis de montagem em superfícies USFF 1206 Fuse FF 50mA",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/schurter/images/3413.0002.22_SPL.jpg",
+   "Category": "Fusíveis de montagem em superfícies",
+   "LeadTime": "269 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "Schurter",
+   "ManufacturerPartNumber": "3413.0002.26",
+   "Min": "10000",
+   "Mult": "10000",
+   "MouserPartNumber": "693-3413.0002.26",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "10000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 10000,
+     "Price": "$1.36",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Schurter/3413.0002.26?qs=chdWEyYkTvZV2QM5JjkU6g%3D%3D",
+   "Reeling": false,
+   "ROHSStatus": "",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 6e-06
+   },
+   "AvailabilityInStock": "0",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8536100000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8536100040"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Suíça"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "Nenhuma",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/386/1/typ_USFF_1206.pdf",
+   "Description": "Fusíveis de montagem em superfícies USFF 1206 Fuse FF 50mA",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/schurter/images/3413.0002.22_SPL.jpg",
+   "Category": "Fusíveis de montagem em superfícies",
+   "LeadTime": "364 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "Schurter",
+   "ManufacturerPartNumber": "3413.0002.24",
+   "Min": "5000",
+   "Mult": "5000",
+   "MouserPartNumber": "693-3413.0002.24",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "5000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 5000,
+     "Price": "$1.36",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Schurter/3413.0002.24?qs=chdWEyYkTvbRELqDaKG4ug%3D%3D",
+   "Reeling": false,
+   "ROHSStatus": "",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 6e-06
+   },
+   "AvailabilityInStock": "0",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8536100000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8536100040"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Suíça"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "Nenhuma",
+   "DataSheetUrl": "",
+   "Description": "Fusíveis de montagem em superfícies USFF 1206, 50mA 125VAC,63VDC,18 cm R",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/schurter/images/3413.jpg",
+   "Category": "Fusíveis de montagem em superfícies",
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "Schurter",
+   "ManufacturerPartNumber": "3413.002.12",
+   "Min": "1000",
+   "Mult": "1000",
+   "MouserPartNumber": "693-3413.002.12",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "1000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1000,
+     "Price": "$0.953",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.913",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.842",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Schurter/3413.002.12?qs=qIO27dEFeIVILH9%2FRcdY1Q%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 3e-05
+   },
+   "AvailabilityInStock": "0",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85361000"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8536100000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8536100000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8536100040"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "8536100005"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Suíça"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  }
+ ],
+ "EELP41.22": [
+  {
+   "Availability": "36645 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "LEDs de cor única",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/osramoptosemiconductor/images/KR-EELP41.22-Q1S1-36-A8J8-020-R18_SPL.JPG",
+   "Category": "LEDs de cor única",
+   "LeadTime": "56 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "ams OSRAM",
+   "ManufacturerPartNumber": "KR EELP41.22-Q1S1-36-A8J8-020-R18",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "720-P412Q1S136A8J802",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "4000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.16",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.109",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.076",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.06",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.055",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.051",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.043",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 8000,
+     "Price": "$0.039",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/ams-OSRAM/KR-EELP41.22-Q1S1-36-A8J8-020-R18?qs=ZcfC38r4PouTxNZSRl%252Bn6g%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "AvailabilityInStock": "36645",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8541410090"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "854141000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8541410100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Taiwan"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "34023 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/5912/1/KG_EELP41.22_EN.pdf",
+   "Description": "LEDs de cor única",
+   "FactoryStock": "0",
+   "ImagePath": null,
+   "Category": "LEDs de cor única",
+   "LeadTime": "56 Dias",
+   "LifecycleStatus": "New at Mouser",
+   "Manufacturer": "ams OSRAM",
+   "ManufacturerPartNumber": "KG EELP41.22",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "720-KGEELP4122",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "4000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.30",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.157",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.086",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.072",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.066",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.059",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.046",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/ams-OSRAM/KG-EELP41.22?qs=ZcfC38r4Pos2b93sw1wgPg%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "AvailabilityInStock": "34023",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8541410090"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "854141000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8541410100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Taiwan"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "48974 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/ams-OSRAM_08-29-2024_4386966.pdf",
+   "Description": "LEDs de cor única",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/osramoptosemiconductor/images/KR-EELP41.22-Q1S1-36-A8J8-020-R18_SPL.JPG",
+   "Category": "LEDs de cor única",
+   "LeadTime": "56 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "ams OSRAM",
+   "ManufacturerPartNumber": "KS EELP41.22-P1R2-58-A8J8-020-R18",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "720-P412P1R258A8J802",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "4000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.16",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.109",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.076",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.066",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.06",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.055",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.05",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 8000,
+     "Price": "$0.045",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 24000,
+     "Price": "$0.043",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/ams-OSRAM/KS-EELP41.22-P1R2-58-A8J8-020-R18?qs=ZcfC38r4Povp3XTr6Zxf%252Bw%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "AvailabilityInStock": "48974",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8541410090"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "854141000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8541410100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Taiwan"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "164235 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "LEDs de cor única",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/osramoptosemiconductor/images/KR-EELP41.22-Q1S1-36-A8J8-020-R18_SPL.JPG",
+   "Category": "LEDs de cor única",
+   "LeadTime": "56 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "ams OSRAM",
+   "ManufacturerPartNumber": "KY EELP41.22 Q2T1-36-A8J8-020-R18",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "720-P412Q2T136A8J802",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "4000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.20",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.131",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.086",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.066",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.06",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.055",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.05",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 8000,
+     "Price": "$0.045",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 24000,
+     "Price": "$0.043",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/ams-OSRAM/KY-EELP41.22-Q2T1-36-A8J8-020-R18?qs=ZcfC38r4PotaNlE530FL%252BQ%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "AvailabilityInStock": "164235",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8541410090"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "854141000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8541410100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Taiwan"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "8365 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "LEDs de cor única",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/osramoptosemiconductor/images/KR-EELP41.22-Q1S1-36-A8J8-020-R18_SPL.JPG",
+   "Category": "LEDs de cor única",
+   "LeadTime": "56 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "ams OSRAM",
+   "ManufacturerPartNumber": "KO EELP41.22-Q1S2-25-A8J8-020-R18",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "720-P412Q1S225A8J802",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "4000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.16",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.109",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.076",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.06",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.055",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.051",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.043",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 8000,
+     "Price": "$0.039",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 24000,
+     "Price": "$0.038",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/ams-OSRAM/KO-EELP41.22-Q1S2-25-A8J8-020-R18?qs=ZcfC38r4PoswH9uD%2FZTNyw%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "AvailabilityInStock": "8365",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8541410090"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "854141000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8541410100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Taiwan"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/5912/1/KG_EELP41.22_EN.pdf",
+   "Description": "LEDs de cor única",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/osramoptosemiconductor/images/KR-EELP41.22-Q1S1-36-A8J8-020-R18_SPL.JPG",
+   "Category": "LEDs de cor única",
+   "LeadTime": "56 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "ams OSRAM",
+   "ManufacturerPartNumber": "KG EELP41.22-PHRH-35-A8J8-20-R18",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "720-P4122PHRH35A8J82",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "4000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.16",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.109",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.076",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.06",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.055",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.051",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.043",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 8000,
+     "Price": "$0.039",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 24000,
+     "Price": "$0.038",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/ams-OSRAM/KG-EELP41.22-PHRH-35-A8J8-20-R18?qs=ZcfC38r4Posajg8ZvCDQkg%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "AvailabilityInStock": "0",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 122587,
+     "Date": "2026-12-11T00:00:00"
+    },
+    {
+     "Quantity": 144000,
+     "Date": "2027-01-22T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8541410090"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "854141000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8541410100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Taiwan"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "15898 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/5912/1/KG_EELP41.22_EN.pdf",
+   "Description": "LEDs de cor única GREEN SMD LED SMARTLED 0603",
+   "FactoryStock": "0",
+   "ImagePath": null,
+   "Category": "LEDs de cor única",
+   "LeadTime": "79 Dias",
+   "LifecycleStatus": "New at Mouser",
+   "Manufacturer": "ams OSRAM",
+   "ManufacturerPartNumber": "Q65113A7469",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "720-Q65113A7469",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "4000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.29",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.153",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.086",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.066",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.06",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.055",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.042",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 8000,
+     "Price": "$0.041",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/ams-OSRAM/Q65113A7469?qs=wT7LY0lnAe2OOSlVjtXT9g%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "AvailabilityInStock": "15898",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "854141000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8541410100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Taiwan"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "10285 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/5912/1/KS EELP41.22_EN.pdf",
+   "Description": "LEDs de cor única S RED SMD LED SMARTLED 0603",
+   "FactoryStock": "0",
+   "ImagePath": null,
+   "Category": "LEDs de cor única",
+   "LeadTime": "65 Dias",
+   "LifecycleStatus": "New at Mouser",
+   "Manufacturer": "ams OSRAM",
+   "ManufacturerPartNumber": "Q65113A7466",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "720-Q65113A7466",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "4000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.29",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.153",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.086",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.066",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.06",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.055",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.042",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 8000,
+     "Price": "$0.04",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 24000,
+     "Price": "$0.039",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/ams-OSRAM/Q65113A7466?qs=wT7LY0lnAe3Xiz4Rd%252BLMUA%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "AvailabilityInStock": "10285",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8541410090"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "854141000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8541410100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Taiwan"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "19810 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/5912/1/KR_EELP41.22_EN.pdf",
+   "Description": "LEDs de cor única RED   SMD LED SMARTLED 0603",
+   "FactoryStock": "0",
+   "ImagePath": null,
+   "Category": "LEDs de cor única",
+   "LeadTime": "60 Dias",
+   "LifecycleStatus": "New at Mouser",
+   "Manufacturer": "ams OSRAM",
+   "ManufacturerPartNumber": "Q65113A7467",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "720-Q65113A7467",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "4000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.29",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.153",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.086",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.066",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.06",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.055",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.05",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 8000,
+     "Price": "$0.045",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 24000,
+     "Price": "$0.043",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/ams-OSRAM/Q65113A7467?qs=wT7LY0lnAe1pXnAyztN5PA%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "720-P412Q1S136A8J802",
+   "MultiSimBlue": 0,
+   "AvailabilityInStock": "19810",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8541410090"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "854141000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8541410100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Taiwan"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Taiwan"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/5912/1/KY_EELP41.22_EN.pdf",
+   "Description": "LEDs de cor única YELLW SMD LED SMARTLED 0603",
+   "FactoryStock": "0",
+   "ImagePath": null,
+   "Category": "LEDs de cor única",
+   "LeadTime": "96 Dias",
+   "LifecycleStatus": "New at Mouser",
+   "Manufacturer": "ams OSRAM",
+   "ManufacturerPartNumber": "Q65113A7465",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "720-Q65113A7465",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "4000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.29",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.153",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.086",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.066",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.06",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.055",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.05",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 8000,
+     "Price": "$0.045",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 24000,
+     "Price": "$0.043",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/ams-OSRAM/Q65113A7465?qs=wT7LY0lnAe0L6obgQYmw3A%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "AvailabilityInStock": "0",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 24000,
+     "Date": "2026-11-20T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8541410090"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "854141000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8541410000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8541410100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Taiwan"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  }
+ ],
+ "CC12H250": [
+  {
+   "Availability": "151 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Fusíveis de montagem em superfícies 250mA 63V High I2t chip fuses",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/eatoncorporation/images/CC12H_series_SPL.jpg",
+   "Category": "Fusíveis de montagem em superfícies",
+   "LeadTime": "84 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "Eaton Electronics",
+   "ManufacturerPartNumber": "CC12H250mA-TR",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "504-CC12H250MA-TR",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "3000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.03",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.944",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.784",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.723",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.65",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.60",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.553",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 3000,
+     "Price": "$0.49",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Eaton-Electronics/CC12H250mA-TR?qs=FP9LbDqJ9llN1%2FyFlrPRpg%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "REACH-SVHC": [
+    "Diboron trioxide (1303-86-2)"
+   ],
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 4.7e-05
+   },
+   "AvailabilityInStock": "151",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 3000,
+     "Date": "2027-02-11T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85361000"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8536100000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8536100000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8536100040"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853610000"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "China"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+# KiCad: estado local e backups
+*.kicad_prl
+*-backups/
+.history/
+fp-info-cache
+*.antes_*
+*.bak
+_autosave-*
+~*.lck
+# Python
+__pycache__/
+*.pyc
+# saidas intermedias
+output/

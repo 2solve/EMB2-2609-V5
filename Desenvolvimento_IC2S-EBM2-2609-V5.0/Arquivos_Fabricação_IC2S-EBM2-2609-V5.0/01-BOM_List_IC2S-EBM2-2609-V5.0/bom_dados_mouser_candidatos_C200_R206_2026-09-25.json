@@ -1,0 +1,4272 @@
+{
+ "C3216X7R2A225K160AA": [],
+ "GRM31CR72A225KA73L": [
+  {
+   "DataSheetUrl": "https://www.mouser.com/datasheet/3/76/4/GRM31CR72A225KA73_01.pdf",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT FACTORY NOT ACCEPTING ORDERS.  SUGGESTED REPLACEMENT  81-GRM188R61H225KE1D",
+   "FactoryStock": null,
+   "ImagePath": "https://www.mouser.com/images/murata/images/GCM033D70E105ME36D_SPL.JPG",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": "Obsolete",
+   "Manufacturer": "Murata Electronics",
+   "ManufacturerPartNumber": "GRM31CR72A225KA73L",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "81-GRM31CR72A225KA3L",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "2000"
+    }
+   ],
+   "PriceBreaks": [],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Murata-Electronics/GRM31CR72A225KA73L?qs=4l9S5vBWkUIzW4iFoxuq8Q%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 2.7e-05
+   },
+   "AvailabilityInStock": null,
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [
+    "Atualmente, a Mouser não vende este produto em sua região."
+   ],
+   "SurchargeMessages": null,
+   "RestrictionMessage": "Atualmente, a Mouser não vende este produto em sua região.",
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8532240400"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  }
+ ],
+ "ERJ-P06F1500V": [
+  {
+   "Availability": "5596 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Resistores de Filme Espesso - SMD 0805 150ohms 0.5W 1% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/panasonic/images/ERJ-P_series_SPL.jpg",
+   "Category": "Resistores de Filme Espesso - SMD",
+   "LeadTime": "105 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "Panasonic Industry",
+   "ManufacturerPartNumber": "ERJ-P06F1500V",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "667-ERJ-P06F1500V",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "5000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.19",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.064",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.055",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.046",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.04",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.036",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.028",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.025",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Panasonic-Industry/ERJ-P06F1500V?qs=iIVTEDlrHA14KzF1SQBxOQ%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 5.5e-06
+   },
+   "AvailabilityInStock": "5596",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 10000,
+     "Date": "2026-11-02T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85332120"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8533211000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8533210030"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853321000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8533219000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8533210100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  }
+ ],
+ "ERJP06F1500V": [
+  {
+   "Availability": "5596 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Resistores de Filme Espesso - SMD 0805 150ohms 0.5W 1% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/panasonic/images/ERJ-P_series_SPL.jpg",
+   "Category": "Resistores de Filme Espesso - SMD",
+   "LeadTime": "105 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "Panasonic Industry",
+   "ManufacturerPartNumber": "ERJ-P06F1500V",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "667-ERJ-P06F1500V",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "5000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.19",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.064",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.055",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.046",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.04",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.036",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.028",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.025",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Panasonic-Industry/ERJ-P06F1500V?qs=iIVTEDlrHA14KzF1SQBxOQ%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 5.5e-06
+   },
+   "AvailabilityInStock": "5596",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 10000,
+     "Date": "2026-11-02T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85332120"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8533211000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8533210030"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853321000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8533219000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8533210100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  }
+ ],
+ "GRM31CR72A225": [],
+ "C3216X7S2A225": [
+  {
+   "Availability": "154647 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 1206 100V 2.2uF X7S 10% T: 1.6mm",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/tdk/images/C3216X7R2A475K160AC_SPL.jpg",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "168 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "TDK",
+   "ManufacturerPartNumber": "C3216X7S2A225K160AB",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "810-C3216X7S2A225K",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "2000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.68",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.424",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.322",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.291",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.238",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.192",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/C3216X7S2A225K160AB?qs=NRhsANhppD%2FbKV6SOiY4ew%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 2.7e-05
+   },
+   "AvailabilityInStock": "154647",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 122000,
+     "Date": "2027-02-09T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SalesMaximumOrderQty": "5000",
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8532240400"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "41873 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 2.2 uF X7S 100 VDC 1206 20 %",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/tdk/images/C3216X7R2A475K160AC_SPL.jpg",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "280 Dias",
+   "LifecycleStatus": "Not Recommended for New Designs",
+   "Manufacturer": "TDK",
+   "ManufacturerPartNumber": "C3216X7S2A225M160AB",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "810-C3216X7S2A225M",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "2000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.68",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.342",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.295",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.246",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.236",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.203",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/C3216X7S2A225M160AB?qs=NRhsANhppD8LkXaYYg9pEw%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "810-C3216X7S2A225K",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 2.7e-05
+   },
+   "AvailabilityInStock": "41873",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SalesMaximumOrderQty": "2000",
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8532240400"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "3150 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 2.2 uF X7S 100 VDC 1206 20 %",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/tdk/images/C3216X7R2A475K160AC_SPL.jpg",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "280 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "TDK",
+   "ManufacturerPartNumber": "C3216X7S2A225M160AE",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "810-C3216X7S2A225MST",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "2000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.13",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.726",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.566",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.517",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.434",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.358",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/C3216X7S2A225M160AE?qs=LcTL%2F5vFEzHhj5Jwij4cMg%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "810-C3216X7S2A225KST",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 2.7e-05
+   },
+   "AvailabilityInStock": "3150",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT SOFT 1206 100V 2.2uF X7S 10% T: 1.6mm",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/tdk/images/C3216X7R2A475K160AC_SPL.jpg",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "168 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "TDK",
+   "ManufacturerPartNumber": "C3216X7S2A225K160AE",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "810-C3216X7S2A225KST",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "2000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.13",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.72",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.56",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.511",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.428",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.352",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/C3216X7S2A225K160AE?qs=LcTL%2F5vFEzGyKXuqStFfqA%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 2.7e-05
+   },
+   "AvailabilityInStock": "0",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 70782,
+     "Date": "2027-02-09T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  }
+ ],
+ "CGA5L3X7S2A225": [
+  {
+   "Availability": "11748 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT CGA 1206 100V 2.2uF X7S 10% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/tdk/images/C3216X7R2A475K160AC_SPL.jpg",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "168 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "TDK",
+   "ManufacturerPartNumber": "CGA5L3X7S2A225K160AB",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "810-CGA5L3X7S2A225K",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "2000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.50",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.911",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.674",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.609",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.522",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.283",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.275",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/CGA5L3X7S2A225K160AB?qs=NRhsANhppD8HEa0twj7vcA%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 2.7e-05
+   },
+   "AvailabilityInStock": "11748",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 52000,
+     "Date": "2026-12-07T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SalesMaximumOrderQty": "2000",
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8532240400"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "10981 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT CGA 1206 100V 2.2uF X7S 20% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/tdk/images/C3216X7R2A475K160AC_SPL.jpg",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "168 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "TDK",
+   "ManufacturerPartNumber": "CGA5L3X7S2A225M160AB",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "810-CGA5L3X7S2A225MB",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "2000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.50",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.911",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.674",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.609",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.522",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.283",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.276",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/CGA5L3X7S2A225M160AB?qs=xLDY6iXSiQZQwPQtLVBQhQ%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 2.7e-05
+   },
+   "AvailabilityInStock": "10981",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 12000,
+     "Date": "2026-11-06T00:00:00"
+    },
+    {
+     "Quantity": 14000,
+     "Date": "2026-12-08T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SalesMaximumOrderQty": "2000",
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8532240400"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "7548 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT SOFT 1206 100V 2.2uF X7S 20% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/tdk/images/C3216X7R2A475K160AC_SPL.jpg",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "168 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "TDK",
+   "ManufacturerPartNumber": "CGA5L3X7S2A225M160AE",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "810-CGA5L3X7S2A225MS",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "2000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.19",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.77",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.603",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.552",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.464",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.384",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/CGA5L3X7S2A225M160AE?qs=FxQuwy19cyAd8dSAeoBL2w%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 2.7e-05
+   },
+   "AvailabilityInStock": "7548",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8532240400"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "23 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT SOFT 1206 100V 2.2uF X7S 10% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/tdk/images/C3216X7R2A475K160AC_SPL.jpg",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "168 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "TDK",
+   "ManufacturerPartNumber": "CGA5L3X7S2A225K160AE",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "810-CGA5L3X7S2A225KS",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "2000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.19",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.77",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.603",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.552",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.464",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.407",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/CGA5L3X7S2A225K160AE?qs=FxQuwy19cyC%2FXyeU6%2Ff7Aw%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 2.7e-05
+   },
+   "AvailabilityInStock": "23",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 166000,
+     "Date": "2027-02-09T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SalesMaximumOrderQty": "2000",
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8532240400"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  }
+ ],
+ "HMK316B7225": [],
+ "GRM31CC72A225": [],
+ "C1206C225K1R": [],
+ "SG73P2ATTD1500F": [
+  {
+   "Availability": "14366 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/KOA_Speer_SG73P_91124.pdf",
+   "Description": "Resistores de Filme Espesso - SMD 0.5W 150ohm 1% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/koaspeer/images/SG73_series_SPL.jpg",
+   "Category": "Resistores de Filme Espesso - SMD",
+   "LeadTime": "49 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "KOA Speer",
+   "ManufacturerPartNumber": "SG73P2ATTD1500F",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "660-SG73P2ATTD1500F",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "5000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.17",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.054",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.04",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.036",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.03",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.028",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.022",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/KOA-Speer/SG73P2ATTD1500F?qs=0U9fANxrh6kv32xMDX3Yug%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 5.5e-06
+   },
+   "AvailabilityInStock": "14366",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85332120"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8533211000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8533210030"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853321000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8533219000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8533210100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  }
+ ],
+ "SG73P2ATTD150": [
+  {
+   "Availability": "14396 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/KOA_Speer_SG73P_91124.pdf",
+   "Description": "Resistores de Filme Espesso - SMD 0.5W 1.5Kohm 1% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/koaspeer/images/SG73_series_SPL.jpg",
+   "Category": "Resistores de Filme Espesso - SMD",
+   "LeadTime": "49 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "KOA Speer",
+   "ManufacturerPartNumber": "SG73P2ATTD1501F",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "660-SG73P2ATTD1501F",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "5000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.14",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.043",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.036",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.03",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.026",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.023",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.017",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.015",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/KOA-Speer/SG73P2ATTD1501F?qs=0U9fANxrh6nF7f8%252BYIdmHg%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 5.5e-06
+   },
+   "AvailabilityInStock": "14396",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85332120"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8533211000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8533210030"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853321000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8533219000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8533210100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "14366 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/KOA_Speer_SG73P_91124.pdf",
+   "Description": "Resistores de Filme Espesso - SMD 0.5W 150ohm 1% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/koaspeer/images/SG73_series_SPL.jpg",
+   "Category": "Resistores de Filme Espesso - SMD",
+   "LeadTime": "49 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "KOA Speer",
+   "ManufacturerPartNumber": "SG73P2ATTD1500F",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "660-SG73P2ATTD1500F",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "5000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.17",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.054",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.04",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.036",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.03",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.028",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.022",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/KOA-Speer/SG73P2ATTD1500F?qs=0U9fANxrh6kv32xMDX3Yug%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 5.5e-06
+   },
+   "AvailabilityInStock": "14366",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85332120"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8533211000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8533210030"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853321000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8533219000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8533210100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "2426 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/KOA_Speer_SG73P_91124.pdf",
+   "Description": "Resistores de Filme Espesso - SMD 0.5W 150Kohm 1% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/koaspeer/images/SG73_series_SPL.jpg",
+   "Category": "Resistores de Filme Espesso - SMD",
+   "LeadTime": "70 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "KOA Speer",
+   "ManufacturerPartNumber": "SG73P2ATTD1503F",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "660-SG73P2ATTD1503F",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "5000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.17",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.054",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.04",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.036",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.034",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.029",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.014",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/KOA-Speer/SG73P2ATTD1503F?qs=0U9fANxrh6kIwHBKownzmg%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 5.5e-06
+   },
+   "AvailabilityInStock": "2426",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85332120"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8533211000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8533210030"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853321000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8533219000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8533210100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "1691 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/KOA_Speer_SG73P_91124.pdf",
+   "Description": "Resistores de Filme Espesso - SMD 0.5W 15Kohm 1% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/koaspeer/images/SG73_series_SPL.jpg",
+   "Category": "Resistores de Filme Espesso - SMD",
+   "LeadTime": "49 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "KOA Speer",
+   "ManufacturerPartNumber": "SG73P2ATTD1502F",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "660-SG73P2ATTD1502F",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "5000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.17",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.057",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.04",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.036",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.03",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.027",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.017",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.015",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25000,
+     "Price": "$0.014",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/KOA-Speer/SG73P2ATTD1502F?qs=0U9fANxrh6li87eE2yQ41Q%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 5.5e-06
+   },
+   "AvailabilityInStock": "1691",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85332120"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8533211000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8533210030"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853321000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8533219000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8533210100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "17283 Em estoque",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/KOA_Speer_SG73P_91124.pdf",
+   "Description": "Resistores de Filme Espesso - SMD 0.5W 15ohm 5% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/koaspeer/images/SG73_series_SPL.jpg",
+   "Category": "Resistores de Filme Espesso - SMD",
+   "LeadTime": "49 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "KOA Speer",
+   "ManufacturerPartNumber": "SG73P2ATTD150J",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "660-SG73P2ATTD150J",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "5000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.13",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.041",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.035",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.028",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.025",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.022",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.016",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25000,
+     "Price": "$0.014",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/KOA-Speer/SG73P2ATTD150J?qs=ASPj0OG6UllC79oJ9N4cEw%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 5.5e-06
+   },
+   "AvailabilityInStock": "17283",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85332120"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8533211000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8533210030"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853321000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8533219000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8533210100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "Nenhuma",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/KOA_Speer_SG73P_91124.pdf",
+   "Description": "Resistores de Filme Espesso - SMD 0.5W 150Kohm 0.5% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/koaspeer/images/SG73_series_SPL.jpg",
+   "Category": "Resistores de Filme Espesso - SMD",
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "KOA Speer",
+   "ManufacturerPartNumber": "SG73P2ATTD1503D",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "660-SG73P2ATTD1503D",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "5000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.51",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.272",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.161",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.127",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.115",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.105",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.082",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.075",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25000,
+     "Price": "$0.072",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/KOA-Speer/SG73P2ATTD1503D?qs=0U9fANxrh6n9MIvluWuOKQ%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 5.5e-06
+   },
+   "AvailabilityInStock": "0",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85332120"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8533211000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8533210030"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853321000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8533219000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8533210100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "Nenhuma",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/KOA_Speer_SG73P_91124.pdf",
+   "Description": "Resistores de Filme Espesso - SMD 0.5W 150ohm 0.5% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/koaspeer/images/SG73_series_SPL.jpg",
+   "Category": "Resistores de Filme Espesso - SMD",
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "KOA Speer",
+   "ManufacturerPartNumber": "SG73P2ATTD1500D",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "660-SG73P2ATTD1500D",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "5000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.51",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.272",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.161",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.127",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.115",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.105",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.082",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.075",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25000,
+     "Price": "$0.072",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/KOA-Speer/SG73P2ATTD1500D?qs=0U9fANxrh6notnZ3yzWspA%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 5.5e-06
+   },
+   "AvailabilityInStock": "0",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85332120"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8533211000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8533210030"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853321000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8533219000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8533210100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "Nenhuma",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/KOA_Speer_SG73P_91124.pdf",
+   "Description": "Resistores de Filme Espesso - SMD 0.5W 15ohm 2% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/koaspeer/images/SG73_series_SPL.jpg",
+   "Category": "Resistores de Filme Espesso - SMD",
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "KOA Speer",
+   "ManufacturerPartNumber": "SG73P2ATTD150G",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "660-SG73P2ATTD150G",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "5000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.20",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.092",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.052",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.042",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.039",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.036",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.024",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.022",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25000,
+     "Price": "$0.019",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/KOA-Speer/SG73P2ATTD150G?qs=0U9fANxrh6k5cVyiAM9hjw%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 5.5e-06
+   },
+   "AvailabilityInStock": "0",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85332120"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8533211000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8533210030"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853321000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8533219000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8533210100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "Nenhuma",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/KOA_Speer_SG73P_91124.pdf",
+   "Description": "Resistores de Filme Espesso - SMD 0.5W 1.5Kohm 0.5% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/koaspeer/images/SG73_series_SPL.jpg",
+   "Category": "Resistores de Filme Espesso - SMD",
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "KOA Speer",
+   "ManufacturerPartNumber": "SG73P2ATTD1501D",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "660-SG73P2ATTD1501D",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "5000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.51",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.272",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.161",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.127",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.115",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.105",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.082",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.075",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25000,
+     "Price": "$0.072",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/KOA-Speer/SG73P2ATTD1501D?qs=0U9fANxrh6lTCp5hGPwYHA%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 5.5e-06
+   },
+   "AvailabilityInStock": "0",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85332120"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8533211000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8533210030"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853321000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8533219000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8533210100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "Nenhuma",
+   "DataSheetUrl": "https://www.mouser.com/catalog/specsheets/KOA_Speer_SG73P_91124.pdf",
+   "Description": "Resistores de Filme Espesso - SMD 0.5W 15Kohm 0.5% AEC-Q200",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/koaspeer/images/SG73_series_SPL.jpg",
+   "Category": "Resistores de Filme Espesso - SMD",
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "KOA Speer",
+   "ManufacturerPartNumber": "SG73P2ATTD1502D",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "660-SG73P2ATTD1502D",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "5000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.30",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.14",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.079",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 250,
+     "Price": "$0.064",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.059",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.054",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 5000,
+     "Price": "$0.036",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10000,
+     "Price": "$0.034",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 25000,
+     "Price": "$0.03",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/KOA-Speer/SG73P2ATTD1502D?qs=0U9fANxrh6kTdZu7xSinZw%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant By Exemption",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 5.5e-06
+   },
+   "AvailabilityInStock": "0",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85332120"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8533211000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8533210030"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853321000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8533219000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8533210000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8533210100"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  }
+ ],
+ "C3225X7R2A225K": [
+  {
+   "Availability": "30005 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 1210 100V 2.2uF X7R 10% T: 2.3mm",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/tdk/images/c3225jb0j107m250ac_DFI_SPL.jpg",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "168 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "TDK",
+   "ManufacturerPartNumber": "C3225X7R2A225K230AB",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "810-C3225X7R2A225K",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "1000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.78",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.488",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.373",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.338",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.312",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/C3225X7R2A225K230AB?qs=NRhsANhppD%252Bfw13CuT2BJg%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 0.0001
+   },
+   "AvailabilityInStock": "30005",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 108000,
+     "Date": "2026-12-11T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SalesMaximumOrderQty": "2000",
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8532240400"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "12101 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT SOFT 1210 100V 2.2uF X7R 10% T:2.3mm",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/tdk/images/c3225jb0j107m250ac_DFI_SPL.jpg",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "168 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "TDK",
+   "ManufacturerPartNumber": "C3225X7R2A225K230AE",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "810-C3225X7R2A225KST",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "1000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.20",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.777",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.609",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.557",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.469",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.409",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/C3225X7R2A225K230AE?qs=LcTL%2F5vFEzGOhR1TdOzF5Q%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 0.0001
+   },
+   "AvailabilityInStock": "12101",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 11000,
+     "Date": "2027-02-09T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SalesMaximumOrderQty": "1000",
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8532240400"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "28225 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT OPEN 1210 100V 2.2uF X7R 10% T: 2.3mm",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/tdk/images/c3225jb0j107m250ac_DFI_SPL.jpg",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "280 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "TDK",
+   "ManufacturerPartNumber": "C3225X7R2A225K230AM",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "810-C3225X7R2A225KT5",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "1000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.77",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.482",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.369",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.334",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.274",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.237",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.216",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/C3225X7R2A225K230AM?qs=LcTL%2F5vFEzFqvsZK9aVShQ%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 0.0001
+   },
+   "AvailabilityInStock": "28225",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8532240400"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "1879 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 2.2 uF X7R 100 VDC 1210 20 %",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/tdk/images/c3225jb0j107m250ac_DFI_SPL.jpg",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "280 Dias",
+   "LifecycleStatus": null,
+   "Manufacturer": "TDK",
+   "ManufacturerPartNumber": "C3225X7R2A225M230AE",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "810-C3225X7R2A225MST",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "1000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.17",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.609",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.557",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.469",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.409",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.377",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/C3225X7R2A225M230AE?qs=LcTL%2F5vFEzFg6vBvKWFD4g%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "810-C3225X7R2A225KST",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 0.0001
+   },
+   "AvailabilityInStock": "1879",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "46072 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 2.2 uF X7R 100 VDC 1210 20 %",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/tdk/images/c3225jb0j107m250ac_DFI_SPL.jpg",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "280 Dias",
+   "LifecycleStatus": "Not Recommended for New Designs",
+   "Manufacturer": "TDK",
+   "ManufacturerPartNumber": "C3225X7R2A225M230AB",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "810-C3225X7R2A225M",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "1000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.68",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.424",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.322",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.291",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.238",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.204",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.186",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/C3225X7R2A225M230AB?qs=LcTL%2F5vFEzHy0ZPhnH%252B%2FRA%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "810-C3225X7R2A225K",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 0.0001
+   },
+   "AvailabilityInStock": "46072",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "44 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 2.2 uF JB 100 VDC 1210 20 %",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/tdk/images/c3225jb0j107m250ac_DFI_SPL.jpg",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": "End of Life",
+   "Manufacturer": "TDK",
+   "ManufacturerPartNumber": "C3225JB2A225M230AB",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "810-C3225JB2A225M23B",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "1000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.64",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.433",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.295",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.25",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.212",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.202",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/C3225JB2A225M230AB?qs=xLDY6iXSiQbpIrr0iUhvNg%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "810-C3225X7R2A225K",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 0.0001
+   },
+   "AvailabilityInStock": "44",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "Availability": "146 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 2.2 uF JB 100 VDC 1210 10 %",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/tdk/images/c3225jb0j107m250ac_DFI_SPL.jpg",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "0 Dias",
+   "LifecycleStatus": "End of Life",
+   "Manufacturer": "TDK",
+   "ManufacturerPartNumber": "C3225JB2A225K230AB",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "810-C3225JB2A225K23B",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "1000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$0.64",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$0.299",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.27",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.22",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.202",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.196",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": null,
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/TDK/C3225JB2A225K230AB?qs=xLDY6iXSiQaQmYPXH33dJw%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "810-C3225X7R2A225K",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 0.0001
+   },
+   "AvailabilityInStock": "146",
+   "AvailabilityOnOrder": [],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  }
+ ],
+ "GRM32ER72A225K": [
+  {
+   "Availability": "1741 Em estoque",
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 2.2 uF 100 VDC 10% 1210 X7R",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/murata/images/GCM033D70E105ME36D_SPL.JPG",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "140 Dias",
+   "LifecycleStatus": "End of Life",
+   "Manufacturer": "Murata Electronics",
+   "ManufacturerPartNumber": "GRM32ER72A225KA35L",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "81-GRM32ER72A225KA35",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "1000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.68",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$1.19",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$0.975",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.901",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.769",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 1000,
+     "Price": "$0.682",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.637",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": [
+    {
+     "APMfrPN": "GRM32ER72A225KA35K"
+    }
+   ],
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Murata-Electronics/GRM32ER72A225KA35L?qs=CHiu0TXTCq%252BaecLZfNuvaA%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 0.00011
+   },
+   "AvailabilityInStock": "1741",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 80000,
+     "Date": "2026-10-06T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8532240400"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  },
+  {
+   "DataSheetUrl": "",
+   "Description": "Capacitores de cerâmica multicamada MLCC - SMD/SMT 2.2 uF 100 VDC 10% 1210 X7R",
+   "FactoryStock": "0",
+   "ImagePath": "https://www.mouser.com/images/murata/images/GCM033D70E105ME36D_SPL.JPG",
+   "Category": "Capacitores de cerâmica multicamada MLCC - SMD/SMT",
+   "LeadTime": "133 Dias",
+   "LifecycleStatus": "End of Life",
+   "Manufacturer": "Murata Electronics",
+   "ManufacturerPartNumber": "GRM32ER72A225KA35K",
+   "Min": "1",
+   "Mult": "1",
+   "MouserPartNumber": "81-GRM32ER72A225KA5K",
+   "ProductAttributes": [
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Reel"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "Cut Tape"
+    },
+    {
+     "AttributeName": "Embalagem",
+     "AttributeValue": "MouseReel",
+     "AttributeCost": "$7.00 taxa MouseReel™ será adicionada e calculada em seu carrinho de compras. Todos os pedidos MouseReel™ não podem ser cancelados nem devolvidos."
+    },
+    {
+     "AttributeName": "Quantidade embalagem padrão",
+     "AttributeValue": "4000"
+    }
+   ],
+   "PriceBreaks": [
+    {
+     "Quantity": 1,
+     "Price": "$1.94",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 10,
+     "Price": "$1.29",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 50,
+     "Price": "$1.04",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 100,
+     "Price": "$0.955",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 500,
+     "Price": "$0.821",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 2000,
+     "Price": "$0.665",
+     "Currency": "USD"
+    },
+    {
+     "Quantity": 4000,
+     "Price": "$0.664",
+     "Currency": "USD"
+    }
+   ],
+   "AlternatePackagings": [
+    {
+     "APMfrPN": "GRM32ER72A225KA35L"
+    }
+   ],
+   "ProductDetailUrl": "https://br.mouser.com/pt/ProductDetail/Murata-Electronics/GRM32ER72A225KA35K?qs=N3Kl9KD794RluSuxSh1BLw%3D%3D",
+   "Reeling": true,
+   "ROHSStatus": "RoHS Compliant",
+   "SuggestedReplacement": "",
+   "MultiSimBlue": 0,
+   "UnitWeightKg": {
+    "UnitWeight": 0.00011
+   },
+   "AvailabilityInStock": "0",
+   "AvailabilityOnOrder": [
+    {
+     "Quantity": 8000,
+     "Date": "2027-02-01T00:00:00"
+    }
+   ],
+   "InfoMessages": [],
+   "SurchargeMessages": null,
+   "ProductCompliance": [
+    {
+     "ComplianceName": "BRHTS",
+     "ComplianceValue": "85322410"
+    },
+    {
+     "ComplianceName": "CNHTS",
+     "ComplianceValue": "8532241000"
+    },
+    {
+     "ComplianceName": "CAHTS",
+     "ComplianceValue": "8532240010"
+    },
+    {
+     "ComplianceName": "USHTS",
+     "ComplianceValue": "8532240020"
+    },
+    {
+     "ComplianceName": "JPHTS",
+     "ComplianceValue": "853224000"
+    },
+    {
+     "ComplianceName": "KRHTS",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "TARIC",
+     "ComplianceValue": "8532240000"
+    },
+    {
+     "ComplianceName": "MXHTS",
+     "ComplianceValue": "8532240400"
+    },
+    {
+     "ComplianceName": "ECCN",
+     "ComplianceValue": "EAR99"
+    }
+   ],
+   "TradeCompliance": [
+    {
+     "ComplianceName": "País de origem",
+     "ComplianceValue": "Japão"
+    },
+    {
+     "ComplianceName": "País de Origem da Montagem",
+     "ComplianceValue": "Não disponível"
+    },
+    {
+     "ComplianceName": "País de difusão",
+     "ComplianceValue": "Não disponível"
+    }
+   ]
+  }
+ ],
+ "CGA6M3X7R2A225K": [],
+ "C3225X7S2A225K": []
+}

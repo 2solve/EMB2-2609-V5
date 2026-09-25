@@ -1,0 +1,34 @@
+Resumo do projeto E B M dois, versão cinco.
+
+O que é a placa.
+A E B M dois versão cinco é a placa de extensão do I C dois S com seis entradas de quatro a vinte miliampères. Ela substitui diretamente a versão quatro ponto um, que está em campo desde dois mil e vinte e quatro. Tem o mesmo tamanho, sessenta por sessenta milímetros, os mesmos furos de fixação e a mesma pinagem nos dois conectores. Por isso, a base board e o firmware não mudam.
+
+Como funciona.
+Os vinte e quatro volts do painel, que podem variar de dezoito a trinta e dois volts, entram pelo conector da base board. Na entrada há um supressor de surtos e dois ramos com fusível próprio: um alimenta os seis laços, e o outro alimenta os reguladores.
+Cada laço funciona assim. A placa entrega os vinte e quatro volts ao transmissor, e a corrente volta pelo retorno. Ela passa por um limitador de corrente, o T P S vinte e seis mil seiscentos e treze, e depois por um resistor de medida de cento e dez ohms, com zero vírgula um por cento de precisão. Vinte miliampères dão dois vírgula dois volts.
+Depois vem um filtro anti-aliasing e o conversor analógico digital M C P trinta e dois zero oito, de doze bits, com uma referência de precisão de dois vírgula cinco volts.
+O conversor conversa por S P I com a Raspberry Pi através de um isolador digital. Esse isolador é a única peça que atravessa a barreira entre o lado de campo e o lado do barramento.
+
+O que mudou, e por quê.
+São quatro motivos principais.
+Primeiro, falhas reais da versão quatro ponto um. Os fusíveis de entrada abriam no arranque, porque a corrente de carga dos capacitores era maior que o que eles aguentavam. E o sinal MISO chegava com cinco volts à Raspberry Pi, que só tolera três vírgula três volts.
+Segundo, a alimentação. Agora o painel pode estar em rede, bateria ou painel solar, de dezoito a trinta e dois volts. Os conversores isolados antigos não aceitavam essa faixa, só aguentavam um curto de um segundo, e já estão descontinuados. Por isso saíram, e entraram reguladores lineares que aceitam até cem volts na entrada.
+Terceiro, a precisão. Como o firmware calibra cada canal em campo, o que importa é a deriva com a temperatura. Por isso entraram a referência A D R quarenta e cinco vinte e cinco, de dois p p m por grau, e resistores de medida de zero vírgula um por cento.
+Quarto, a proteção. Um transmissor em curto deixava passar sessenta e quatro miliampères contínuos e queimava o resistor de série. Agora cada canal tem um limitador que corta a corrente e tenta de novo a cada oitocentos milissegundos. Esse circuito foi copiado da E B M sete, que já estava validada.
+O que não mudou, de propósito: os conectores, a pinagem, o mapa de canais do conversor e o isolador.
+
+Como trabalhamos.
+Seguimos o fluxo de hardware da empresa, com portões assinados em cada fase.
+A primeira regra é copiar o original antes de inventar: a versão quatro ponto um e a E B M sete foram a base.
+A segunda é que quem desenha não valida. Cada etapa foi conferida por uma verificação independente, feita por outro modelo e sem o histórico da conversa. No portão um foram três verificações em paralelo, uma por bloco, e nenhuma encontrou bloqueios.
+A terceira é que cada mudança é feita em lote, com cópia de segurança, e com a diferença da netlist declarada antes e conferida depois.
+E a quarta: todo dimensionamento cita a página e a figura do datasheet do fabricante. Na lista de materiais, preço e estoque vêm direto da Mouser. O que não se sabe fica marcado como não disponível, nunca estimado.
+
+Onde estamos.
+O portão um foi aprovado hoje: diagrama de blocos, esquemático e lista de materiais. São cento e trinta e nove componentes, e o custo fica em torno de cento e quatro dólares por placa, comprando uma unidade.
+Já começamos o layout. O contorno, os furos e os conectores foram copiados dos gerbers da versão quatro ponto um, com erro menor que um micrômetro. O posicionamento inicial está pronto, só na face de cima, e sem erros de D R C.
+Os próximos passos são: revisar e aprovar o posicionamento, que é o portão três; rotear a placa; e fazer a verificação independente do roteamento.
+Em paralelo, Suprimentos precisa fazer a compra antecipada do isolador I S O sete mil cento e quarenta e um, que está sem estoque, e da referência A D R, que tem disponibilidade restrita.
+Ficam em aberto duas verificações que precisam de um painel real, a do cinco volts da base board e a do MISO no barramento, além dos ensaios de bancada.
+
+Fim do resumo.

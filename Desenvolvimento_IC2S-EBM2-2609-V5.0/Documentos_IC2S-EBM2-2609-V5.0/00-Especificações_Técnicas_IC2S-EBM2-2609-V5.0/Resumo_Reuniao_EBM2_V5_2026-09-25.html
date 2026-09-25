@@ -1,0 +1,198 @@
+<title>EBM2 V5 em resumo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+  :root {
+    --ground: #f4f6f3;
+    --paper: #ffffff;
+    --ink: #1a211e;
+    --muted: #56615b;
+    --line: #d5dcd6;
+    --mask: #1f5a43;
+    --mask-soft: #e3eee8;
+    --copper: #a8612e;
+    --copper-soft: #f5e9df;
+    --field: #eef2e6;
+    --bus: #e7edf6;
+    --bus-ink: #2e4c7a;
+    --warn: #8a5a00;
+    --warn-soft: #fbf0d6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --ground: #111614; --paper: #171e1b; --ink: #e3e9e5; --muted: #9aa8a0; --line: #2c3632;
+      --mask: #74c39c; --mask-soft: #1d2c25; --copper: #e0a06e; --copper-soft: #2b221b;
+      --field: #1b231c; --bus: #19212d; --bus-ink: #9ab8e6; --warn: #e6bd62; --warn-soft: #2a2415;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --ground: #111614; --paper: #171e1b; --ink: #e3e9e5; --muted: #9aa8a0; --line: #2c3632;
+    --mask: #74c39c; --mask-soft: #1d2c25; --copper: #e0a06e; --copper-soft: #2b221b;
+    --field: #1b231c; --bus: #19212d; --bus-ink: #9ab8e6; --warn: #e6bd62; --warn-soft: #2a2415;
+  }
+  body {
+    background: var(--ground); color: var(--ink);
+    font: 400 15.5px/1.6 "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    padding-inline: 16px; padding-block: 32px 56px;
+  }
+  .doc { max-width: 820px; margin: 0 auto; display: grid; gap: 40px; }
+  h1, h2, h3 { font-family: "IBM Plex Sans Condensed", "Arial Narrow", system-ui, sans-serif; text-wrap: balance; margin: 0; line-height: 1.15; }
+  h1 { font-size: clamp(30px, 5vw, 40px); font-weight: 700; letter-spacing: -0.01em; }
+  h2 { font-size: 23px; font-weight: 600; }
+  h3 { font-size: 16.5px; font-weight: 600; }
+  p { margin: 0; max-width: 66ch; }
+  .mono, code { font-family: "IBM Plex Mono", ui-monospace, Consolas, monospace; font-size: 0.9em; }
+  .eyebrow { font: 500 12px/1.2 "IBM Plex Mono", ui-monospace, monospace; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  header { display: grid; gap: 12px; border-bottom: 1px solid var(--line); padding-bottom: 24px; }
+  .lede { font-size: 17.5px; color: var(--ink); }
+  .facts { display: flex; flex-wrap: wrap; gap: 8px 22px; color: var(--muted); font-size: 13.5px; }
+  .facts b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+  section { display: grid; gap: 16px; }
+
+  /* cadeia de sinal de um laco */
+  .chain-wrap { overflow-x: auto; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 18px 16px 14px; }
+  .chain { display: flex; align-items: stretch; gap: 0; min-width: 760px; }
+  .blk { flex: 1 1 0; display: grid; align-content: start; gap: 3px; padding: 10px 10px 11px; border: 1.5px solid var(--mask); border-radius: 4px; background: var(--mask-soft); }
+  .blk.pwr { border-color: var(--copper); background: var(--copper-soft); }
+  .blk.bus { border-color: var(--bus-ink); background: var(--bus); }
+  .blk .t { font: 600 13.5px/1.2 "IBM Plex Sans Condensed", system-ui, sans-serif; }
+  .blk .r { font: 500 11.5px/1.2 "IBM Plex Mono", ui-monospace, monospace; color: var(--muted); }
+  .blk .d { font-size: 12px; line-height: 1.35; color: var(--ink); }
+  .arrow { flex: 0 0 18px; align-self: center; height: 2px; background: var(--muted); position: relative; }
+  .arrow::after { content: ""; position: absolute; right: -1px; top: -4px; border-left: 6px solid var(--muted); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
+  .barrier { flex: 0 0 22px; align-self: stretch; margin: -6px 0; border-left: 2px dashed #c0392b; position: relative; margin-left: 10px; }
+  .caption { font-size: 12.5px; color: var(--muted); margin-top: 10px; }
+
+  .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px 28px; }
+  ul.plain { margin: 0; padding-left: 18px; display: grid; gap: 7px; }
+  ul.plain li::marker { color: var(--mask); }
+  .kv { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; font-size: 14.5px; }
+  .kv dt { font: 500 12.5px/1.6 "IBM Plex Mono", ui-monospace, monospace; color: var(--mask); }
+  .kv dd { margin: 0; }
+
+  /* fluxo e portoes */
+  .flow { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; }
+  .stage { padding: 10px 12px; border-radius: 4px; border: 1px solid var(--line); background: var(--paper); display: grid; gap: 4px; }
+  .stage .n { font: 500 11.5px/1 "IBM Plex Mono", ui-monospace, monospace; color: var(--muted); }
+  .stage .t { font: 600 14px/1.2 "IBM Plex Sans Condensed", system-ui, sans-serif; }
+  .stage .s { font-size: 12px; color: var(--muted); }
+  .stage.done { border-color: var(--mask); }
+  .stage.done .s { color: var(--mask); font-weight: 600; }
+  .stage.now { border: 1.5px solid var(--copper); background: var(--copper-soft); }
+  .stage.now .s { color: var(--copper); font-weight: 600; }
+
+  .rules { display: grid; gap: 12px; }
+  .rule { display: grid; grid-template-columns: 190px 1fr; gap: 4px 20px; padding-top: 12px; border-top: 1px solid var(--line); }
+  .rule:first-child { border-top: 0; padding-top: 0; }
+  .rule h3 { color: var(--mask); }
+  @media (max-width: 560px) { .rule { grid-template-columns: 1fr; } }
+
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  .tbl { overflow-x: auto; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font: 500 12px/1.3 "IBM Plex Mono", ui-monospace, monospace; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .pill { display: inline-block; font: 500 11px/1 "IBM Plex Mono", ui-monospace, monospace; padding: 4px 7px; border-radius: 3px; white-space: nowrap; }
+  .pill.ok { background: var(--mask-soft); color: var(--mask); }
+  .pill.wait { background: var(--warn-soft); color: var(--warn); }
+  footer { color: var(--muted); font-size: 12.5px; border-top: 1px solid var(--line); padding-top: 14px; }
+</style>
+
+<div class="doc">
+  <header>
+    <div class="eyebrow">2Solve · Hardware · reunião de 25-09-2026</div>
+    <h1>IC2S Extension Board EBM2 V5</h1>
+    <p class="lede">Seis entradas 4-20 mA para a base board IC2S. É uma <b>substituição directa da V4.1</b>: mesmo contorno, mesmos furos e a mesma pinagem nos dois conectores. O firmware não muda.</p>
+    <div class="facts">
+      <span>Placa <b>60 × 60 mm</b>, 4 camadas</span>
+      <span><b>139</b> componentes · <b>99</b> redes</span>
+      <span>BOM <b>43</b> linhas · <b>~104 USD</b>/placa (1 un., Mouser 25-09)</span>
+      <span>Portão 1 <b>aprovado</b> · F3 em curso</span>
+    </div>
+  </header>
+
+  <section>
+    <div class="eyebrow">Como funciona</div>
+    <h2>Um laço, do transmissor ao Raspberry Pi</h2>
+    <div class="chain-wrap">
+      <div class="chain" role="img" aria-label="Cadeia de um canal: P2, fusível e TVS, TPS26613, burden, filtro, MCP3208, isolador ISO7141, P1">
+        <div class="blk pwr"><span class="t">P2 · campo</span><span class="r">LOOPk_V+ / AINk−</span><span class="d">24 V ao transmissor, retorno da corrente</span></div>
+        <div class="arrow"></div>
+        <div class="blk"><span class="t">Protecção</span><span class="r">F 50 mA · TVS 36/33 V</span><span class="d">curto franco e surtos no fio</span></div>
+        <div class="arrow"></div>
+        <div class="blk"><span class="t">Limitador</span><span class="r">TPS26613</span><span class="d">curto do transmissor: 25-40 mA, corta 100 ms, tenta a cada 800 ms</span></div>
+        <div class="arrow"></div>
+        <div class="blk"><span class="t">Medida</span><span class="r">110 Ω 0,1 %</span><span class="d">20 mA = 2,200 V</span></div>
+        <div class="arrow"></div>
+        <div class="blk"><span class="t">Filtro</span><span class="r">3k3 · 100 nF · BAV199 · 4k7</span><span class="d">corte ≈ 482 Hz; grampo no 3V3_REF</span></div>
+        <div class="arrow"></div>
+        <div class="blk"><span class="t">Conversor</span><span class="r">MCP3208 · 12 bits</span><span class="d">VREF 2,5 V do ADR4525</span></div>
+        <div class="barrier" aria-hidden="true"></div>
+        <div class="blk bus"><span class="t">Isolador</span><span class="r">ISO7141</span><span class="d">SPI atravessa a barreira</span></div>
+        <div class="arrow"></div>
+        <div class="blk bus"><span class="t">P1 · base board</span><span class="r">SPI 3,3 V</span><span class="d">Raspberry Pi (mestre)</span></div>
+      </div>
+      <p class="caption">Verde: domínio de campo (<span class="mono">GND_ADC</span>). Azul: domínio do barramento (<span class="mono">DGND</span>). A tracejado vermelho, a barreira funcional: só o ISO7141 a atravessa.</p>
+    </div>
+
+    <div class="two">
+      <dl class="kv">
+        <dt>Entrada</dt><dd>24 V do painel, <b>18-32 V</b> (rede, bateria ou solar), pelo P1.20. TVS SMA6J33A e dois ramos com fusível próprio.</dd>
+        <dt>+24V_ADC</dt><dd>Alimenta os seis laços (fusível de 750 mA).</dd>
+        <dt>+5V_ADC</dt><dd>TPS7A4001 depois de 250 mA + 150 Ω (limita a corrente de arranque).</dd>
+        <dt>3V3_REF</dt><dd>MCP1824: VDD do conversor, com grampo TL431.</dd>
+        <dt>+2V5_REF</dt><dd>ADR4525 grau B: a referência deixa de ser o próprio trilho.</dd>
+        <dt>+12V_TPS</dt><dd>Segundo TPS7A4001, só para os seis limitadores.</dd>
+      </dl>
+      <ul class="plain">
+        <li><b>Mapa de canais igual à V4.1:</b> campo em CH0-CH3 e CH6-CH7, CH4 = termístor da placa, CH5 lê sempre 4095. Não é sequencial de propósito.</li>
+        <li><b>Transmissor em curto:</b> a leitura alterna entre 4095 e ~0 (ciclo de 800 ms). O firmware deve tratar isso como falha do canal.</li>
+        <li><b>Calibração:</b> é feita em campo, por variável. Ao trocar a placa, recalibrar.</li>
+        <li><b>Três LED</b> nas janelas da V4.1: entrada de 24 V, +5V_ADC e trilho dos laços.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Como trabalhámos</div>
+    <h2>Fluxo 2shw-pcb, com portões assinados</h2>
+    <div class="flow">
+      <div class="stage done"><span class="n">F0 · F1</span><span class="t">Escopo e planeamento</span><span class="s">fechados</span></div>
+      <div class="stage done"><span class="n">F2</span><span class="t">Esquemático no KiCad</span><span class="s">ERC 0</span></div>
+      <div class="stage done"><span class="n">Portão 1</span><span class="t">Diagrama, esquemático, BOM</span><span class="s">aprovado 25-09</span></div>
+      <div class="stage now"><span class="n">F3</span><span class="t">Contorno e placement</span><span class="s">em curso</span></div>
+      <div class="stage"><span class="n">Portão 3</span><span class="t">Placement aprovado</span><span class="s">próximo</span></div>
+      <div class="stage"><span class="n">F3.3 · F3.4</span><span class="t">Roteamento e verificação</span><span class="s">projectista + sessão independente</span></div>
+    </div>
+
+    <div class="rules">
+      <div class="rule"><h3>Copiar antes de inventar</h3><p>A base é a V4.1 (em campo desde 2024) e a EBM7 V2.3 Legacy. O limitador, o empilhamento e as posições mecânicas foram copiados, não redesenhados. O contorno saiu dos Gerbers de origem da V4.1, com menos de 1 µm de desvio.</p></div>
+      <div class="rule"><h3>Quem desenha não valida</h3><p>O autor é um modelo; a verificação cruzada corre noutro modelo, sem o histórico da conversa. No Portão 1 foram três verificações em paralelo, uma por bloco: 0 bloqueantes. As ressalvas foram corrigidas antes da assinatura.</p></div>
+      <div class="rule"><h3>Cada alteração é uma tanda</h3><p>Antes de escrever: backup e diff de netlist declarado. Depois: diff conferido e portas automáticas (ERC, rede a rede contra o documento de intenção, sobreposição de texto no PDF). As portas são sabotadas de propósito para provar que reprovam.</p></div>
+      <div class="rule"><h3>Datasheet, página e figura</h3><p>Cada dimensionamento cita o texto <i>e</i> o gráfico do fabricante (curvas de polarização dos MLCC, impulso do resistor, I²t do fusível). Na BOM, preço e stock vêm crus da API da Mouser; o que não se sabe fica «N/D», nunca estimado.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Estado e próximos passos</div>
+    <h2>Onde estamos</h2>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Item</th><th>Estado</th><th>Nota</th></tr></thead>
+        <tbody>
+          <tr><td>Esquemático + BOM</td><td><span class="pill ok">aprovado</span></td><td>Portão 1 congelado; referências renumeradas R1, R2… com a topologia conferida</td></tr>
+          <tr><td>Contorno e mecânica</td><td><span class="pill ok">feito</span></td><td>P1/P2, furos e LED na posição exacta da V4.1</td></tr>
+          <tr><td>Placement</td><td><span class="pill wait">a iterar</span></td><td>DRC limpo, só face de cima; falta a revisão do projectista e o Portão 3</td></tr>
+          <tr><td>Compra antecipada</td><td><span class="pill wait">Suprimentos</span></td><td>ISO7141 sem stock na Mouser; ADR4525 de disponibilidade restrita; fusíveis Schurter</td></tr>
+          <tr><td>V13 · V14</td><td><span class="pill wait">precisa do painel</span></td><td>+5V da base board (grampo de 9,2 V) e MISO sempre activo no barramento</td></tr>
+          <tr><td>Ensaios T26 · T27</td><td><span class="pill wait">bancada</span></td><td>Curto a 28 V / 85 °C e não interferência entre canais</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>Fonte: documentos do projecto em <span class="mono">C:\hw\hw-ebm2-v5\Documentos</span> (intenção, BOM preliminar, registo do Portão 1, F3). Preços da Mouser de 25-09-2026, 1 unidade.</footer>
+</div>

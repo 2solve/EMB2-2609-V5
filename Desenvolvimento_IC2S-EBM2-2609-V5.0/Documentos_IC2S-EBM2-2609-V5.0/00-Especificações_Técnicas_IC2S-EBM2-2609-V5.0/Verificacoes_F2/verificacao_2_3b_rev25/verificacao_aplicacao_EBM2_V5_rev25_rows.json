@@ -1,0 +1,248 @@
+[
+  {
+    "ic": "F201 (CC12H250MA-TR)",
+    "source": "Eaton Technical Data 4309 (jul-2023), tabela pág. 2, nota 3",
+    "formula": "R_frio(F201) = 3500 mOhm (tabela)",
+    "values": {"r_datasheet_mohm": 3500, "r_intencao_mohm": 3500},
+    "expr": "r_datasheet_mohm == r_intencao_mohm",
+    "show": "r_datasheet_mohm"
+  },
+  {
+    "ic": "F201 (CC12H250MA-TR)",
+    "source": "Eaton Technical Data 4309, tabela pág. 2, nota 3 (\"measured at 10In rated current\")",
+    "formula": "I2t pré-arco típico = 0,00038 A2s",
+    "values": {"i2t_datasheet": 0.00038, "i2t_intencao": 0.00038},
+    "expr": "i2t_datasheet == i2t_intencao",
+    "show": "i2t_datasheet"
+  },
+  {
+    "ic": "R206 + F201 + C200",
+    "source": "Datasheet Eaton + BOM (energia armazenada no arranque, C200 a 32 V)",
+    "formula": "E_C200 = C200 * Vmax^2 / 2 (ordem de grandeza do pico citado, ~1,1 mJ)",
+    "values": {"C200": 2.2e-6, "Vmax": 32},
+    "expr": "abs(C200*Vmax*Vmax/2 - 1.126e-3) < 0.1e-3",
+    "show": "C200*Vmax*Vmax/2 ; Vmax/(68+3.5)"
+  },
+  {
+    "ic": "R206 (0805 anti-surto, 68 R) -- reconstrucao do modelo da rev. 2.4 (só C202/C203 a jusante)",
+    "source": "Eaton 4309 p.2 + SBVS162B §6.5 p.5 (ILIM 51-200 mA) -- MESMA formula da corrida rev. 2.4, com R206 e C204 actualizados",
+    "formula": "I2t_total = V^2*C200/(2*(Rf+R206)) + ILIM^2*(C5*VOUT/ILIM) ; margem = I2t_f/I2t_total >= 10",
+    "values": {"v": 32, "c200": 2.2e-6, "rf": 3.5, "r206": 68, "ilim": 0.2, "c5": 1.01e-5, "vout": 4.974, "i2t_f": 0.00038},
+    "expr": "i2t_f/(v*v*c200/(2*(rf+r206)) + ilim*ilim*(c5*vout/ilim)) >= 10",
+    "show": "v*v*c200/(2*(rf+r206)) + ilim*ilim*(c5*vout/ilim) ; i2t_f/(v*v*c200/(2*(rf+r206)) + ilim*ilim*(c5*vout/ilim))",
+    "tag": "reconstrucao verificada: reproduz exactamente os 9,289x e 8,545x da rev. 2.4 quando R206=33 e C33=5,4uF (valores antigos) -- ver nota na proxima linha"
+  },
+  {
+    "ic": "R206 (68 R) -- reconstrucao com TODA a capacidade a jusante do U200, C204 actualizado (2,2->10 uF)",
+    "source": "Mesma formula da rev. 2.4 (I2t_total = I2t(C200) + ILIM*(C5V*VOUT + C3V3*3,3)), com C3V3 recalculado para C204=10uF",
+    "formula": "I2t_total = V^2*C200/(2*(Rf+R206)) + ILIM*(C5*VOUT + C33*3,3) ; margem >= 10",
+    "values": {"v": 32, "c200": 2.2e-6, "rf": 3.5, "r206": 68, "ilim": 0.2, "c5": 1.01e-5, "vout": 4.974, "c33": 13.2e-6, "i2t_f": 0.00038},
+    "expr": "i2t_f/(v*v*c200/(2*(rf+r206)) + ilim*(c5*vout + c33*3.3)) >= 10",
+    "show": "i2t_f/(v*v*c200/(2*(rf+r206)) + ilim*(c5*vout + c33*3.3))",
+    "tag": "[RECALCULO DESTE REVISOR] C33 = 5,4 uF (valor da rev.2.4, caps a 3,3V) + 7,8 uF (aumento nominal do C204) = 13,2 uF, sem contar C207/C402 (rails diferentes) nem derating X5R -- estimativa por excesso de C33, logo CONSERVADORA a favor da margem. Margem cai para ~11,0x: acima de 10x mas com so 10% de folga, muito mais apertada que os 14,7x do modelo simples. Nao reproduz o metodo exacto do autor (11,2x) porque a formula do autor para o R206 nao foi encontrada linha a linha na intencao -- so o resultado final"
+  },
+  {
+    "ic": "U201 (MCP1824T-3302E/OT, SOT-23-5)",
+    "source": "DS22070A pág. 2 (Package Types, figura) e Tabela 3-1 pág. 17",
+    "formula": "Pinagem SOT-23-5 Fixed: 1 VIN, 2 GND, 3 SHDN, 4 PWRGD, 5 VOUT",
+    "values": {"pin1_ds": "VIN", "pin1_bom": "VIN", "pin2_ds": "GND", "pin2_bom": "GND", "pin3_ds": "SHDN", "pin3_bom": "SHDN", "pin4_ds": "PWRGD", "pin4_bom": "NC", "pin5_ds": "VOUT", "pin5_bom": "VOUT"},
+    "expr": "pin1_ds==pin1_bom and pin2_ds==pin2_bom and pin3_ds==pin3_bom and pin5_ds==pin5_bom",
+    "show": "",
+    "tag": "pino 4 (PWRGD, dreno aberto) deixado sem ligacao no U201 -- correcto, nao precisa de pull-up para a funcao"
+  },
+  {
+    "ic": "U201 (MCP1824)",
+    "source": "DS22070A §1.0 Electrical Characteristics pág. 7",
+    "formula": "2,1 V <= VIN <= 6,0 V",
+    "values": {"vin_min": 2.1, "vin_max": 6.0, "vin_real": 4.974},
+    "expr": "vin_min <= vin_real <= vin_max",
+    "show": "vin_real"
+  },
+  {
+    "ic": "U201 (MCP1824)",
+    "source": "DS22070A §4.3 pág. 19",
+    "formula": "1 uF <= C_OUT <= 22 uF recomendado",
+    "values": {"c_min": 1e-6, "c_max": 22e-6, "c_out_nom": 10.2e-6},
+    "expr": "c_min <= c_out_nom <= c_max",
+    "show": "c_out_nom"
+  },
+  {
+    "ic": "C204 (10 uF X5R, TL431BQ pin REF)",
+    "source": "Curva TDK ProductDetailed pág. 2 (DC Bias Characteristic) + tolerancia K (+-10%) + X5R (+-15%)",
+    "formula": "C_efetivo(3,3V) derretado (K, X5R) > 6 uF (fronteira fig. 6-18 SLVS543S curva A)",
+    "values": {"c_curva_3v3": 9.4e-6, "tol_k": 0.10, "tol_x5r": 0.15, "limite_estabilidade": 6e-6},
+    "expr": "c_curva_3v3*(1-tol_k)*(1-tol_x5r) > limite_estabilidade",
+    "show": "c_curva_3v3*(1-tol_k)*(1-tol_x5r)"
+  },
+  {
+    "ic": "R204/R205 + U203 (TL431BQDBZR)",
+    "source": "SLVS543S Tabela 6.13 pág. 14 (Vref 2483/2495/2507 mV; VI(dev) max 34 mV; Iref max 4 uA)",
+    "formula": "Vclamp_max = (Vref_typ+VIdev)*(1+R204/R205) + Iref_max*R204 <= 3,70 V (RA4)",
+    "values": {"vref_typ": 2.495, "vi_dev_max": 0.034, "r204": 4120, "r205": 10000, "iref_max": 4e-6, "limite_ra4": 3.70},
+    "expr": "(vref_typ+vi_dev_max)*(1+r204/r205) + iref_max*r204 <= limite_ra4",
+    "show": "(vref_typ+vi_dev_max)*(1+r204/r205) + iref_max*r204"
+  },
+  {
+    "ic": "R204/R205 + U203 -- reconstrucao COMPLETA da formula da rev. 2.4 (com tolerancia 1% dos R e Z_KA*I_K da falha dupla)",
+    "source": "SLVS543S Tabela 6.13 pag.14 (Vref_max 2,507; VIdev 34mV; Iref 4uA; ZKA 0,5 Ohm) -- mesma formula da rev.2.4, com R204 actualizado 4k42->4k12",
+    "formula": "Vo_max = (1+R204*1,01/(R205*0,99))*(Vref_max+VIdev) + Iref*R204*1,01 + ZKA*I_K <= 3,70 V",
+    "values": {"vref_max": 2.507, "vi_dev": 0.034, "r204": 4120, "r205": 10000, "iref": 4e-6, "zka": 0.5, "i_k": 0.04599, "limite": 3.70},
+    "expr": "(1+r204*1.01/(r205*0.99))*(vref_max+vi_dev) + iref*r204*1.01 + zka*i_k <= limite",
+    "show": "(1+r204*1.01/(r205*0.99))*(vref_max+vi_dev) + iref*r204*1.01 + zka*i_k",
+    "tag": "[RECALCULO DESTE REVISOR] reproduz o metodo exacto da rev.2.4 (que dava 3,728V, FALHA, com R204=4k42); com R204=4k12 dá margem de ~51 mV (1,4%) sob 3,70V -- passa, mas com folga fina, proximo do que a intencao propria calcula (3,662V)"
+  },
+  {
+    "ic": "R204/R205 + U203 vs U201 (MCP1824)",
+    "source": "SLVS543S Tabela 6.13 (Vref min) + DS22070A pág. 8 (VOUT +-2,5%)",
+    "formula": "Vclamp_min (limiar de conducao do TL431) > VOUT_max do MCP1824 (3,3 V + 2,5%) -- para o TL431 nao regular em uso normal",
+    "values": {"vref_min": 2.483, "vi_dev_max": 0.034, "r204": 4120, "r205": 10000, "vout_mcp1824_max": 3.3825},
+    "expr": "(vref_min-vi_dev_max)*(1+r204/r205) > vout_mcp1824_max",
+    "show": "(vref_min-vi_dev_max)*(1+r204/r205)"
+  },
+  {
+    "ic": "C207 (2,2 uF, ADR4525BRZ VOUT)",
+    "source": "ADR4520/25/30/33/40/50 Data Sheet Rev. G pag. 35, Tabela 11",
+    "formula": "C_OUT >= 1,0 uF (ADR4520/ADR4525)",
+    "values": {"c_min": 1.0e-6, "c_out": 2.2e-6},
+    "expr": "c_out >= c_min",
+    "show": "c_out"
+  },
+  {
+    "ic": "C402 (2,2 uF, U401 MCP1824ST-3302E/DB VOUT)",
+    "source": "DS22070A §4.3 pág. 19",
+    "formula": "C_OUT >= 1,0 uF",
+    "values": {"c_min": 1.0e-6, "c_out": 2.2e-6},
+    "expr": "c_out >= c_min",
+    "show": "c_out"
+  },
+  {
+    "ic": "C209 (10 nF, U200 TPS7A4001DGNR OUT-FB)",
+    "source": "SBVS162B §8.2.2.3 pag. 11 + Tabela Electrical Characteristics nota (4) pag. 5",
+    "formula": "C_BYP liga-se entre os pinos FB e OUT (nota 4); recomendado 10 nF",
+    "values": {"c_byp": 10e-9, "c_byp_recomendado": 10e-9, "liga_out": true, "liga_fb": true},
+    "expr": "c_byp == c_byp_recomendado and liga_out and liga_fb",
+    "show": ""
+  },
+  {
+    "ic": "C645 (10 nF, U640 TPS7A4001DGNR OUT-FB)",
+    "source": "SBVS162B §8.2.2.3 pag. 11 + nota (4) pag. 5",
+    "formula": "C_BYP liga-se entre os pinos FB e OUT; recomendado 10 nF",
+    "values": {"c_byp": 10e-9, "c_byp_recomendado": 10e-9, "liga_out": true, "liga_fb": true},
+    "expr": "c_byp == c_byp_recomendado and liga_out and liga_fb",
+    "show": ""
+  },
+  {
+    "ic": "C209 zero (U200)",
+    "source": "Calculo do proprio projectista, conferido: 1/(2*pi*R201*C209)",
+    "formula": "f_zero = 1/(2*pi*R201*C209)",
+    "values": {"r201": 32400, "c209": 10e-9},
+    "expr": "abs(1/(2*pi*r201*c209) - 491.4) < 1.0",
+    "show": "1/(2*pi*r201*c209)"
+  },
+  {
+    "ic": "C645 zero (U640)",
+    "source": "Calculo do proprio projectista, conferido: 1/(2*pi*R641*C645)",
+    "formula": "f_zero = 1/(2*pi*R641*C645)",
+    "values": {"r641": 93100, "c645": 10e-9},
+    "expr": "abs(1/(2*pi*r641*c645) - 171.0) < 1.0",
+    "show": "1/(2*pi*r641*c645)"
+  },
+  {
+    "ic": "C642+C644 (2x 10 uF X5R, U640 VOUT = +12V_TPS)",
+    "source": "SBVS162B §8.2.2.2 pag. 11 (COUT min 4,7 uF) + curva TDK a 12,6 V",
+    "formula": "C_efetivo total (2 pecas, derretado K+X5R) > 4,7 uF",
+    "values": {"c_curva_12v6_unidade": 5.8e-6, "tol_k": 0.10, "tol_x5r": 0.15, "n_pecas": 2, "limite": 4.7e-6},
+    "expr": "c_curva_12v6_unidade*(1-tol_k)*(1-tol_x5r)*n_pecas > limite",
+    "show": "c_curva_12v6_unidade*(1-tol_k)*(1-tol_x5r)*n_pecas"
+  },
+  {
+    "ic": "[CONTRAFACTUAL] C642 sozinho, sem C644 -- justifica a peça nova do item 9",
+    "source": "SBVS162B §8.2.2.2 pag. 11 (COUT min 4,7 uF) + curva TDK a 12,6 V",
+    "formula": "C_efetivo de 1 peca so (derretado K+X5R) > 4,7 uF? -- prova que uma so peca NAO bastava antes da rev. 2.5",
+    "values": {"c_curva_12v6_unidade": 5.8e-6, "tol_k": 0.10, "tol_x5r": 0.15, "limite": 4.7e-6},
+    "expr": "c_curva_12v6_unidade*(1-tol_k)*(1-tol_x5r) > limite",
+    "show": "c_curva_12v6_unidade*(1-tol_k)*(1-tol_x5r)",
+    "tag": "[NAO E DEFEITO DA REV. 2.5b] confirma que C644 era necessario (a peca unica ficava a ~94% do minimo); com as duas pecas o total e 8,87 uF, ver linha anterior. Leitura da curva TDK a 12,6V por inspecao visual (baixa resolucao)"
+  },
+  {
+    "ic": "MCP3208T-BI/SL (U500) pino de entrada",
+    "source": "DS21298E pag. 2 (Absolute Maximum Ratings)",
+    "formula": "V(pino) entre VSS-0,6V e VDD+0,6V",
+    "values": {"vdd": 3.3, "margem_abs_max": 0.6},
+    "expr": "vdd + margem_abs_max == 3.9",
+    "show": "vdd + margem_abs_max"
+  },
+  {
+    "ic": "V10 -- residual no PINO do MCP3208 depois de R661 (falha simples, transmissor em curto)",
+    "source": "SLVSFE3C I(OL)max 40mA (TPS26613) + BAV199LT1/D Vf~0,9V max + DS21298E Fig.4-1 (Vt=0,6V, Rs=1k) -- mesma fisica da linha FALHA da rev.2.4, agora com R661 em serie",
+    "formula": "V_pino = (VDD+0,6) + I_clamp*Rs_interno, com I_clamp=(V_filt-(VDD+0,6))/(R661+Rs_interno) ; compara residual com o excesso antigo (sem R661)",
+    "values": {"v_filt_max": 4.2, "vdd_06": 3.9, "r661": 4700, "rs_interno": 1000},
+    "expr": "(vdd_06 + ((v_filt_max-vdd_06)/(r661+rs_interno))*rs_interno) - v_filt_max < 0",
+    "show": "(v_filt_max-vdd_06)/(r661+rs_interno) ; vdd_06 + ((v_filt_max-vdd_06)/(r661+rs_interno))*rs_interno ; v_filt_max - vdd_06",
+    "tag": "[NAO ELIMINADO, SO MITIGADO] o pino ainda fica ~12-15 mV acima de VDD+0,6V (era ate 300 mV sem R661); a corrente de injeccao cai de descontrolada para ~50 uA. Continua a exigir T26 e a corrente de injeccao admissivel da Microchip -- ver 'o que nenhuma ferramenta viu'"
+  },
+  {
+    "ic": "R661-R666 (4k7) + D621-626 (BAV199) + MCP3208 modelo de entrada",
+    "source": "DS21298E Fig. 4-1 pag. 18 (Vt=0,6V, Rs=1kOhm, Csample=20pF) + BAV199 Fig.2 pag.3 (Vf a ~0,15mA)",
+    "formula": "corrente para o diodo de clamp interno do MCP3208 = (V_clamp_BAV199 - Vt_interno) / (R661 + Rs_interno)",
+    "values": {"v_clamp_bav199": 0.70, "vt_interno": 0.6, "r661": 4700, "rs_interno": 1000},
+    "expr": "(v_clamp_bav199 - vt_interno)/(r661+rs_interno) < 100e-6",
+    "show": "(v_clamp_bav199 - vt_interno)/(r661+rs_interno)"
+  },
+  {
+    "ic": "R661 + C_sample MCP3208",
+    "source": "DS21298E Fig. 4-1 pag.18 (Csample 20pF) + §6.2 pag.22 (1,2 ms) + planejamento (amostragem 75us)",
+    "formula": "tau = (R661+Rs_interno)*Csample << tempo de amostragem (75 us)",
+    "values": {"r661": 4700, "rs_interno": 1000, "c_sample": 20e-12, "t_amostragem": 75e-6},
+    "expr": "(r661+rs_interno)*c_sample < t_amostragem/100",
+    "show": "(r661+rs_interno)*c_sample"
+  },
+  {
+    "ic": "U640 (TPS7A4001) VIN abs max / operacao",
+    "source": "SBVS162B pag. 4 (Recommended Operating Conditions: VIN 7-100V) + BOM (+24V_ADC a 32V)",
+    "formula": "7 V <= VIN <= 100 V",
+    "values": {"vin_min": 7, "vin_max": 100, "vin_real_32v": 31.4},
+    "expr": "vin_min <= vin_real_32v <= vin_max",
+    "show": "vin_real_32v"
+  },
+  {
+    "ic": "U200/U640 (TPS7A4001) potencia a 24V/32V",
+    "source": "SBVS162B pag.5 nota (2): P <= 1,14 W a 24V/50mA (limite termico do pacote)",
+    "formula": "Verificar que o consumo real fica bem abaixo do caso de referencia da nota (2)",
+    "values": {"i_u640_ma": 10.8, "vin_u640": 31.4, "vout_u640": 12.09},
+    "expr": "(vin_u640-vout_u640)*(i_u640_ma/1000) < 1.14",
+    "show": "(vin_u640-vout_u640)*(i_u640_ma/1000)"
+  },
+  {
+    "ic": "Cadeia de campo (canal k) -- teste de uma multiplicacao a 4 mA, 18 V",
+    "source": "BOM (F60x 9,2 ohm cold, U60x RON 4,8-12,5 ohm, R60x 0 ohm, R61x 110 ohm)",
+    "formula": "queda total = I*(R_fusivel+R_ON_max+R_serie+R_burden); sobra = 18 - D202_Vf - queda (sem limite formal do escopo -- ver V9)",
+    "values": {"i": 0.004, "r_fusivel": 9.2, "r_on_max": 12.5, "r_serie": 0, "r_burden": 110, "vf_d202": 0.5},
+    "expr": "18 - vf_d202 - i*(r_fusivel+r_on_max+r_serie+r_burden) > 0",
+    "show": "18 - vf_d202 - i*(r_fusivel+r_on_max+r_serie+r_burden)"
+  },
+  {
+    "ic": "Cadeia de campo (canal k) -- teste de uma multiplicacao a 22,7 mA (saturacao), 18 V",
+    "source": "BOM + planejamento (saturacao do ADC a 22,7 mA)",
+    "formula": "sobra ao transmissor a 22,7 mA, 18 V",
+    "values": {"i": 0.0227, "r_fusivel": 9.2, "r_on_max": 12.5, "r_serie": 0, "r_burden": 110, "vf_d202": 0.5},
+    "expr": "18 - vf_d202 - i*(r_fusivel+r_on_max+r_serie+r_burden) > 14",
+    "show": "18 - vf_d202 - i*(r_fusivel+r_on_max+r_serie+r_burden)"
+  },
+  {
+    "ic": "Cadeia de campo (canal k) -- curto do transmissor a 32 V",
+    "source": "SLVSFE3C (TPS26613) tabela 8-3 (I_OL 25-40 mA) + BOM",
+    "formula": "OUT = 40mA * R_burden ; potencia media = OUT*40mA*(100/900)",
+    "values": {"i_ol_max": 0.040, "r_burden": 110},
+    "expr": "i_ol_max*r_burden < 5.0",
+    "show": "i_ol_max*r_burden ; i_ol_max*r_burden*i_ol_max*(100/900)"
+  },
+  {
+    "ic": "R601 = 0 ohm, falha dupla (U60x curto + 30V injetados)",
+    "source": "intencao_EBM2_V5.md §17 'Nao muda' (273 mA / 8,2 W no burden)",
+    "formula": "P_burden = I^2 * R_burden na falha dupla",
+    "values": {"i_falha_dupla": 0.273, "r_burden": 110},
+    "expr": "abs(i_falha_dupla*i_falha_dupla*r_burden - 8.2) < 0.3",
+    "show": "i_falha_dupla*i_falha_dupla*r_burden"
+  }
+]
