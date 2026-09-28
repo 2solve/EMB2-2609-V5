@@ -30,7 +30,7 @@ Fonte dos dados comerciais: Mouser Search API, consulta de 2026-09-25T06:09 + re
 | `KG EELP41.22-PHRH-35-A8J8-20-R18` | `Q65113A7469` | 15898 | Código de encomenda OSRAM do mesmo tipo e bin, KG EELP41.22-PHRH-35-A8J8 (datasheet v1.4 pág. 3) |
 | `ISO7141CCDBQR` | `ISO7141CCDBQ` | 0 | Mesma peça, tubo de 75 em vez de bobina de 2500 (TI, package option addendum pág. 27) |
 
-## 2 · Linhas (42, 123 componentes montados)
+## 2 · Linhas (41, 123 componentes montados)
 
 | Refs | Qtd | Valor | Pegada | Fabricante | MPN | Mouser | Stock | Unit. lote 1 | Unit. lote 10 | Unit. lote 100 | Ciclo de vida | Origem | Notas |
 |---|---:|---|---|---|---|---|---|---:|---:|---:|---|---|---|
@@ -71,8 +71,7 @@ Fonte dos dados comerciais: Mouser Search API, consulta de 2026-09-25T06:09 + re
 | U1, U14 | 2 | TPS7A4001DGN | HVSSOP-8-1EP | Texas Instruments | `TPS7A4001DGNR` | 595-TPS7A4001DGNR | 11204 | 3.5300 | 2.6500 | 2.1800 | Activo (BOM EBM7 2026-09-14) | biblioteca 2Solve |  |
 | U2 | 1 | ADR4525WBRZ-R7 | SOIC8 | Analog Devices | `ADR4525WBRZ-R7` | 584-ADR4525WBRZ-R7 | 2147 | 14.8000 | 11.5900 | 9.9100 | Restricted Availability (Mouser 2026-09-25) | NOVO | Família «Restricted Availability» na Mouser: comprar cedo |
 | U3 | 1 | TL431B | SOT23-3 | Texas Instruments | `TL431BQDBZR` | 595-TL431BQDBZR | 820 | 0.4400 | 0.3060 | 0.2360 | Activo (BOM EBM7 2026-09-14) | biblioteca 2Solve |  |
-| U4 | 1 | MCP1824T-3302E/OT | SOT-23-5 | Microchip | `MCP1824T-3302E/OT` | 579-MCP1824T-3302EOT | 14500 | 0.5600 | 0.5600 | 0.4750 | N/D | NOVO | Novo na rev. 2.5 (U4) |
-| U5 | 1 | MCP1824ST-3302E/DB | SOT-223-3 | Microchip | `MCP1824ST-3302E/DB` | 579-MCP1824ST3302EDB | 11898 | 0.6400 | 0.6400 | 0.5400 | Activo (BOM EBM7 2026-09-14) | biblioteca 2Solve |  |
+| U4, U5 | 2 | MCP1824T-3302E/OT | SOT-23-5 | Microchip | `MCP1824T-3302E/OT` | 579-MCP1824T-3302EOT | 14500 | 0.5600 | 0.5600 | 0.4750 | N/D | NOVO | Novo na rev. 2.5 (U4) |
 | U6 | 1 | ISO7141CCDBQR | SSOP16-4.9x3.9mm | Texas Instruments | `ISO7141CCDBQR` | 595-ISO7141CCDBQR | 0 | 10.9400 | 8.5600 | 7.3000 | Activo (BOM EBM7 2026-09-14) | biblioteca 2Solve | **0 em stock na Mouser** (BOM EBM7 2026-09-14): risco de abastecimento |
 | U7 | 1 | MCP3208T-BI/SL | SOIC16 | Microchip | `MCP3208T-BI/SL` | 579-MCP3208T-BI/SL | 3893 | 5.7600 | 5.7600 | 4.6400 | Activo (DigiKey 2026-09-24) | NOVO |  |
 | U8, U9, U10, U11, U12, U13 | 6 | TPS26613DDFR | SOT-23-8 | Texas Instruments | `TPS26613DDFR` | 595-TPS26613DDFR | 3238 | 1.8000 | 1.2100 | 0.9720 | N/D | biblioteca 2Solve | Novo na rev. 2.4 (protector de laço) |
@@ -81,9 +80,9 @@ Fonte dos dados comerciais: Mouser Search API, consulta de 2026-09-25T06:09 + re
 
 | Lote | Total | Por placa |
 |---:|---:|---:|
-| 1 | parcial 95.77 (faltam 2 linhas) | parcial 95.77 |
-| 10 | parcial 700.81 (faltam 2 linhas) | parcial 70.08 |
-| 100 | parcial 5615.50 (faltam 2 linhas) | parcial 56.16 |
+| 1 | parcial 95.69 (faltam 2 linhas) | parcial 95.69 |
+| 10 | parcial 700.01 (faltam 2 linhas) | parcial 70.00 |
+| 100 | parcial 5609.00 (faltam 2 linhas) | parcial 56.09 |
 
 Linhas sem preço (fora do parcial): C3, C6, C9, C12, C13, C14, C16, C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C34, C35; C10, C15.
 
@@ -95,9 +94,9 @@ Principal quando há stock para o lote; senão a alternativa verificada com stoc
 
 | Lote | Total | Por placa | Sem stock para o lote |
 |---:|---:|---:|---|
-| 1 | 100.36 | 100.36 | `C1608X7R1H104K080AA`, `C1608X7R1H105K080AB`, `ISO7141CCDBQR` |
-| 10 | 733.33 | 73.33 | `C1608X7R1H104K080AA`, `C1608X7R1H105K080AB`, `ISO7141CCDBQR` |
-| 100 | 5804.50 | 58.05 | `824520361`, `C1608X7R1H104K080AA`, `C1608X7R1H105K080AB`, `ISO7141CCDBQR` |
+| 1 | 100.28 | 100.28 | `C1608X7R1H104K080AA`, `C1608X7R1H105K080AB`, `ISO7141CCDBQR` |
+| 10 | 732.53 | 73.25 | `C1608X7R1H104K080AA`, `C1608X7R1H105K080AB`, `ISO7141CCDBQR` |
+| 100 | 5798.00 | 57.98 | `824520361`, `C1608X7R1H104K080AA`, `C1608X7R1H105K080AB`, `ISO7141CCDBQR` |
 
 ## 4 · Compra antecipada (críticos / long-lead) e acções
 
@@ -119,7 +118,7 @@ evidencia:
   skill: 2shw-pcb:bom
   modo: preliminar
   artefatos: [bom_preliminar_EBM2_V5.md, bom_preliminar_EBM2_V5.csv]
-  itens: 42
+  itens: 41
   alertas_ciclo_vida: 1
   itens_nd: 2
   total_1un: N/D

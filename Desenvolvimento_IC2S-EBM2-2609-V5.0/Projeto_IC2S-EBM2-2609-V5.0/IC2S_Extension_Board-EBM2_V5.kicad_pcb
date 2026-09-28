@@ -16087,6 +16087,194 @@
 			)
 		)
 	)
+	(footprint "EBM2_V5:SOT-23-5"
+		(layer "F.Cu")
+		(uuid "83dee93f-6a30-4d8d-ba7e-0f43e84dcbca")
+		(at 125.8 113)
+		(descr "2Solve PCB Library 'SOT-23-5', recuperado da PCB V2.2 (fabricada) em 2026-09-04.")
+		(property "Reference" "U5"
+			(at -1.62301 1.45399 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a759b3b9-670a-4604-89ba-38d3404cb61a")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.107)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MCP1824T-3302E/OT"
+			(at -4.2037 5.86359 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a01077d4-d88c-4f70-baab-161839985df2")
+			(effects
+				(font
+					(size 1.524 1.524)
+					(thickness 0.254)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4b0b2e32-763d-4b3f-9eeb-d130556aebce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "LDO 3,3 V para VCC1/EN1 do isolador; fecha o G2. Pinos: DS22070A pag. 2 figura"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9a122cb2-7615-47e0-b7f6-51cb86426dc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "MCP1824T-3302E/OT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "be372bb9-7726-44bf-bef0-9d7e659f7da5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/833ea678-a46e-43c7-a2d9-3cb876c3643f/14108946-096f-490c-94e3-c5532bdce842")
+		(sheetfile ".kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.425 -1.45)
+			(end -0.425 1.45)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3ba63201-bcd5-4801-ba74-a3aecdbb678f")
+		)
+		(fp_line
+			(start -0.425 -1.45)
+			(end 0.425 -1.45)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "01d3db94-2013-4f57-ac62-95a2ebb3386d")
+		)
+		(fp_line
+			(start -0.425 1.45)
+			(end 0.425 1.45)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "64dff50f-f15c-452c-ab47-557de58a0f56")
+		)
+		(fp_line
+			(start 0.425 -1.45)
+			(end 0.425 1.45)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2d2b1321-f731-450c-bbf8-445f84f5501b")
+		)
+		(fp_circle
+			(center -1.44 -1.616)
+			(end -1.44 -1.516)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "33f17a1e-3ffb-46fb-bb6c-29cc3608030c")
+		)
+		(fp_rect
+			(start -2.1 -1.97)
+			(end 2.1 1.7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e86718e2-7469-482b-99ed-b2ca568aa023")
+		)
+		(pad "1" smd rect
+			(at -1.3 -0.95)
+			(size 1.1 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+5V")
+			(uuid "a3cb4fc5-d108-409a-a9a0-a9365dabb216")
+		)
+		(pad "2" smd rect
+			(at -1.3 0)
+			(size 1.1 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "DGND")
+			(uuid "418daf79-80ab-46bb-b86c-51aba13c752f")
+		)
+		(pad "3" smd rect
+			(at -1.3 0.95)
+			(size 1.1 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+5V")
+			(uuid "35fdd39c-d26a-44e5-8f73-ab086be0208b")
+		)
+		(pad "4" smd rect
+			(at 1.3 0.95)
+			(size 1.1 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U5-PG-Pad4)")
+			(uuid "1dfe5dbc-e991-4313-ac10-bc69174d3c8b")
+		)
+		(pad "5" smd rect
+			(at 1.3 -0.95)
+			(size 1.1 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+3.3V_DIG")
+			(uuid "12c6f744-2ba1-4822-9e1e-cff5a4afe567")
+		)
+		(embedded_fonts no)
+		(embedded_files
+			(file
+				(name "SOT-23-5.step")
+				(type other)
+				(checksum "DB10AC35912B6AC9101E1F1F91780F5E")
+			)
+		)
+		(model "kicad-embed://SOT-23-5.step"
+			(offset
+				(xyz -0.00532 -0.02548 0.51)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
+		)
+	)
 	(footprint "EBM2_V5:Fiducial_Point_Top-Bot"
 		(layer "F.Cu")
 		(uuid "8a163b7a-2344-41b7-9ea3-694eb9917e32")
@@ -25131,186 +25319,6 @@
 			)
 			(rotate
 				(xyz -0 0 0)
-			)
-		)
-	)
-	(footprint "EBM2_V5:SOT-223-3"
-		(layer "F.Cu")
-		(uuid "cbc982fb-2b99-4621-a40f-492f7b5c4bff")
-		(at 125.8 113)
-		(descr "2Solve PCB Library 'SOT-223-3', recuperado da PCB V2.2 (fabricada) em 2026-09-04.")
-		(property "Reference" "U5"
-			(at 4.265725 0.635 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "4adff893-0ff0-4ce0-b8c1-2a57191caaa3")
-			(effects
-				(font
-					(size 0.61 0.61)
-					(thickness 0.102)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "MCP1824ST-3302E/DB"
-			(at -3.1369 6.57479 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "927d4e79-6742-4a1f-be7d-d62a2359027a")
-			(effects
-				(font
-					(size 1.524 1.524)
-					(thickness 0.254)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "811475f7-9d40-4c17-9c8f-c0fcd170930c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "LDO 3,3 V para VCC1/EN1 do isolador; fecha o G2. Pinos: DS22070A pag. 2 figura"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aa6a5d66-7473-47ea-98a4-e307028a4eed")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MCP1824ST-3302E/DB"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "149d07ed-21a4-4f90-a71b-7153041341c3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/833ea678-a46e-43c7-a2d9-3cb876c3643f/14108946-096f-490c-94e3-c5532bdce842")
-		(sheetname "IC2S_Extension_Board_Model_7-EBM7_V1.1-Load_Cell_4AI")
-		(sheetfile "IC2S_Extension_Board_Model_7-EBM7_V1.1-Load_Cell_4AI.kicad_sch")
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -3.3 -1.7)
-			(end 3.2 -1.7)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "25c6fea1-6703-42da-83dc-c9b5b1ce4fcd")
-		)
-		(fp_line
-			(start -3.3 1.3)
-			(end -3.3 -1.7)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "636a6e8f-08cb-442f-bbbe-3e48105d10a5")
-		)
-		(fp_line
-			(start -3.3 1.3)
-			(end -2.9 1.7)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "eaa0aecb-1999-4927-98b5-e4e6b8393c2a")
-		)
-		(fp_line
-			(start -2.9 1.7)
-			(end 3.2 1.7)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "24825ced-2513-4d10-8ce6-73ab0293802c")
-		)
-		(fp_line
-			(start 3.2 1.7)
-			(end 3.2 -1.7)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8941976b-065d-4ab7-9732-bbba1e393beb")
-		)
-		(fp_rect
-			(start -3.55 -4.25)
-			(end 3.45 4.25)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "8d08c383-c465-4687-8f05-ce34896080e8")
-		)
-		(pad "1" smd rect
-			(at -2.3 3.05 90)
-			(size 1.9 0.95)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+5V")
-			(uuid "538ad304-857a-4431-ac06-8b3ac079e665")
-		)
-		(pad "2" smd rect
-			(at 0 3.05 90)
-			(size 1.9 0.95)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "DGND")
-			(uuid "725a7876-a0df-468b-897e-30b4bb97cf02")
-		)
-		(pad "3" smd rect
-			(at 2.3 3.05 90)
-			(size 1.9 0.95)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+3.3V_DIG")
-			(uuid "5b733066-fcce-480f-a696-b75786541ea9")
-		)
-		(pad "4" smd rect
-			(at 0 -3.05 90)
-			(size 1.9 3.25)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "DGND")
-			(uuid "e5899d56-d591-4c53-ba7c-73895978174b")
-		)
-		(embedded_fonts no)
-		(embedded_files
-			(file
-				(name "NDT452AP.stp")
-				(type other)
-				(checksum "DC59636768EDDA08F13245DC484E26C6")
-			)
-		)
-		(model "kicad-embed://NDT452AP.stp"
-			(offset
-				(xyz 0 -0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -90)
 			)
 		)
 	)
