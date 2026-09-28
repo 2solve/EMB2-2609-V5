@@ -2733,7 +2733,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF/50V"
+		(property "Value" "10uF/50V"
 			(at 68.58 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2744,7 +2744,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EBM2_V5:0603C"
+		(property "Footprint" "EBM2_V5:C_1206_3216Metric"
 			(at 71.12 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2766,7 +2766,7 @@
 				)
 			)
 		)
-		(property "Description" "Entrada do MCP1824S"
+		(property "Description" "Entrada do MCP1824T: 10 uF/50 V 1206 (28-09-2026). DS22070A p.17 pede 1-10 uF; o 1 uF dava 0,80 uF a 5 V"
 			(at 71.12 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2777,7 +2777,7 @@
 				)
 			)
 		)
-		(property "MPN" "C1608X7R1H105K080AB"
+		(property "MPN" "C3216X5R1H106K160AB"
 			(at 71.12 69.85 0)
 			(hide yes)
 			(show_name no)

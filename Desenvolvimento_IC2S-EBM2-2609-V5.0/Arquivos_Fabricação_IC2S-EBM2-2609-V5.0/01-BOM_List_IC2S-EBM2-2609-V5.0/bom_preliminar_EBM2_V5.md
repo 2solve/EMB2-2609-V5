@@ -37,10 +37,10 @@ Fonte dos dados comerciais: Mouser Search API, consulta de 2026-09-25T06:09 + re
 | C1 | 1 | 2u2/100V | C_1210_3225Metric | N/D | `C3225X7R2A225K230AB` | 810-C3225X7R2A225K | 30005 | 0.7800 | 0.4880 | 0.3380 | Production (ficha TDK 2026-09-25) | NOVO | C1: curva TDK ~1,54 uF a 30,4 V; pior caso 1,18 uF > 1 uF (TPS7A4001); RA2 11,3x. X7S 1206 descartado (0,89 uF) |
 | C2, C30 | 2 | 10uF/100V | C_1210_3225Metric | Murata | `GRM32EC72A106ME05L` | 81-GRM32EC72A106ME5L | 35196 | 1.1800 | 0.7580 | 0.5420 | Activo (DigiKey 2026-09-24) | biblioteca 2Solve |  |
 | C3, C6, C9, C12, C13, C14, C16, C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C34, C35 | 21 | 100nF/50V | 0603C | TDK | `C1608X7R1H104K080AA` | N/D | N/D | N/D | N/D | N/D | N/D | biblioteca 2Solve |  |
-| C4, C8, C31, C32 | 4 | 10uF/50V | C_1206_3216Metric | TDK | `C3216X5R1H106K160AB` | 810-C3216X5R1H106K | 124920 | 1.8500 | 1.2500 | 0.9130 | Production (ficha TDK 2026-09-24) | biblioteca 2Solve | Curva TDK conferida: C4 7,0 µF a 5 V, C8 7,2 µF a 3,3 V, C31+C32 8,9 µF a 12,6 V (pior caso) |
+| C4, C8, C10, C31, C32 | 5 | 10uF/50V | C_1206_3216Metric | TDK | `C3216X5R1H106K160AB` | 810-C3216X5R1H106K | 124920 | 1.8500 | 0.9910 | 0.7820 | Production (ficha TDK 2026-09-24) | biblioteca 2Solve | Curva TDK conferida: C4 7,0 µF a 5 V, C8 7,2 µF a 3,3 V, C31+C32 8,9 µF a 12,6 V (pior caso) |
 | C5, C11 | 2 | 2u2 | 0603C | TDK | `C1608X5R1E225K080AB` | 810-C1608X5R1E225K | 15300 | 0.2700 | 0.1610 | 0.0980 | Production (ficha TDK 2026-09-24) | biblioteca 2Solve | Curva TDK conferida (ficha 2026-09-24): pior caso 1,44 µF a 2,5 V (C5) e 1,26 µF a 3,3 V (C11), ≥ 1 µF |
 | C7, C33 | 2 | 10nF | 0603C | Murata | `GCM188R71H103KA37J` | 81-GCM188R71H103KA7J | 3509127 | 0.1200 | 0.0680 | 0.0410 | N/D | biblioteca 2Solve |  |
-| C10, C15 | 2 | 1uF/50V | 0603C | TDK | `C1608X7R1H105K080AB` | N/D | N/D | N/D | N/D | N/D | N/D | biblioteca 2Solve |  |
+| C15 | 1 | 1uF/50V | 0603C | TDK | `C1608X7R1H105K080AB` | N/D | N/D | N/D | N/D | N/D | N/D | biblioteca 2Solve |  |
 | C29 | 1 | 100nF/100V | 0603C | Murata | `GRM188R72A104KA35D` | 81-GRM188R72A104KA35 | 1344731 | 0.1600 | 0.0870 | 0.0540 | Activo (substituto do GRM188R71E104KA01D obsoleto, relatório 2026-09-24) | biblioteca 2Solve |  |
 | D1, D5, D24 | 3 | KG EELP41.22 | 0603LED | ams OSRAM | `KG EELP41.22-PHRH-35-A8J8-20-R18` | 720-P4122PHRH35A8J82 | 0 | 0.1600 | 0.1090 | 0.0760 | Activo (substituto do LG Q396 obsoleto, relatório 2026-09-24) | biblioteca 2Solve |  |
 | D2 | 1 | SMA6J33A-Q | DO-214 | Bourns | `SMA6J33A-Q` | 652-SMA6J33A-Q | 11149 | 0.5800 | 0.2760 | 0.2270 | Activo (BOM EBM7 2026-09-14) | biblioteca 2Solve |  |
@@ -80,11 +80,11 @@ Fonte dos dados comerciais: Mouser Search API, consulta de 2026-09-25T06:09 + re
 
 | Lote | Total | Por placa |
 |---:|---:|---:|
-| 1 | parcial 95.69 (faltam 2 linhas) | parcial 95.69 |
-| 10 | parcial 700.01 (faltam 2 linhas) | parcial 70.00 |
-| 100 | parcial 5609.00 (faltam 2 linhas) | parcial 56.09 |
+| 1 | parcial 97.54 (faltam 2 linhas) | parcial 97.54 |
+| 10 | parcial 699.56 (faltam 2 linhas) | parcial 69.96 |
+| 100 | parcial 5634.80 (faltam 2 linhas) | parcial 56.35 |
 
-Linhas sem preço (fora do parcial): C3, C6, C9, C12, C13, C14, C16, C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C34, C35; C10, C15.
+Linhas sem preço (fora do parcial): C3, C6, C9, C12, C13, C14, C16, C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C34, C35; C15.
 
 Preço no escalão que a quantidade do lote atinge (qtd por placa × placas); mínimos e múltiplos de embalagem não somados — Suprimentos confirma no carrinho.
 
@@ -94,9 +94,9 @@ Principal quando há stock para o lote; senão a alternativa verificada com stoc
 
 | Lote | Total | Por placa | Sem stock para o lote |
 |---:|---:|---:|---|
-| 1 | 100.28 | 100.28 | `C1608X7R1H104K080AA`, `C1608X7R1H105K080AB`, `ISO7141CCDBQR` |
-| 10 | 732.53 | 73.25 | `C1608X7R1H104K080AA`, `C1608X7R1H105K080AB`, `ISO7141CCDBQR` |
-| 100 | 5798.00 | 57.98 | `824520361`, `C1608X7R1H104K080AA`, `C1608X7R1H105K080AB`, `ISO7141CCDBQR` |
+| 1 | 102.13 | 102.13 | `C1608X7R1H104K080AA`, `C1608X7R1H105K080AB`, `ISO7141CCDBQR` |
+| 10 | 732.08 | 73.21 | `C1608X7R1H104K080AA`, `C1608X7R1H105K080AB`, `ISO7141CCDBQR` |
+| 100 | 5823.80 | 58.24 | `824520361`, `C1608X7R1H104K080AA`, `C1608X7R1H105K080AB`, `ISO7141CCDBQR` |
 
 ## 4 · Compra antecipada (críticos / long-lead) e acções
 

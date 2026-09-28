@@ -6517,6 +6517,166 @@
 			)
 		)
 	)
+	(footprint "EBM2_V5:C_1206_3216Metric"
+		(layer "F.Cu")
+		(uuid "287390bf-1ec0-4238-a085-0c1a740f324d")
+		(at 126.7 116.4)
+		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf) Copiado do KiCad 10 para C50 (CGA5L3X5R1H106M160AB, 10 uF/50 V) em 2026-09-15: o 0805 nao tem stock de 1a linha e o 1206 melhora o DC-bias a 12 V.")
+		(tags "capacitor")
+		(property "Reference" "C10"
+			(at 0 -1.85 0)
+			(layer "F.SilkS")
+			(uuid "df2fd41b-1ac9-434d-90c5-93d20ccf6422")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10uF/50V"
+			(at 0 1.85 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48deb769-4a91-4709-ac09-71f5e755ee98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cff30ea-7ae6-4449-b05c-a5418f547b80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Entrada do MCP1824T: 10 uF/50 V 1206 (28-09-2026). DS22070A p.17 pede 1-10 uF; o 1 uF dava 0,80 uF a 5 V"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cd2a48c-cdde-4fc0-ba9b-cdef2d3b7d2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "621d87a4-9c08-46c4-9474-4ab525cf2db4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C3216X5R1H106K160AB"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "74784853-3ab4-495d-a642-b1b79195bd5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/833ea678-a46e-43c7-a2d9-3cb876c3643f/6ffab30a-c908-47b9-a4d5-5a3053c09a1d")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.711252 -0.91)
+			(end 0.711252 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e3dda5a5-b9e1-44ea-8c08-12c6009ab9df")
+		)
+		(fp_line
+			(start -0.711252 0.91)
+			(end 0.711252 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e184d0dd-46d7-4461-adce-2d03af83c459")
+		)
+		(fp_rect
+			(start -2.3 -1.15)
+			(end 2.3 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "bf904d57-8965-4bcf-82df-3874355833fc")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "b236197c-0bde-4241-a4fb-fd15a1b3f651")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "aeaf7da7-48f4-436b-a9ab-c3f88dd10221")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.475 0)
+			(size 1.15 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.217391)
+			(net "+5V")
+			(uuid "0577df28-d24c-4a1a-88e0-7aea7baff17b")
+		)
+		(pad "2" smd roundrect
+			(at 1.475 0)
+			(size 1.15 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.217391)
+			(net "DGND")
+			(uuid "c6dbad4a-28ce-44f5-a52c-dced66b94b36")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "EBM2_V5:1206F"
 		(layer "F.Cu")
 		(uuid "34d8af51-977e-4b90-9e57-63ac88746431")
@@ -13608,242 +13768,6 @@
 			)
 			(rotate
 				(xyz -180 -180 0)
-			)
-		)
-	)
-	(footprint "EBM2_V5:0603C"
-		(layer "F.Cu")
-		(uuid "73536a7a-288a-4db6-8df9-29792ccafaa9")
-		(at 124 119.3)
-		(descr "2Solve PCB Library '0603C', recuperado da PCB V2.2 (fabricada) em 2026-09-04.")
-		(property "Reference" "C10"
-			(at -3.175 0.455725 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "fce20f37-e228-44f4-9c79-dc590ecaccca")
-			(effects
-				(font
-					(size 0.61 0.61)
-					(thickness 0.102)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1uF/50V"
-			(at -3.72999 -0.3429 270)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d4f4f9e5-1c1f-429a-a06c-f56f27fbfde9")
-			(effects
-				(font
-					(size 1.524 1.524)
-					(thickness 0.254)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "94cbc1d8-d277-40db-a6c0-5ea44c19b581")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Entrada do MCP1824S"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "09b42499-7d32-4ee1-8962-145380bc1dac")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C1608X7R1H105K080AB"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f75ee20d-ad8c-47d8-b673-42d0cbad87b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/833ea678-a46e-43c7-a2d9-3cb876c3643f/6ffab30a-c908-47b9-a4d5-5a3053c09a1d")
-		(sheetname "Load_Cell_Module-V1.0")
-		(sheetfile "Load_Cell_Module-V1.0.kicad_sch")
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.1 -0.45)
-			(end 0.1 -0.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bc4728b6-f825-4a9a-b1da-280c3c1f8291")
-		)
-		(fp_line
-			(start -0.1 0.45)
-			(end 0.1 0.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ff56b33d-ef05-4d7d-aaaf-e6117ad09d7a")
-		)
-		(fp_rect
-			(start -1.35 -0.7)
-			(end 1.35 0.7)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "3e5e702b-afac-4bc6-868a-d1429a387704")
-		)
-		(fp_line
-			(start -0.875 -0.475)
-			(end 0.875 -0.475)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.13")
-			(uuid "28b31293-7aa7-4243-945b-9f11040edd31")
-		)
-		(fp_line
-			(start -0.875 0.475)
-			(end -0.875 -0.475)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.13")
-			(uuid "7ae95c78-e0df-428c-97e7-a12bc1090715")
-		)
-		(fp_line
-			(start -0.875 0.475)
-			(end 0.875 0.475)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.13")
-			(uuid "fd78353d-9dfa-42a2-a75f-69f5eb265643")
-		)
-		(fp_line
-			(start 0.875 0.475)
-			(end 0.875 -0.475)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.13")
-			(uuid "f5f78e1b-9c65-4dde-a2a2-5770adb16d9d")
-		)
-		(fp_line
-			(start -1.2 -0.55)
-			(end 1.2 -0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.15")
-			(uuid "0627730d-db4d-47ae-b49e-a9e624a9683a")
-		)
-		(fp_line
-			(start -1.2 0.55)
-			(end -1.2 -0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.15")
-			(uuid "c8d43d92-c446-450f-93f8-d403e97042bc")
-		)
-		(fp_line
-			(start -1.2 0.55)
-			(end 1.2 0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.15")
-			(uuid "6e280646-54cb-489c-9747-bdfb92bf60dc")
-		)
-		(fp_line
-			(start -0.475 0)
-			(end 0.475 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.15")
-			(uuid "0ddc4403-b182-4a59-a94b-01ae704619f2")
-		)
-		(fp_line
-			(start 0 0.475)
-			(end 0 -0.475)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.15")
-			(uuid "b7285cdf-9d68-434b-8b5d-736dff017e4b")
-		)
-		(fp_line
-			(start 1.2 0.55)
-			(end 1.2 -0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.15")
-			(uuid "7bda9734-8a29-4e9b-9b59-e929392bce1d")
-		)
-		(pad "1" smd rect
-			(at -0.7 0 90)
-			(size 0.9 0.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+5V")
-			(uuid "f4994092-fc44-4025-a87c-6321420d4952")
-		)
-		(pad "2" smd rect
-			(at 0.7 0 90)
-			(size 0.9 0.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "DGND")
-			(uuid "d2ae36c0-bbfc-4724-9499-85f506939ce2")
-		)
-		(embedded_fonts no)
-		(embedded_files
-			(file
-				(name "User Library-CAPC1608X___CAPC1608X55N.STEP")
-				(type other)
-				(checksum "597E9624E6E4306F77CAACCCC75E6675")
-			)
-		)
-		(model "kicad-embed://User Library-CAPC1608X___CAPC1608X55N.STEP"
-			(offset
-				(xyz 0.00015 0.00016 -0.025)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 0 0)
 			)
 		)
 	)

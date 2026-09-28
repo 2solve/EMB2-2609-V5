@@ -34,3 +34,14 @@ Carga real: só o lado 1 do ISO7141, ≤ 8 mA a 40 Mbps (TI SLLSE83F p.10). O IS
 
 - Nenhum eléctrico novo: mesmo datasheet e comportamento do MCP1824ST; só muda o encapsulamento.
 - Preços e stock são das consultas gravadas (16 e 25-09), não de hoje: a web da Mouser bloqueia leitura automática.
+
+## Complemento: circuito típico do datasheet (MCP1824, DS22070A, «Typical Applications — Fixed Output», p.3)
+
+| Elemento | Datasheet | Na placa |
+|---|---|---|
+| Entrada C1 | 4,7 µF na figura; «1 µF to 10 µF should be sufficient» (p.17) | **C10 era 1 µF/50 V = 0,80 µF efectivos a 5 V (pior caso) ❌ → agora 10 µF/50 V** |
+| Saída C2 | 1 µF («Stable with 1.0 µF Ceramic», p.1) | C11 2,2 µF ✅ |
+| SHDN | On/Off; alto ≥ 45 % de VIN (p.9) | directo a +5V ✅ |
+| PWRGD + R1 100 kΩ | só se o sinal for usado | aberto (dreno aberto) ✅ |
+
+**C10 = C3216X5R1H106K160AB** (10 µF/50 V 1206, o mesmo MPN de C4/C8/C31/C32; curva TDK: 7,0 µF a 5 V no pior caso). PCB: clone da pegada do C4, a 3,5 mm do U5 (o 1206 não cabia no sítio do 0603). ERC 0; DRC 0 erros, paridade 0.

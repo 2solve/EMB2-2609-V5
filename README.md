@@ -14,7 +14,7 @@ para a Universal Baseboard; **substituição directa da EBM2 V4.1** (contorno 60
 
 **Alteração posterior ao Portão 1 (2026-09-28)**, trazida da revisão da EBM7 V2.3: ramo único de 24 V (saem F1, D3 e
 R3), 100 nF a 50 V fora do 24 V e um só MPN de 1 µF. Detalhe em
-`Documentos_…/00-Especificações_Técnicas_…/alteracoes_reuniao_2026-09-28.md` e na folha 2, notas 3, 11, 13 e 14. Também a 28-09: **U5 MCP1824ST (SOT-223) → MCP1824T-3302E/OT (SOT-23-5)**, o mesmo MPN do U4
+`Documentos_…/00-Especificações_Técnicas_…/alteracoes_reuniao_2026-09-28.md` e na folha 2, notas 3, 11, 13 e 14. Também a 28-09: **U5 MCP1824ST (SOT-223) → MCP1824T-3302E/OT (SOT-23-5)**, o mesmo MPN do U4; C10 (entrada) 1 µF → 10 µF 1206, o datasheet pede 1-10 µF
 (`alteracao_LDO_3V3_lado_PLC_2026-09-28.md`). O
 pacote congelado do Portão 1 não foi tocado; a BOM preliminar foi regenerada (42 linhas, 123 peças montadas).
 
