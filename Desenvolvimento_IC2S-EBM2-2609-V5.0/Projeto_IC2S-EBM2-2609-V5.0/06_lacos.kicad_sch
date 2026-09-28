@@ -5128,7 +5128,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/100V"
+		(property "Value" "100nF/50V"
 			(at 63.5 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5172,7 +5172,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5736,7 +5736,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at 99.06 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5780,7 +5780,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 96.52 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6999,7 +6999,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/100V"
+		(property "Value" "100nF/50V"
 			(at 63.5 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7043,7 +7043,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 60.96 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7607,7 +7607,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at 99.06 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7651,7 +7651,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 96.52 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8870,7 +8870,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/100V"
+		(property "Value" "100nF/50V"
 			(at 63.5 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8914,7 +8914,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 60.96 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9478,7 +9478,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at 99.06 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9522,7 +9522,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 96.52 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -10741,7 +10741,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/100V"
+		(property "Value" "100nF/50V"
 			(at 200.66 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10785,7 +10785,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 198.12 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -11349,7 +11349,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at 236.22 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11393,7 +11393,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 233.68 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12612,7 +12612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/100V"
+		(property "Value" "100nF/50V"
 			(at 200.66 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12656,7 +12656,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 198.12 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -13220,7 +13220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at 236.22 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13264,7 +13264,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 233.68 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14483,7 +14483,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/100V"
+		(property "Value" "100nF/50V"
 			(at 200.66 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14527,7 +14527,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 198.12 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -15091,7 +15091,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at 236.22 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15135,7 +15135,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 233.68 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -17799,7 +17799,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/100V"
+		(property "Value" "100nF/50V"
 			(at 218.44 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17843,7 +17843,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 215.9 255.27 0)
 			(hide yes)
 			(show_name no)

@@ -1729,7 +1729,7 @@
 		)
 		(uuid "b0d97fc5-8a68-4c7d-9479-5a943b62617d")
 	)
-	(text "11. R3 = 150 ohm (rev. 2.5c) limita a corrente do F1 a 32 V / 153,5 ohm = 0,21 A:"
+	(text "11. R3 REMOVIDO 28-09-2026 com o F1 (nota 13). Historico: limitava o F1 a 0,21 A:"
 		(exclude_from_sim no)
 		(at 165.1 115.57 0)
 		(effects
@@ -1839,7 +1839,7 @@
 		)
 		(uuid "e8a96cb6-e41c-4f7e-b726-1a5877a45a8b")
 	)
-	(text "3. F1 (rama do regulador) = CC12H250MA-TR. A serie CC12H NAO"
+	(text "3. F1 REMOVIDO 28-09-2026 (nota 13). Era CC12H250MA-TR. A serie CC12H NAO"
 		(exclude_from_sim no)
 		(at 165.1 58.42 0)
 		(effects
@@ -1909,18 +1909,6 @@
 		(uuid "b4adb2ca-cede-470b-a43f-0921fe1b4436")
 	)
 	(junction
-		(at 132.08 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d00d01f8-c06d-4f6e-baab-285d1ab5cf7a")
-	)
-	(junction
-		(at 58.42 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2d1cd5e-d405-41e9-9c6b-e7334eb65c0d")
-	)
-	(junction
 		(at 138.43 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1945,16 +1933,6 @@
 			(type default)
 		)
 		(uuid "10e3b1c2-6874-4664-99fc-78c1ea0e9585")
-	)
-	(wire
-		(pts
-			(xy 99.06 63.5) (xy 119.38 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cf87cc5-4ed7-4aa5-92fc-719fde12e812")
 	)
 	(wire
 		(pts
@@ -2008,16 +1986,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 63.5) (xy 132.08 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e0a5fea-3d6f-4a86-8956-7ed9812d5a70")
-	)
-	(wire
-		(pts
 			(xy 58.42 50.8) (xy 58.42 63.5)
 		)
 		(stroke
@@ -2038,16 +2006,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 63.5) (xy 91.44 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cef1e7b-103e-4117-a104-9540ccc7bb31")
-	)
-	(wire
-		(pts
 			(xy 35.56 50.8) (xy 40.64 50.8)
 		)
 		(stroke
@@ -2055,16 +2013,6 @@
 			(type default)
 		)
 		(uuid "6f558d91-459a-429d-b8b1-94e3f7294c84")
-	)
-	(wire
-		(pts
-			(xy 58.42 63.5) (xy 63.5 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "781ea35e-c638-4a3a-bfff-4865cc5f6ac0")
 	)
 	(wire
 		(pts
@@ -2186,26 +2134,6 @@
 		)
 		(uuid "2c8acf47-cf68-408d-b1ee-4a2f62243c4c")
 	)
-	(label "+24V_DIO_REG"
-		(at 100.33 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5ee57648-6574-4e0a-9337-6380d0274aeb")
-	)
-	(label "+24V_FUS_REG"
-		(at 74.93 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6160622-293d-42de-94aa-2f37c7a487ed")
-	)
 	(label "LED_24V"
 		(at 33.02 97.79 0)
 		(effects
@@ -2215,185 +2143,6 @@
 			(justify left bottom)
 		)
 		(uuid "ce93ab75-2ec0-4e7d-8bf6-0293d77591fa")
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 95.25 63.5 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "054c8f12-b757-4b35-8194-bfa497d1c2ea")
-		(property "Reference" "D3"
-			(at 95.25 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MBR1H100SF"
-			(at 95.25 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EBM2_V5:SOD123"
-			(at 95.25 63.5 180)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MBR1H100SFT3G"
-			(at 95.25 63.5 180)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "919ba91c-2538-4fd8-8f5e-7e1aac28a2bd")
-		)
-		(pin "1"
-			(uuid "f8631783-d8bb-4b21-9044-14b07343df22")
-		)
-		(instances
-			(project "IC2S_Extension_Board-EBM2_V5"
-				(path "/873bf552-94cb-4fe4-9213-f79e9821baca/c2f29862-7f8d-4bfc-b53d-4b6e8f2da933"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 67.31 63.5 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1ce55b07-0c13-4bbd-ad38-674442f4011c")
-		(property "Reference" "F1"
-			(at 67.31 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CC12H250MA-TR"
-			(at 67.31 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EBM2_V5:1206F"
-			(at 67.31 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Eaton CC12H 250 mA alto I2t, Technical Data 4309 pag. 2. So cumpre RA2 com R3"
-			(at 67.31 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC12H250MA-TR"
-			(at 67.31 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c778d652-8a92-4112-aa69-4caf897d01aa")
-		)
-		(pin "1"
-			(uuid "2859e995-70f3-4d9a-b3cc-b76e42bcb5f7")
-		)
-		(instances
-			(project "IC2S_Extension_Board-EBM2_V5"
-				(path "/873bf552-94cb-4fe4-9213-f79e9821baca/c2f29862-7f8d-4bfc-b53d-4b6e8f2da933"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -2880,96 +2629,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 123.19 63.5 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4c39f4dd-d69a-4b4f-8b2d-f6d9df27f00e")
-		(property "Reference" "R3"
-			(at 123.19 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150R"
-			(at 123.19 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EBM2_V5:0805R"
-			(at 123.19 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "150 ohm 0805 anti-surto KOA SG73P2A: pulso ~4 mJ em ~2 ms com margem ~4x (SG73P pag. 2); RA2 >= 11,2x sem depender do I_LIM do U1"
-			(at 123.19 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SG73P2ATTD1500F"
-			(at 123.19 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "24c7a7e2-8c14-4a83-b3d4-16039e8a935e")
-		)
-		(pin "2"
-			(uuid "2f10b854-5ea9-486b-bfbe-8609da86614e")
-		)
-		(instances
-			(project "IC2S_Extension_Board-EBM2_V5"
-				(path "/873bf552-94cb-4fe4-9213-f79e9821baca/c2f29862-7f8d-4bfc-b53d-4b6e8f2da933"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 132.08 110.49 0)
 		(unit 1)
@@ -3305,83 +2964,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 138.43 63.5 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "73b945b1-b881-42b6-aff6-a85726ad94db")
-		(property "Reference" "#FLG203"
-			(at 138.43 57.15 180)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 138.43 69.215 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 63.5 180)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b599694-e3bf-4be7-a390-e990009d069f")
-		)
-		(instances
-			(project "IC2S_Extension_Board-EBM2_V5"
-				(path "/873bf552-94cb-4fe4-9213-f79e9821baca/c2f29862-7f8d-4bfc-b53d-4b6e8f2da933"
-					(reference "#FLG203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 151.13 101.6 0)
 		(unit 1)
@@ -3478,7 +3060,7 @@
 				)
 			)
 		)
-		(property "Value" "TP_+24V_REG"
+		(property "Value" "TP_+24V_U1"
 			(at 151.13 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3707,7 +3289,7 @@
 				)
 			)
 		)
-		(property "Value" "+24V_REG"
+		(property "Value" "+24V_ADC"
 			(at 138.43 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4503,5 +4085,82 @@
 				)
 			)
 		)
+	)
+	(text "13. RAMO UNICO DE 24 V (reuniao EBM7, 2026-09-28): saem F1, D3 e R3; F2 + D4 alimentam o U1 e os lacos (+24V_ADC)."
+		(exclude_from_sim no)
+		(at 22.86 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10ecf058-ac7c-438d-bea7-485e81d7bc6a")
+	)
+	(text "    Fica o F2 porque o F1 (3,8e-4 A2s) nao aguenta o arranque dos 10 uF do C2 (6,4e-3 A2s); R3 so protegia o F1 (nota 11)."
+		(exclude_from_sim no)
+		(at 22.86 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89679f3e-272c-4aae-8dba-cdb5159634bb")
+	)
+	(text "    C1 fica: e o Cin do U1 (nota 10). Corrente: 125 + 7 mA no F2 (750 mA) e no D4 (1 A). I2t: ~22 uF nominais a jusante"
+		(exclude_from_sim no)
+		(at 22.86 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c08516ef-0570-43c7-a9a7-4f1d18b01970")
+	)
+	(text "    a 32 V = 1,4e-2 A2s contra 0,15 A2s: >= 10x (a nota 2 contava so o C2). Perde-se a selectividade: curto no +24V_ADC desliga tudo."
+		(exclude_from_sim no)
+		(at 22.86 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ec1317f-41c7-4707-91f8-fd3ef972fa0e")
+	)
+	(text "14. CONDENSADORES (2026-09-28): 100 nF fora do 24 V = TDK C1608X7R1H104K080AA (X7R 50 V, catalogo TDK p.34);"
+		(exclude_from_sim no)
+		(at 22.86 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40db407f-1e23-4e9b-8a57-1258e174026b")
+	)
+	(text "    o +12V_TPS pode ir a ~32 V com o LDO em falha: 50 V, nao 25 V. C29 (+24V_ADC) fica GRM188R72A104KA35D 100 V."
+		(exclude_from_sim no)
+		(at 22.86 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7fe2a43-99db-41b1-8bef-144dc801e239")
+	)
+	(text "    1 uF = TDK C1608X7R1H105K080AB (X7R 50 V, catalogo TDK p.35)."
+		(exclude_from_sim no)
+		(at 22.86 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e4f608b-1ab0-4ca3-b95c-79c4220052f6")
 	)
 )

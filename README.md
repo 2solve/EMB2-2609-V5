@@ -4,13 +4,18 @@ Placa de extensão da família IC2S (2Solve), código **IC2S-EBM2-2609-V5.0**. S
 para a Universal Baseboard; **substituição directa da EBM2 V4.1** (contorno 60 × 60 mm, furação e pinagem de
 `P1`/`P2` congelados). Projecto em **KiCad 10**.
 
-## Estado (2026-09-25)
+## Estado (2026-09-28)
 
 | Fase | Estado |
 |---|---|
 | F0/F1 — escopo e planeamento | fechadas |
 | F2 — esquemático, diagrama, BOM preliminar, mapa de pinos | **Portão 1 aprovado** (pacote congelado em `Portao1_aprovado_2026-09-25`) |
-| F3 — layout | contorno e placement inicial feitos (DRC 0); falta o Portão 3 e o roteamento |
+| F3 — layout | contorno e placement inicial feitos (DRC 0, paridade 0); falta o Portão 3 e o roteamento |
+
+**Alteração posterior ao Portão 1 (2026-09-28)**, trazida da revisão da EBM7 V2.3: ramo único de 24 V (saem F1, D3 e
+R3), 100 nF a 50 V fora do 24 V e um só MPN de 1 µF. Detalhe em
+`Documentos_…/00-Especificações_Técnicas_…/alteracoes_reuniao_2026-09-28.md` e na folha 2, notas 3, 11, 13 e 14. O
+pacote congelado do Portão 1 não foi tocado; a BOM preliminar foi regenerada (42 linhas, 123 peças montadas).
 
 ## Organização (modelo de pastas de Produtos)
 

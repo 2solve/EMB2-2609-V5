@@ -8,7 +8,7 @@ Os PDF dos fabricantes não se redistribuem neste repositório público. Esta li
 | `ADR4525__adr4520_4525_4530_4533_4540_4550.pdf` | 51ffc461e5b2 | pacote 2.3b rev. 2.5 |
 | `BAV199__BAV199LT1-D.PDF` | 10d83f61d74f | pacote 2.3b rev. 2.5 |
 | `C3216X5R1H106K160AB__TDK_ProductDetailed_2026-09-24.pdf` | 7ce2779e7850 | pacote 2.3b rev. 2.5 |
-| `C3216X5R1H106K160AB__TDK_mlcc_commercial_general_catalogo.pdf` | 7dff64cc5a96 | pacote 2.3b rev. 2.5 |
+| `C3216X5R1H106K160AB__TDK_mlcc_commercial_general_catalogo.pdf` | 7dff64cc5a96 | pacote 2.3b rev. 2.5; também C1608X7R1H104K080AA (p.34) e C1608X7R1H105K080AB (p.35), 2026-09-28 |
 | `Eaton_fusible_lento.pdf` | eb35f81cd9ad | pacote 2.3b rev. 2.5 |
 | `Harwin_M20-782__Harwin_M20-782_plano.pdf` | 9423011844a3 | pacote 2.3b rev. 2.5 |
 | `ISO7141__TI_ISO7141CC.pdf` | 8528188a89b0 | pacote 2.3b rev. 2.5 |
